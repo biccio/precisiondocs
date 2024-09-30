@@ -1,4 +1,5 @@
 baseURL = 'https://precisiondocs.netlify.app/'
 languageCode = 'en-us'
 title = 'Precision Docs'
-theme = "paper"
+theme = 'paper'
+color = 'grey'
