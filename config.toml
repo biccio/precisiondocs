@@ -1,10 +1,8 @@
 baseURL = 'https://precisiondocs.netlify.app/'
 languageCode = 'en-us'
 title = 'Fabrizio Ulisse / Precision Docs'
-theme = 'paper'
-[params]
-  # color style
-  color = 'grey'
+theme = 'paperMod'
+
 github = 'biccio'
 linkedin = 'fabrizioulisse'
 mastodon = 'https://hachyderm.io/@biccio'
