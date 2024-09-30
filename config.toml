@@ -1,7 +1,7 @@
 baseURL = 'https://precisiondocs.netlify.app/'
 languageCode = 'en-us'
 title = 'Fabrizio Ulisse / Precision Docs'
-theme = 'paperMod'
+theme = 'PaperMod'
 
 github = 'biccio'
 linkedin = 'fabrizioulisse'
