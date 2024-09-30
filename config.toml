@@ -1,4 +1,4 @@
-baseURL = 'https://silly-lily-87649a.netlify.app/'
+baseURL = 'https://precisiondocs.netlify.app/'
 languageCode = 'en-us'
 title = 'Precision Docs'
 theme = "paper"
