@@ -5,21 +5,17 @@ theme = 'PaperMod'
 
 [params]
 env = "production"
-title = "ExampleSite"
-description = "ExampleSite description"
-keywords = [ "Blog", "Portfolio", "PaperMod" ]
 author = "Me"
-images = [ "<link or path of image for opengraph, twitter-cards>" ]
 DateFormat = "January 2, 2006"
 defaultTheme = "auto"
 disableThemeToggle = true
 ShowReadingTime = true
 ShowShareButtons = true
-ShowPostNavLinks = true
+ShowPostNavLinks = false
 ShowBreadCrumbs = true
 ShowCodeCopyButtons = false
-ShowWordCount = true
-ShowRssButtonInSectionTermList = true
+ShowWordCount = false
+ShowRssButtonInSectionTermList = false
 UseHugoToc = true
 disableSpecial1stPost = false
 disableScrollToTop = false
