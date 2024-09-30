@@ -1,6 +1,6 @@
 baseURL = 'https://precisiondocs.netlify.app/'
 languageCode = 'en-us'
-title = 'Precision Docs'
+title = 'Fabrizio Ulisse / Precision Docs'
 theme = 'paper'
 [params]
   # color style
