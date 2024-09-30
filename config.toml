@@ -4,4 +4,4 @@ title = 'Precision Docs'
 theme = 'paper'
 [params]
   # color style
-  color = 'linen'
+  color = 'grey'
