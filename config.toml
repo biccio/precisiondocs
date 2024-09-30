@@ -2,4 +2,6 @@ baseURL = 'https://precisiondocs.netlify.app/'
 languageCode = 'en-us'
 title = 'Precision Docs'
 theme = 'paper'
-color = 'grey'
+[params]
+  # color style
+  color = 'linen'
