@@ -1,26 +1,52 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Fabrizio Ulisse / Precision Docs</title>
-    <link>http://localhost:1313/</link>
-    <description>Recent content on Fabrizio Ulisse / Precision Docs</description>
-    <generator>Hugo -- 0.125.4</generator>
+    <title>PrecisionDocs</title>
+    <link>/</link>
+    <description>PrecisionDocs</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    
+
+    
     <lastBuildDate>Mon, 30 Sep 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    
+    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>How I built this blog</title>
-      <link>http://localhost:1313/posts/first-post/</link>
+      <link>/posts/first-post/</link>
       <pubDate>Mon, 30 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/first-post/</guid>
-      <description>From framework installation to deployment, every step I took to setup this blog</description>
+      
+      <guid>/posts/first-post/</guid>
+      <description>&lt;p&gt;This is my first post!&lt;/p&gt;
+</description>
     </item>
+    
     <item>
       <title>This</title>
-      <link>http://localhost:1313/posts/second-post/</link>
+      <link>/posts/second-post/</link>
       <pubDate>Mon, 30 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/second-post/</guid>
-      <description>From framework installation to deployment, every step I took to setup this blog</description>
+      
+      <guid>/posts/second-post/</guid>
+      <description>&lt;p&gt;This is my first post!&lt;/p&gt;
+</description>
     </item>
+    
+    <item>
+      <title>About me</title>
+      <link>/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/about/</guid>
+      <description>&lt;p&gt;Hello there 👋🏻&lt;/p&gt;
+&lt;p&gt;My name is &lt;a href=&#34;https://linkedin.com/in/ulisse&#34;&gt;Fabrizio Ulisse&lt;/a&gt;, I spent 25+ years in various roles
+I have a 25+y information architecture, interaction design and process design background, mostly in streaming video web projects. I spent all my work life in digital agencies (including my own), simplifying and humanizing tech complexities.&lt;/p&gt;
+&lt;p&gt;Now I&amp;rsquo;m Senior Tech Communication officer @&lt;a href=&#34;https://pagopa.it&#34;&gt;PagoPA&lt;/a&gt; (Italy).&lt;/p&gt;
+&lt;p&gt;I love travelling with my gravel bike, and playing rock blues with my Fender Stratocaster. Most importantly, I&amp;rsquo;m a father.&lt;/p&gt;
+</description>
+    </item>
+    
   </channel>
 </rss>

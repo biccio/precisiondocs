@@ -1,26 +1,38 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Fabrizio Ulisse / Precision Docs</title>
-    <link>http://localhost:1313/posts/</link>
-    <description>Recent content in Posts on Fabrizio Ulisse / Precision Docs</description>
-    <generator>Hugo -- 0.125.4</generator>
+    <title>Posts on PrecisionDocs</title>
+    <link>/posts/</link>
+    <description>PrecisionDocs (Posts)</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    
+
+    
     <lastBuildDate>Mon, 30 Sep 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    <atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>How I built this blog</title>
-      <link>http://localhost:1313/posts/first-post/</link>
+      <link>/posts/first-post/</link>
       <pubDate>Mon, 30 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/first-post/</guid>
-      <description>From framework installation to deployment, every step I took to setup this blog</description>
+      
+      <guid>/posts/first-post/</guid>
+      <description>&lt;p&gt;This is my first post!&lt;/p&gt;
+</description>
     </item>
+    
     <item>
       <title>This</title>
-      <link>http://localhost:1313/posts/second-post/</link>
+      <link>/posts/second-post/</link>
       <pubDate>Mon, 30 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/second-post/</guid>
-      <description>From framework installation to deployment, every step I took to setup this blog</description>
+      
+      <guid>/posts/second-post/</guid>
+      <description>&lt;p&gt;This is my first post!&lt;/p&gt;
+</description>
     </item>
+    
   </channel>
 </rss>

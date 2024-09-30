@@ -7,3 +7,12 @@
 [submodule "themes/PaperMod"]
 	path = themes/PaperMod
 	url = https://github.com/adityatelange/hugo-PaperMod.git
+[submodule "hugo-PaperModX"]
+	path = hugo-PaperModX
+	url = https://github.com/reorx/hugo-PaperModX.git
+[submodule "themes/PaperModX"]
+	path = themes/PaperModX
+	url = https://github.com/reorx/hugo-PaperModX.git
+[submodule "themes/anubis2"]
+	path = themes/anubis2
+	url = https://github.com/Junyi-99/hugo-theme-anubis2.git
