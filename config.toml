@@ -25,6 +25,7 @@ paginationSinglePost = true
 colorTheme = "auto"
 colorThemeSwitcher = false
 rssAsSocialIcon = true
+anchorLineNos      = false
 
 
 social = [
