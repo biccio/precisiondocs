@@ -10,10 +10,7 @@ name = "Fabrizio Ulisse"
 unsafe = true # Enable unsafe mode to have a better experience
 
 [markup.highlight]
-style = 'base16-snazzy' # Highlight.js style
-
-
-
+stdyle = 'base16-snazzy' # Highlight.js style
 
 [pagination]
 pagerSize = 5

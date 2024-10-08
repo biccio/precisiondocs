@@ -4,12 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "91ed9b7732b33453",
+        "id": "5100b2c4324dfc60",
         "type": "split",
         "children": [
           {
             "id": "a835982804bceb72",
             "type": "tabs",
+            "dimension": 75.55309734513274,
             "children": [
               {
                 "id": "7274cfd83aa8bd19",
@@ -29,7 +30,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "the-pros-and-cons-of-embedding-technical-documentation-inside-the-codebase/index.md",
+                    "file": "this-blog-setup-and-routine-process/index.md",
                     "mode": "source",
                     "source": false
                   }
@@ -67,11 +68,12 @@
             "currentTab": 1
           },
           {
-            "id": "34772937dc29af53",
+            "id": "809a29bf78c459c8",
             "type": "tabs",
+            "dimension": 24.446902654867255,
             "children": [
               {
-                "id": "a8f6550a120fe0c2",
+                "id": "39b67a81b594c599",
                 "type": "leaf",
                 "pinned": true,
                 "state": {
@@ -101,9 +103,9 @@
                         "useWin32Conhost": true
                       },
                       "serial": {
-                        "columns": 83,
-                        "data": "fabrizio.ulisse@AirdiFaioUlisse posts % git\r\nusage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\r\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\r\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\r\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\r\n           [--super-prefix=<path>] [--config-env=<name>=<envvar>]\r\n           <command> [<args>]\r\n\r\nThese are common Git commands used in various situations:\r\n\r\nstart a working area (see also: git help tutorial)\r\n   clone     Clone a repository into a new directory\r\n   init      Create an empty Git repository or reinitialize an existing one\r\n\r\nwork on the current change (see also: git help everyday)\r\n   add       Add file contents to the index\r\n   mv        Move or rename a file, a directory, or a symlink\r\n   restore   Restore working tree files\r\n   rm        Remove files from the working tree and from the index\r\n\r\nexamine the history and state (see also: git help revisions)\r\n   bisect    Use binary search to find the commit that introduced a bug\r\n   diff      Show changes between commits, commit and working tree, etc\r\n   grep      Print lines matching a pattern\r\n   log       Show commit logs\r\n   show      Show various types of objects\r\n   status    Show the working tree status\r\n\r\ngrow, mark and tweak your common history\r\n   branch    List, create, or delete branches\r\n   commit    Record changes to the repository\r\n   merge     Join two or more development histories together\r\n   rebase    Reapply commits on top of another base tip\r\n   reset     Reset current HEAD to the specified state\r\n   switch    Switch branches\r\n   tag       Create, list, delete or verify a tag object signed with GPG\r\n\r\ncollaborate (see also: git help workflows)\r\n   fetch     Download objects and refs from another repository\r\n   pull      Fetch from and integrate with another repository or a local branch\r\n   push      Update remote refs along with associated objects\r\n\r\n'git help -a' and 'git help -g' list available subcommands and some\r\nconcept guides. See 'git help <command>' or 'git help <concept>'\r\nto read about a specific subcommand or concept.\r\nSee 'git help git' for an overview of the system.\r\nfabrizio.ulisse@AirdiFaioUlisse posts % git add -A\r\nfabrizio.ulisse@AirdiFaioUlisse posts % git commit -m \"test\"\r\n[main 82fa4a4] test\r\n 6 files changed, 431 insertions(+), 30 deletions(-)\r\n create mode 100644 content/posts/.obsidian/plugins/terminal/data.json\r\n create mode 100644 content/posts/.obsidian/plugins/terminal/main.js\r\n create mode 100644 content/posts/.obsidian/plugins/terminal/manifest.json\r\n create mode 100644 content/posts/.obsidian/plugins/terminal/styles.css\r\nfabrizio.ulisse@AirdiFaioUlisse posts % git unstage\r\ngit: 'unstage' is not a git command. See 'git --help'.\r\nfabrizio.ulisse@AirdiFaioUlisse posts % git --help\r\nusage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\r\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\r\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\r\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\r\n           [--super-prefix=<path>] [--config-env=<name>=<envvar>]\r\n           <command> [<args>]\r\n\r\nThese are common Git commands used in various situations:\r\n\r\nstart a working area (see also: git help tutorial)\r\n   clone     Clone a repository into a new directory\r\n   init      Create an empty Git repository or reinitialize an existing one\r\n\r\nwork on the current change (see also: git help everyday)\r\n   add       Add file contents to the index\r\n   mv        Move or rename a file, a directory, or a symlink\r\n   restore   Restore working tree files\r\n   rm        Remove files from the working tree and from the index\r\n\r\nexamine the history and state (see also: git help revisions)\r\n   bisect    Use binary search to find the commit that introduced a bug\r\n   diff      Show changes between commits, commit and working tree, etc\r\n   grep      Print lines matching a pattern\r\n   log       Show commit logs\r\n   show      Show various types of objects\r\n   status    Show the working tree status\r\n\r\ngrow, mark and tweak your common history\r\n   branch    List, create, or delete branches\r\n   commit    Record changes to the repository\r\n   merge     Join two or more development histories together\r\n   rebase    Reapply commits on top of another base tip\r\n   reset     Reset current HEAD to the specified state\r\n   switch    Switch branches\r\n   tag       Create, list, delete or verify a tag object signed with GPG\r\n\r\ncollaborate (see also: git help workflows)\r\n   fetch     Download objects and refs from another repository\r\n   pull      Fetch from and integrate with another repository or a local branch\r\n   push      Update remote refs along with associated objects\r\n\r\n'git help -a' and 'git help -g' list available subcommands and some\r\nconcept guides. See 'git help <command>' or 'git help <concept>'\r\nto read about a specific subcommand or concept.\r\nSee 'git help git' for an overview of the system.\r\nfabrizio.ulisse@AirdiFaioUlisse posts % cd -\r\n~/Documents/HUGO/precisiondocs/content/posts\r\nfabrizio.ulisse@AirdiFaioUlisse posts % cd-\r\nzsh: command not found: cd-\r\nfabrizio.ulisse@AirdiFaioUlisse posts % cd -\r\n~/Documents/HUGO/precisiondocs/content/posts\r\nfabrizio.ulisse@AirdiFaioUlisse posts % cd --\r\nfabrizio.ulisse@AirdiFaioUlisse ~ % cd..\r\nzsh: command not found: cd..\r\nfabrizio.ulisse@AirdiFaioUlisse ~ % cd /Users/fabrizio.ulisse/Documents/HUGO\r\nfabrizio.ulisse@AirdiFaioUlisse HUGO % cd precisiondocs\r\nfabrizio.ulisse@AirdiFaioUlisse precisiondocs % git add  \u001b[1D",
-                        "rows": 19
+                        "columns": 116,
+                        "data": "fabrizio.ulisse@AirdiFaioUlisse posts % cd..\r\nzsh: command not found: cd..\r\nfabrizio.ulisse@AirdiFaioUlisse posts % cd /Users/fabrizio.ulisse/Documents/HUGO\r\nfabrizio.ulisse@AirdiFaioUlisse HUGO % cd precisiondocs\r\nfabrizio.ulisse@AirdiFaioUlisse precisiondocs % git add -A",
+                        "rows": 6
                       }
                     }
                   },
@@ -232,7 +234,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -246,10 +249,10 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "a8f6550a120fe0c2",
+  "active": "39b67a81b594c599",
   "lastOpenFiles": [
-    "the-pros-and-cons-of-embedding-technical-documentation-inside-the-codebase/index.md",
     "this-blog-setup-and-routine-process/index.md",
+    "the-pros-and-cons-of-embedding-technical-documentation-inside-the-codebase/index.md",
     "this-blog-setup-and-routine-process",
     "using-obsidian-and-github-to-professionally-write-and-organize-technical-documentation/index.md",
     "the-pros-and-cons-of-embedding-technical-documentation-inside-the-codebase/The Pros and Cons of Embedding Technical Documentation Inside the Codebase.md",

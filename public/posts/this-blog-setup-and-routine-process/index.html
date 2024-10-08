@@ -10,9 +10,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="referrer" content="no-referrer-when-downgrade">
 
-<title>Precisiondocs: setup and routine process - PrecisionDocs</title>
+<title>How to build a blog with Hugo, Github and Netlify - part 1 - PrecisionDocs</title>
 
-<meta name="description" content="How I built this blog and the manteinance process">
+<meta name="description" content="How I built this blog and how i maintain it using free tools">
 
 
 
@@ -116,7 +116,7 @@
 
     
       
-        <link rel="stylesheet" href="/css/style.min.0027da841da3d63c63a50227df691681d26278bdbd00fd55ada5933420439330.css" integrity="sha256-ACfahB2j1jxjpQIn32kWgdJieL29AP1VraWTNCBDkzA=" crossorigin="anonymous">
+        <link rel="stylesheet" href="/css/style.min.9737b20efa1dc21352a48b2b553cd94d21de8136d57fe410b416ae44bd3362bb.css" integrity="sha256-lzeyDvodwhNSpIsrVTzZTSHegTbVf&#43;QQtBauRL0zYrs=" crossorigin="anonymous">
       
     
 
@@ -372,7 +372,7 @@
     <article class="post h-entry">
         <div class="post-header">
             <header>
-                <h1 class="p-name post-title">Precisiondocs: setup and routine process</h1>
+                <h1 class="p-name post-title">How to build a blog with Hugo, Github and Netlify - part 1</h1>
                 
 
             </header>
@@ -417,16 +417,15 @@
     <summary>Table of Contents</summary>
     <div class="inner"><nav id="TableOfContents">
   <ul>
-    <li>
+    <li><a href="#introduction">Introduction</a></li>
+    <li><a href="#framework-hugo">Framework: Hugo</a>
       <ul>
-        <li><a href="#why-obsidian-and-github">Why Obsidian and GitHub?</a></li>
-        <li><a href="#setting-up-obsidian-for-documentation">Setting Up Obsidian for Documentation</a></li>
+        <li><a href="#step-1-install-hugo">Step 1: Install Hugo</a></li>
+        <li><a href="#step-2-create-a-new-website">Step 2: Create a New Website</a></li>
+        <li><a href="#step-3-install-the-anubis2-theme">Step 3: Install the Anubis2 Theme</a></li>
       </ul>
     </li>
-    <li><a href="#managing-documentation-changes-with-github">Managing Documentation Changes with GitHub</a></li>
-    <li><a href="#structuring-technical-documentation-effectively">Structuring Technical Documentation Effectively</a></li>
-    <li><a href="#keeping-documentation-up-to-date">Keeping Documentation Up-to-Date</a></li>
-    <li><a href="#backups-and-accessibility">Backups and Accessibility</a></li>
+    <li><a href="#repository-github">Repository: Github</a></li>
   </ul>
 </nav></div>
   </details>
@@ -453,73 +452,86 @@
 </script>
 
         <div class="content e-content">
-            <p>In today’s fast-paced technical environments, clear and well-organized documentation is key to ensuring smooth workflows and successful collaboration. Whether you’re working on API documentation, software architecture overviews, or development processes, managing this information effectively is essential. Two tools that offer a powerful solution for handling technical documentation are <strong><a href="https://obsidian.md/">Obsidian</a></strong> and <strong><a href="https://github.com/">GitHub</a></strong>. Together, they provide an efficient system for writing, organizing, and sharing technical documents.</p>
-<p>In this article, we’ll explore how to use Obsidian’s note-taking capabilities in combination with GitHub’s version control and collaborative features to streamline your technical documentation workflow.</p>
-<h3 id="why-obsidian-and-github" >
+            <h2 id="introduction" >
 <div>
-    <a href="#why-obsidian-and-github">
+    <a href="#introduction">
+        #
+    </a>
+    Introduction
+</div>
+</h2>
+<p>Static site generation is a very popular solution in today&rsquo;s publishing environments, especially for technical documentation. The available frameworks are solid and easy to use, and the resulting website is blazing fast with no hiccups and zero render time. If you add Github to the workflow as a storage solution, and Netlify as deployment framework, you have a perfect solution to a fast and clean publishing process.
+In this article, I&rsquo;ll describe all the steps I&rsquo;ve taken to bring Precisiondocs online, and how I maintain the content in my publishing process.</p>
+<h2 id="framework-hugo" >
+<div>
+    <a href="#framework-hugo">
+        #
+    </a>
+    Framework: Hugo
+</div>
+</h2>
+<p>As static site generator, I went for Hugo. It&rsquo;s a solid framework, with good themes, and it&rsquo;s based on markdown files organized in a simple file system. To install the Hugo framework, you need to start by setting up Hugo on your machine. You can install Hugo via a package manager or download it directly</p>
+<p>Here is a step-by-step guide to installing the Hugo framework, creating a new website, and installing the Anubis2 theme, the one I chose for this website</p>
+<h3 id="step-1-install-hugo" >
+<div>
+    <a href="#step-1-install-hugo">
         ##
     </a>
-    Why Obsidian and GitHub?
+    Step 1: Install Hugo
 </div>
 </h3>
-<p><strong><a href="https://obsidian.md/">Obsidian</a></strong> is a markdown-based note-taking tool that excels at helping users connect pieces of information in a non-linear fashion. This feature is particularly valuable for technical documentation because it allows you to create a web of interconnected notes that are easy to navigate. Additionally, it supports rich formatting options, including code blocks, tables, and media embedding, which are critical for technical content.</p>
-<p><strong><a href="https://github.com/">GitHub</a></strong>, on the other hand, is a widely-used platform for version control and collaboration. It ensures that your documentation is synced with your code, allowing for versioning and team collaboration. With GitHub, you can track changes, manage pull requests, and review updates, making it ideal for teams that need to maintain accurate and up-to-date technical documentation.</p>
-<p>When used together, these two tools allow you to write and maintain comprehensive documentation while keeping it synchronized with your development process.</p>
-<h3 id="setting-up-obsidian-for-documentation" >
+<p>For <strong>macOS</strong>:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>brew install hugo
+</span></span></code></pre></div><p>For <strong>Linux</strong>:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo apt-get install hugo
+</span></span></code></pre></div><p>For <strong>Windows</strong>:
+Download the binary from the <a href="https://github.com/gohugoio/hugo/releases">Hugo GitHub releases</a> and add it to your PATH.</p>
+<p>Once Hugo is installed, check if it’s working correctly by running:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>hugo version
+</span></span></code></pre></div><h3 id="step-2-create-a-new-website" >
 <div>
-    <a href="#setting-up-obsidian-for-documentation">
+    <a href="#step-2-create-a-new-website">
         ##
     </a>
-    Setting Up Obsidian for Documentation
+    Step 2: Create a New Website
 </div>
 </h3>
-<p>The first step in using Obsidian for technical documentation is setting up your workspace. After downloading and installing <a href="https://obsidian.md/">Obsidian</a>, create a dedicated vault for your documentation. A vault is essentially a folder where all your notes are stored. Within this vault, you can organize your content into folders based on categories such as API documentation, architecture notes, or development workflows.</p>
-<p>One of the core strengths of Obsidian is its <strong>bidirectional linking</strong> feature. This allows you to link related notes seamlessly. For example, if you reference an API endpoint in your architecture documentation, you can link directly to the detailed API documentation, making it easy for readers to navigate between connected concepts. As your documentation grows, you can visualize the relationships between your notes using Obsidian’s <strong>Graph View</strong>, which shows the links between documents as a dynamic network of nodes.</p>
-<p>In terms of formatting, Obsidian supports markdown, so you can include headings, subheadings, code snippets, tables, and other essential elements for technical documentation. Tagging is another useful feature in Obsidian, allowing you to categorize your notes and easily find related content. By using <strong>metadata and tags</strong>, you can add context to your documentation and ensure it is well-organized.</p>
-<p>Once your documentation is set up in Obsidian, the next step is to integrate it with GitHub to enable version control and collaboration. This process involves linking your Obsidian vault with a <a href="https://docs.github.com/en/get-started/quickstart/create-a-repo">GitHub repository</a>. If you haven’t already, create a repository on GitHub specifically for your documentation. This can either be a separate repository or part of an existing project repository.</p>
-<p>To link Obsidian with GitHub, simply store your Obsidian vault inside the local folder where your Git repository is located. After initializing Git in this folder, connect it to your remote GitHub repository by following this <a href="https://docs.github.com/en/get-started/quickstart/set-up-git">guide</a>. From there, you can regularly commit and push changes to GitHub. This workflow ensures that every update to your documentation is versioned and can be tracked or rolled back if necessary.</p>
-<p>In a collaborative environment, GitHub makes it easy for teams to review and contribute to documentation. You can create <strong><a href="https://guides.github.com/introduction/flow/">branches</a></strong> for specific documentation tasks, such as updating API references or adding new sections, and submit <strong><a href="https://docs.github.com/en/pull-requests">pull requests</a></strong> for review. This ensures that documentation changes are carefully reviewed before being merged into the main documentation repository.</p>
-<h2 id="managing-documentation-changes-with-github" >
+<p>Now that you installed Hugo, you need to create a new Hugo site by running the following command:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>hugo new site my-website
+</span></span></code></pre></div><p>This command will create a new folder <code>my-website</code> with the necessary Hugo folder structure.
+At this point, you may want to move into the newly created website folder:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>cd my-website
+</span></span></code></pre></div><h3 id="step-3-install-the-anubis2-theme" >
 <div>
-    <a href="#managing-documentation-changes-with-github">
+    <a href="#step-3-install-the-anubis2-theme">
+        ##
+    </a>
+    Step 3: Install the Anubis2 Theme
+</div>
+</h3>
+<p>In any Hugo installation you will need to add a <em>theme</em> to provide a layout and a presentation layer  to your content. In my case I chose Anubis2. You can install this theme (as any other) using Git. Run the following command to add it as a submodule:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git init
+</span></span><span style="display:flex;"><span>git submodule add https://github.com/Mitrichius/hugo-theme-anubis.git themes/anubis2
+</span></span></code></pre></div><p>Now that the theme is installed, you will need to let Hugo know. Look in the root for a file called <code>config.toml</code> file and add the following line to specify the Anubis2 theme:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-toml" data-lang="toml"><span style="display:flex;"><span><span style="color:#a6e22e">theme</span> = <span style="color:#e6db74">&#34;anubis2&#34;</span>
+</span></span></code></pre></div><p>Now you&rsquo; re ready to launch the website using this command:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>hugo server
+</span></span></code></pre></div><p>This will make your site available at <code>http://localhost:1313</code>. Hugo will automatically rebuild</p>
+<h2 id="repository-github" >
+<div>
+    <a href="#repository-github">
         #
     </a>
-    Managing Documentation Changes with GitHub
+    Repository: Github
 </div>
 </h2>
-<p>GitHub’s powerful version control capabilities make it an ideal platform for managing technical documentation in a professional setting. Using a <strong>branching strategy</strong> for documentation, similar to how code is managed, allows multiple contributors to work on different parts of the documentation simultaneously without causing conflicts. For instance, if one team member is updating the API documentation and another is refining the architecture overview, they can work in separate branches and merge their changes once approved.</p>
-<p>Automating documentation checks through <strong><a href="https://docs.github.com/en/actions/automating-builds-and-tests/about-continuous-integration">Continuous Integration (CI)</a></strong> is another best practice. <strong><a href="https://github.com/features/actions">GitHub Actions</a></strong>, for example, can be used to run markdown linting, check for broken links, or even spell-check your documentation every time changes are pushed. This helps maintain high-quality documentation and prevents errors from slipping through the cracks.</p>
-<p>For large projects, you can also use <strong><a href="https://pages.github.com/">GitHub Pages</a></strong> or other static site generators like <strong><a href="https://jekyllrb.com/">Jekyll</a></strong>, <strong><a href="https://www.mkdocs.org/">MkDocs</a></strong>, or <strong><a href="https://docusaurus.io/">Docusaurus</a></strong> to automatically publish your documentation as a static website. This makes the documentation accessible to non-technical stakeholders while keeping it updated with every push to the repository.</p>
-<h2 id="structuring-technical-documentation-effectively" >
-<div>
-    <a href="#structuring-technical-documentation-effectively">
-        #
-    </a>
-    Structuring Technical Documentation Effectively
-</div>
-</h2>
-<p>Maintaining a clear structure is critical for technical documentation. Start by organizing your documentation into logical sections, such as API references, project architecture, and development processes. Each section should follow a consistent template, with headings for an overview, use cases, code examples, and versioning information.</p>
-<p>As your documentation grows, leveraging Obsidian’s <strong>Graph View</strong> can be incredibly helpful for identifying gaps or unclear relationships between sections. This visual representation of your notes enables you to keep track of how different documents relate to one another, ensuring that your knowledge base remains well-structured and easy to navigate.</p>
-<h2 id="keeping-documentation-up-to-date" >
-<div>
-    <a href="#keeping-documentation-up-to-date">
-        #
-    </a>
-    Keeping Documentation Up-to-Date
-</div>
-</h2>
-<p>One of the key advantages of using GitHub to manage documentation is that it encourages the practice of keeping documentation close to the codebase. This means that whenever the code is updated, the corresponding documentation can be updated as part of the same workflow. By integrating documentation into the development process, you ensure that it remains accurate and relevant throughout the project lifecycle.</p>
-<h2 id="backups-and-accessibility" >
-<div>
-    <a href="#backups-and-accessibility">
-        #
-    </a>
-    Backups and Accessibility
-</div>
-</h2>
-<p>Storing your documentation in GitHub also provides <strong><a href="https://docs.github.com/en/repositories/creating-and-managing-repositories/backing-up-a-repository">automatic backups</a></strong>. If anything happens to your local files, the latest version of your documentation is always safe and accessible in your GitHub repository. If your repository is private, you can also maintain confidentiality for sensitive information.</p>
-<p>Additionally, <strong>Obsidian</strong> is an offline-first application, so you can work on your documentation even when you don’t have internet access. This is especially useful for remote work or when traveling.</p>
+<p>Once your site is ready, you may want to create a repository on Github and put your website in it. This way you&rsquo;ll be able to easily push updates online, and - as we&rsquo;ll see - deploy the content.
+First of all, you will create a repository on Github from your profile page, giving it a name of your choice and deciding for it to be <code>public</code> or <code>private</code>. Then you&rsquo;ll go back to your terminal and initialize <code>git</code> using the commands provided from Github to connect your local repo to the online counterpart.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git init
+</span></span><span style="display:flex;"><span>git remote add origin https://github.com/biccio/prova.git
+</span></span><span style="display:flex;"><span>git branch -M main
+</span></span><span style="display:flex;"><span>git push -u origin main
+</span></span></code></pre></div><p>Now you&rsquo;re all set! Let&rsquo;s go to Netlify</p>
 
         </div>
 
