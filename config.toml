@@ -27,6 +27,8 @@ colorThemeSwitcher = false
 rssAsSocialIcon = true
 anchorLineNos      = false
 
+customCSS = ["custom-css/custom-css1.css"]
+
 
 social = [
     { id = "github", url = "https://github.com/biccio" },
