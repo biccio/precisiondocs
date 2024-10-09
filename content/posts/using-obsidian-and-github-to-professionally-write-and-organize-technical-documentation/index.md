@@ -3,7 +3,7 @@ title: Using Obsidian and GitHub to Professionally Write and Organize Technical 
 date: 2024-09-30
 summary: From framework installation to deployment, every step I took to setup this blog
 ---
-## Context
+## Introduction
 
 In today’s fast-paced technical environments, clear and well-organized documentation is key to ensuring smooth workflows and successful collaboration. Whether you’re working on API documentation, software architecture overviews, or development processes, managing this information effectively is essential. Two tools that offer a powerful solution for handling technical documentation are **[Obsidian](https://obsidian.md/)** and **[GitHub](https://github.com/)**. Together, they provide an efficient system for writing, organizing, and sharing technical documents.
 

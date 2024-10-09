@@ -470,8 +470,8 @@ In this article, I&rsquo;ll describe all the steps I&rsquo;ve taken to bring Pre
     Framework: Hugo
 </div>
 </h2>
-<p>As static site generator, I went for Hugo. It&rsquo;s a solid framework, with good themes, and it&rsquo;s based on markdown files organized in a simple file system. To install the Hugo framework, you need to start by setting up Hugo on your machine. You can install Hugo via a package manager or download it directly</p>
-<p>Here is a step-by-step guide to installing the Hugo framework, creating a new website, and installing the Anubis2 theme, the one I chose for this website</p>
+<p>As static site generator, I went for <a href="https://gohugo.io/">Hugo</a>. It&rsquo;s a solid framework, with good themes, and it&rsquo;s based on markdown files organized in a simple file system. To install the Hugo framework, you need to start by setting up Hugo on your machine. You can install Hugo via a package manager or download it directly</p>
+<p>Here is a step-by-step guide to installing the Hugo framework, creating a new website, and installing the <a href="https://github.com/Junyi-99/hugo-theme-anubis2">Anubis2 theme</a>, the one I chose for this website.</p>
 <h3 id="step-1-install-hugo" >
 <div>
     <a href="#step-1-install-hugo">
@@ -481,13 +481,13 @@ In this article, I&rsquo;ll describe all the steps I&rsquo;ve taken to bring Pre
 </div>
 </h3>
 <p>For <strong>macOS</strong>:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>brew install hugo
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>brew install hugo
 </span></span></code></pre></div><p>For <strong>Linux</strong>:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo apt-get install hugo
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo apt-get install hugo
 </span></span></code></pre></div><p>For <strong>Windows</strong>:
 Download the binary from the <a href="https://github.com/gohugoio/hugo/releases">Hugo GitHub releases</a> and add it to your PATH.</p>
 <p>Once Hugo is installed, check if it’s working correctly by running:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>hugo version
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>hugo version
 </span></span></code></pre></div><h3 id="step-2-create-a-new-website" >
 <div>
     <a href="#step-2-create-a-new-website">
@@ -497,10 +497,10 @@ Download the binary from the <a href="https://github.com/gohugoio/hugo/releases"
 </div>
 </h3>
 <p>Now that you installed Hugo, you need to create a new Hugo site by running the following command:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>hugo new site my-website
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>hugo new site my-website
 </span></span></code></pre></div><p>This command will create a new folder <code>my-website</code> with the necessary Hugo folder structure.
 At this point, you may want to move into the newly created website folder:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>cd my-website
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#fff;font-weight:bold">cd</span> my-website
 </span></span></code></pre></div><h3 id="step-3-install-the-anubis2-theme" >
 <div>
     <a href="#step-3-install-the-anubis2-theme">
@@ -510,12 +510,12 @@ At this point, you may want to move into the newly created website folder:</p>
 </div>
 </h3>
 <p>In any Hugo installation you will need to add a <em>theme</em> to provide a layout and a presentation layer  to your content. In my case I chose Anubis2. You can install this theme (as any other) using Git. Run the following command to add it as a submodule:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git init
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git init
 </span></span><span style="display:flex;"><span>git submodule add https://github.com/Mitrichius/hugo-theme-anubis.git themes/anubis2
 </span></span></code></pre></div><p>Now that the theme is installed, you will need to let Hugo know. Look in the root for a file called <code>config.toml</code> file and add the following line to specify the Anubis2 theme:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-toml" data-lang="toml"><span style="display:flex;"><span><span style="color:#a6e22e">theme</span> = <span style="color:#e6db74">&#34;anubis2&#34;</span>
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-toml" data-lang="toml"><span style="display:flex;"><span>theme = <span style="color:#0ff;font-weight:bold">&#34;anubis2&#34;</span>
 </span></span></code></pre></div><p>Now you&rsquo; re ready to launch the website using this command:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>hugo server
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>hugo server
 </span></span></code></pre></div><p>This will make your site available at <code>http://localhost:1313</code>. Hugo will automatically rebuild</p>
 <h2 id="repository-github" >
 <div>
@@ -525,13 +525,13 @@ At this point, you may want to move into the newly created website folder:</p>
     Repository: Github
 </div>
 </h2>
-<p>Once your site is ready, you may want to create a repository on Github and put your website in it. This way you&rsquo;ll be able to easily push updates online, and - as we&rsquo;ll see - deploy the content.
+<p>Once your site is ready, you may want to create a repository on <a href="https://github.com">Github</a> and put your website in it. This way you&rsquo;ll be able to easily push updates online, and - as we&rsquo;ll see - deploy the content.
 First of all, you will create a repository on Github from your profile page, giving it a name of your choice and deciding for it to be <code>public</code> or <code>private</code>. Then you&rsquo;ll go back to your terminal and initialize <code>git</code> using the commands provided from Github to connect your local repo to the online counterpart.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git init
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git init
 </span></span><span style="display:flex;"><span>git remote add origin https://github.com/biccio/prova.git
 </span></span><span style="display:flex;"><span>git branch -M main
 </span></span><span style="display:flex;"><span>git push -u origin main
-</span></span></code></pre></div><p>Now you&rsquo;re all set! Let&rsquo;s go to Netlify</p>
+</span></span></code></pre></div><p>Now you&rsquo;re all set! Let&rsquo;s go to Netlify in the second part!</p>
 
         </div>
 

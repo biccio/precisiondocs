@@ -3,15 +3,14 @@ title: How to build a blog with Hugo, Github and Netlify - part 1
 date: 2024-09-30
 summary: How I built this blog and how i maintain it using free tools
 ---
-
 ## Introduction
 Static site generation is a very popular solution in today's publishing environments, especially for technical documentation. The available frameworks are solid and easy to use, and the resulting website is blazing fast with no hiccups and zero render time. If you add Github to the workflow as a storage solution, and Netlify as deployment framework, you have a perfect solution to a fast and clean publishing process.
 In this article, I'll describe all the steps I've taken to bring Precisiondocs online, and how I maintain the content in my publishing process.
 
 ## Framework: Hugo
-As static site generator, I went for Hugo. It's a solid framework, with good themes, and it's based on markdown files organized in a simple file system. To install the Hugo framework, you need to start by setting up Hugo on your machine. You can install Hugo via a package manager or download it directly
+As static site generator, I went for [Hugo](https://gohugo.io/). It's a solid framework, with good themes, and it's based on markdown files organized in a simple file system. To install the Hugo framework, you need to start by setting up Hugo on your machine. You can install Hugo via a package manager or download it directly
 
-Here is a step-by-step guide to installing the Hugo framework, creating a new website, and installing the Anubis2 theme, the one I chose for this website
+Here is a step-by-step guide to installing the Hugo framework, creating a new website, and installing the [Anubis2 theme](https://github.com/Junyi-99/hugo-theme-anubis2), the one I chose for this website.
 ### Step 1: Install Hugo
 
 For **macOS**:
@@ -70,7 +69,7 @@ hugo server
    
    This will make your site available at `http://localhost:1313`. Hugo will automatically rebuild
 ## Repository: Github
-Once your site is ready, you may want to create a repository on Github and put your website in it. This way you'll be able to easily push updates online, and - as we'll see - deploy the content.
+Once your site is ready, you may want to create a repository on [Github](https://github.com) and put your website in it. This way you'll be able to easily push updates online, and - as we'll see - deploy the content.
 First of all, you will create a repository on Github from your profile page, giving it a name of your choice and deciding for it to be ```public``` or ```private```. Then you'll go back to your terminal and initialize ```git``` using the commands provided from Github to connect your local repo to the online counterpart. 
 
 ```bash
@@ -80,4 +79,4 @@ git branch -M main
 git push -u origin main
 ```
 
-Now you're all set! Let's go to Netlify
+Now you're all set! Let's go to Netlify in the second part!
