@@ -10,7 +10,7 @@
           {
             "id": "a835982804bceb72",
             "type": "tabs",
-            "dimension": 74.19712070874863,
+            "dimension": 74.19712070874861,
             "children": [
               {
                 "id": "7274cfd83aa8bd19",
@@ -18,7 +18,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "using-obsidian-and-github-to-professionally-write-and-organize-technical-documentation/index.md",
+                    "file": "how-to-use-obsidian-and-github-to-organize-and-maintain-your-tech-document/index.md",
                     "mode": "source",
                     "source": false
                   }
@@ -28,19 +28,31 @@
                 "id": "be314514a699839f",
                 "type": "leaf",
                 "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "how-to-build-a-technical-blog-with-hugo-github-and-netlify/index.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "c606835bf4f5461b",
+                "type": "leaf",
+                "state": {
                   "type": "surfing-view",
                   "state": {
-                    "url": "http://localhost:1313/posts/using-obsidian-and-github-to-professionally-write-and-organize-technical-documentation/"
+                    "url": "http://localhost:1313/"
                   }
                 }
               }
             ],
-            "currentTab": 1
+            "currentTab": 2
           },
           {
             "id": "809a29bf78c459c8",
             "type": "tabs",
-            "dimension": 25.802879291251386,
+            "dimension": 25.802879291251383,
             "children": [
               {
                 "id": "39b67a81b594c599",
@@ -74,7 +86,7 @@
                       },
                       "serial": {
                         "columns": 116,
-                        "data": "fabrizio.ulisse@AirdiFaioUlisse posts % cd..\r\nzsh: command not found: cd..\r\nfabrizio.ulisse@AirdiFaioUlisse posts % cd /Users/fabrizio.ulisse/Documents/HUGO\r\nfabrizio.ulisse@AirdiFaioUlisse HUGO % cd precisiondocs\r\nfabrizio.ulisse@AirdiFaioUlisse precisiondocs % git add -A\r\nfabrizio.ulisse@AirdiFaioUlisse precisiondocs % git commit -m \"new post\"\r\n[main 16e4902] new post\r\n 22 files changed, 361 insertions(+), 315 deletions(-)\r\n create mode 100644 public/css/style.min.9737b20efa1dc21352a48b2b553cd94d21de8136d57fe410b416ae44bd3362bb.css\r\nfabrizio.ulisse@AirdiFaioUlisse precisiondocs % git push\r\nEnumerating objects: 80, done.\r\nCounting objects: 100% (80/80), done.\r\nDelta compression using up to 8 threads\r\nCompressing objects: 100% (35/35), done.\r\nWriting objects: 100% (43/43), 14.82 KiB | 3.71 MiB/s, done.\r\nTotal 43 (delta 24), reused 0 (delta 0), pack-reused 0\r\nremote: Resolving deltas: 100% (24/24), completed with 20 local objects.\r\nTo https://github.com/biccio/precisiondocs.git\r\n   721b1fa..16e4902  main -> main\r\nfabrizio.ulisse@AirdiFaioUlisse precisiondocs % hugo server\r\nzsh: command not found: hugo\r\nfabrizio.ulisse@AirdiFaioUlisse precisiondocs % git add ",
+                        "data": "fabrizio.ulisse@AirdiFaioUlisse posts % cd /Users/fabrizio.ulisse/Documents/HUGO\r\nfabrizio.ulisse@AirdiFaioUlisse HUGO % cd precisiondocs\r\nfabrizio.ulisse@AirdiFaioUlisse precisiondocs % hugo server\r\nzsh: command not found: hugo\r\nfabrizio.ulisse@AirdiFaioUlisse precisiondocs % git add -A",
                         "rows": 6
                       }
                     }
@@ -151,6 +163,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "how-to-use-obsidian-and-github-to-organize-and-maintain-your-tech-document/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -167,6 +180,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "how-to-use-obsidian-and-github-to-organize-and-maintain-your-tech-document/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -188,7 +202,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "how-to-use-obsidian-and-github-to-organize-and-maintain-your-tech-document/index.md"
+              }
             }
           },
           {
@@ -221,10 +237,10 @@
   },
   "active": "39b67a81b594c599",
   "lastOpenFiles": [
-    "using-obsidian-and-github-to-professionally-write-and-organize-technical-documentation/index.md",
+    "how-to-build-a-technical-blog-with-hugo-github-and-netlify/index.md",
+    "how-to-use-obsidian-and-github-to-organize-and-maintain-your-tech-document/index.md",
     "the-pros-and-cons-of-embedding-technical-documentation-inside-the-codebase/index.md",
-    "this-blog-setup-and-routine-process/index.md",
-    "this-blog-setup-and-routine-process",
+    "how-to-build-a-technical-blog-with-hugo-github-and-netlify",
     "the-pros-and-cons-of-embedding-technical-documentation-inside-the-codebase/The Pros and Cons of Embedding Technical Documentation Inside the Codebase.md",
     "the-pros-and-cons-of-embedding-technical-documentation-inside-the-codebase",
     "Untitled/The Pros and Cons of Embedding Technical Documentation Inside the Codebase.md",
@@ -232,7 +248,7 @@
     "why-diataxis-framework-is-a-game-changer-for-organizing-technical-documentation/index.md",
     "why-diataxis-framework-is-a-game-changer-for-organizing-technical-documentation",
     "second-post/index.md",
-    "using-obsidian-and-github-to-professionally-write-and-organize-technical-documentation",
+    "how-to-use-obsidian-and-github-to-organize-and-maintain-your-tech-document",
     "s"
   ]
 }

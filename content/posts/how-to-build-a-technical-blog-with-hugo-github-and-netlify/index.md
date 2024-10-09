@@ -1,7 +1,7 @@
 ---
-title: How to build a blog with Hugo, Github and Netlify - part 1
+title: How to Build a Technical Blog with Hugo, Github and Netlify
 date: 2024-09-30
-summary: How I built this blog and how i maintain it using free tools
+summary: Hugo is a powerful static site generator functioning as a complete framework. Along with Github as storage repository and Netlify as deployment tool, it makes a perfect platform to run and mantain a fast and lightweight documentation website.
 ---
 ## Introduction
 Static site generation is a very popular solution in today's publishing environments, especially for technical documentation. The available frameworks are solid and easy to use, and the resulting website is blazing fast with no hiccups and zero render time. If you add Github to the workflow as a storage solution, and Netlify as deployment framework, you have a perfect solution to a fast and clean publishing process.
@@ -79,4 +79,25 @@ git branch -M main
 git push -u origin main
 ```
 
-Now you're all set! Let's go to Netlify in the second part!
+Now you're all set! Let's go to deployment!
+## Deployment: Netlify
+Netlify is a great solution to deploy a website from a variety of framework, providing a great interface to manage multiple websites and their build and deployment. Netlify offers a free starter package with **100 GB of bandwidth**, **300 build per minutes** for a single member seat.
+The easiest way to create and manage a new website is *importing a new project* (other options are: *manually uploading your files* or *starting from a template*, a great solution if you need to start from scratch with backend and frontend).
+
+### Step 1 - Create a new website importing a project
+Assuming that you followed the previous steps, now you should have your content and framework stored in a repository on Github. 
+1. **Create a new site**
+   - Select **Add new site** → **Import an existing project**
+   - Select **Github** and authenticate (or you may be already logged in)
+   - Choose the repo where you stored your content
+2. **Review your configuration**
+   - Choose a name for your new website
+   - Choose your branch (usually ``main``)
+   - Leave blank *Base directory*
+   - Write `hugo` as *Build Command*
+   - `public` as *Publish Directory*
+   - Leave default in *Functions Directory*
+   - **important**: add *Hugo version* as *environmental variable*: key: `HUGO_VERSION` / value: `X.X.X` (you may find your hugo version with the terminal command `hugo version`)
+   
+   ### Step 2 - Deploy the website
+   Now you're ready to deploy, push the button and the magic will happen! Note that Netlify will choose for you a temporary subdomain: you'll be able to change it, or even set up a custom domain. If everything is ok, you'll be able to browse your new website in a couple of minutes!

@@ -1,7 +1,7 @@
 ---
-title: Using Obsidian and GitHub to Professionally Write and Organize Technical Documentation
+title: How to use Obsidian and Github to organize and maintain your tech documentation
 date: 2024-09-30
-summary: From framework installation to deployment, every step I took to setup this blog
+summary: Obsidian is a powerful WYSIWYG markdown editor that makes it easy to write and organize your content. Paring it with Github is the perfect solution to develop and maintain technical documentation.
 ---
 ## Introduction
 

@@ -15,11 +15,11 @@
     
     
     <item>
-      <title>How to build a blog with Hugo, Github and Netlify - part 1</title>
-      <link>/posts/this-blog-setup-and-routine-process/</link>
+      <title>How to Build a Technical Blog with Hugo, Github and Netlify</title>
+      <link>/posts/how-to-build-a-technical-blog-with-hugo-github-and-netlify/</link>
       <pubDate>Mon, 30 Sep 2024 00:00:00 +0000</pubDate>
       
-      <guid>/posts/this-blog-setup-and-routine-process/</guid>
+      <guid>/posts/how-to-build-a-technical-blog-with-hugo-github-and-netlify/</guid>
       <description>&lt;h2 id=&#34;introduction&#34; &gt;
 &lt;div&gt;
     &lt;a href=&#34;#introduction&#34;&gt;
@@ -99,7 +99,149 @@ First of all, you will create a repository on Github from your profile page, giv
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git remote add origin https://github.com/biccio/prova.git
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git branch -M main
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git push -u origin main
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Now you&amp;rsquo;re all set! Let&amp;rsquo;s go to Netlify in the second part!&lt;/p&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Now you&amp;rsquo;re all set! Let&amp;rsquo;s go to deployment!&lt;/p&gt;
+&lt;h2 id=&#34;deployment-netlify&#34; &gt;
+&lt;div&gt;
+    &lt;a href=&#34;#deployment-netlify&#34;&gt;
+        #
+    &lt;/a&gt;
+    Deployment: Netlify
+&lt;/div&gt;
+&lt;/h2&gt;
+&lt;p&gt;Netlify is a great solution to deploy a website from a variety of framework, providing a great interface to manage multiple websites and their build and deployment. Netlify offers a free starter package with &lt;strong&gt;100 GB of bandwidth&lt;/strong&gt;, &lt;strong&gt;300 build per minutes&lt;/strong&gt; for a single member seat.
+The easiest way to create and manage a new website is &lt;em&gt;importing a new project&lt;/em&gt; (other options are: &lt;em&gt;manually uploading your files&lt;/em&gt; or &lt;em&gt;starting from a template&lt;/em&gt;, a great solution if you need to start from scratch with backend and frontend).&lt;/p&gt;
+&lt;h3 id=&#34;step-1---create-a-new-website-importing-a-project&#34; &gt;
+&lt;div&gt;
+    &lt;a href=&#34;#step-1---create-a-new-website-importing-a-project&#34;&gt;
+        ##
+    &lt;/a&gt;
+    Step 1 - Create a new website importing a project
+&lt;/div&gt;
+&lt;/h3&gt;
+&lt;p&gt;Assuming that you followed the previous steps, now you should have your content and framework stored in a repository on Github.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Create a new site&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Select &lt;strong&gt;Add new site&lt;/strong&gt; → &lt;strong&gt;Import an existing project&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Select &lt;strong&gt;Github&lt;/strong&gt; and authenticate (or you may be already logged in)&lt;/li&gt;
+&lt;li&gt;Choose the repo where you stored your content&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Review your configuration&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Choose a name for your new website&lt;/li&gt;
+&lt;li&gt;Choose your branch (usually &lt;code&gt;main&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;Leave blank &lt;em&gt;Base directory&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Write &lt;code&gt;hugo&lt;/code&gt; as &lt;em&gt;Build Command&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;public&lt;/code&gt; as &lt;em&gt;Publish Directory&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Leave default in &lt;em&gt;Functions Directory&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;important&lt;/strong&gt;: add &lt;em&gt;Hugo version&lt;/em&gt; as &lt;em&gt;environmental variable&lt;/em&gt;: key: &lt;code&gt;HUGO_VERSION&lt;/code&gt; / value: &lt;code&gt;X.X.X&lt;/code&gt; (you may find your hugo version with the terminal command &lt;code&gt;hugo version&lt;/code&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;step-2---deploy-the-website&#34; &gt;
+&lt;div&gt;
+    &lt;a href=&#34;#step-2---deploy-the-website&#34;&gt;
+        ##
+    &lt;/a&gt;
+    Step 2 - Deploy the website
+&lt;/div&gt;
+&lt;/h3&gt;
+&lt;p&gt;Now you&amp;rsquo;re ready to deploy, push the button and the magic will happen! Note that Netlify will choose for you a temporary subdomain: you&amp;rsquo;ll be able to change it, or even set up a custom domain. If everything is ok, you&amp;rsquo;ll be able to browse your new website in a couple of minutes!&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>How to use Obsidian and Github to organize and maintain your tech documentation</title>
+      <link>/posts/how-to-use-obsidian-and-github-to-organize-and-maintain-your-tech-document/</link>
+      <pubDate>Mon, 30 Sep 2024 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/how-to-use-obsidian-and-github-to-organize-and-maintain-your-tech-document/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34; &gt;
+&lt;div&gt;
+    &lt;a href=&#34;#introduction&#34;&gt;
+        #
+    &lt;/a&gt;
+    Introduction
+&lt;/div&gt;
+&lt;/h2&gt;
+&lt;p&gt;In today’s fast-paced technical environments, clear and well-organized documentation is key to ensuring smooth workflows and successful collaboration. Whether you’re working on API documentation, software architecture overviews, or development processes, managing this information effectively is essential. Two tools that offer a powerful solution for handling technical documentation are &lt;strong&gt;&lt;a href=&#34;https://obsidian.md/&#34;&gt;Obsidian&lt;/a&gt;&lt;/strong&gt; and &lt;strong&gt;&lt;a href=&#34;https://github.com/&#34;&gt;GitHub&lt;/a&gt;&lt;/strong&gt;. Together, they provide an efficient system for writing, organizing, and sharing technical documents.&lt;/p&gt;
+&lt;p&gt;In this article, we’ll explore how to use Obsidian’s note-taking capabilities in combination with GitHub’s version control and collaborative features to streamline your technical documentation workflow.&lt;/p&gt;
+&lt;h2 id=&#34;why-obsidian-and-github&#34; &gt;
+&lt;div&gt;
+    &lt;a href=&#34;#why-obsidian-and-github&#34;&gt;
+        #
+    &lt;/a&gt;
+    Why Obsidian and GitHub?
+&lt;/div&gt;
+&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://obsidian.md/&#34;&gt;Obsidian&lt;/a&gt;&lt;/strong&gt; is a markdown-based note-taking tool that excels at helping users connect pieces of information in a non-linear fashion. This feature is particularly valuable for technical documentation because it allows you to create a web of interconnected notes that are easy to navigate. Additionally, it supports rich formatting options, including code blocks, tables, and media embedding, which are critical for technical content.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://github.com/&#34;&gt;GitHub&lt;/a&gt;&lt;/strong&gt;, on the other hand, is a widely-used platform for version control and collaboration. It ensures that your documentation is synced with your code, allowing for versioning and team collaboration. With GitHub, you can track changes, manage pull requests, and review updates, making it ideal for teams that need to maintain accurate and up-to-date technical documentation.&lt;/p&gt;
+&lt;p&gt;When used together, these two tools allow you to write and maintain comprehensive documentation while keeping it synchronized with your development process.&lt;/p&gt;
+&lt;h2 id=&#34;setting-up-obsidian-for-documentation&#34; &gt;
+&lt;div&gt;
+    &lt;a href=&#34;#setting-up-obsidian-for-documentation&#34;&gt;
+        #
+    &lt;/a&gt;
+    Setting Up Obsidian for Documentation
+&lt;/div&gt;
+&lt;/h2&gt;
+&lt;p&gt;The first step in using Obsidian for technical documentation is setting up your workspace. After downloading and installing &lt;a href=&#34;https://obsidian.md/&#34;&gt;Obsidian&lt;/a&gt;, create a dedicated vault for your documentation. A vault is essentially a folder where all your notes are stored. Within this vault, you can organize your content into folders based on categories such as API documentation, architecture notes, or development workflows.&lt;/p&gt;
+&lt;p&gt;One of the core strengths of Obsidian is its &lt;strong&gt;bidirectional linking&lt;/strong&gt; feature. This allows you to link related notes seamlessly. For example, if you reference an API endpoint in your architecture documentation, you can link directly to the detailed API documentation, making it easy for readers to navigate between connected concepts. As your documentation grows, you can visualize the relationships between your notes using Obsidian’s &lt;strong&gt;Graph View&lt;/strong&gt;, which shows the links between documents as a dynamic network of nodes.&lt;/p&gt;
+&lt;p&gt;In terms of formatting, Obsidian supports markdown, so you can include headings, subheadings, code snippets, tables, and other essential elements for technical documentation. Tagging is another useful feature in Obsidian, allowing you to categorize your notes and easily find related content. By using &lt;strong&gt;metadata and tags&lt;/strong&gt;, you can add context to your documentation and ensure it is well-organized.&lt;/p&gt;
+&lt;h2 id=&#34;integrating-obsidian-with-github&#34; &gt;
+&lt;div&gt;
+    &lt;a href=&#34;#integrating-obsidian-with-github&#34;&gt;
+        #
+    &lt;/a&gt;
+    Integrating Obsidian with GitHub
+&lt;/div&gt;
+&lt;/h2&gt;
+&lt;p&gt;Once your documentation is set up in Obsidian, the next step is to integrate it with GitHub to enable version control and collaboration. This process involves linking your Obsidian vault with a &lt;a href=&#34;https://docs.github.com/en/get-started/quickstart/create-a-repo&#34;&gt;GitHub repository&lt;/a&gt;. If you haven’t already, create a repository on GitHub specifically for your documentation. This can either be a separate repository or part of an existing project repository.&lt;/p&gt;
+&lt;p&gt;To link Obsidian with GitHub, simply store your Obsidian vault inside the local folder where your Git repository is located. After initializing Git in this folder, connect it to your remote GitHub repository by following this &lt;a href=&#34;https://docs.github.com/en/get-started/quickstart/set-up-git&#34;&gt;guide&lt;/a&gt;. From there, you can regularly commit and push changes to GitHub. This workflow ensures that every update to your documentation is versioned and can be tracked or rolled back if necessary.&lt;/p&gt;
+&lt;p&gt;In a collaborative environment, GitHub makes it easy for teams to review and contribute to documentation. You can create &lt;strong&gt;&lt;a href=&#34;https://guides.github.com/introduction/flow/&#34;&gt;branches&lt;/a&gt;&lt;/strong&gt; for specific documentation tasks, such as updating API references or adding new sections, and submit &lt;strong&gt;&lt;a href=&#34;https://docs.github.com/en/pull-requests&#34;&gt;pull requests&lt;/a&gt;&lt;/strong&gt; for review. This ensures that documentation changes are carefully reviewed before being merged into the main documentation repository.&lt;/p&gt;
+&lt;h2 id=&#34;managing-documentation-changes-with-github&#34; &gt;
+&lt;div&gt;
+    &lt;a href=&#34;#managing-documentation-changes-with-github&#34;&gt;
+        #
+    &lt;/a&gt;
+    Managing Documentation Changes with GitHub
+&lt;/div&gt;
+&lt;/h2&gt;
+&lt;p&gt;GitHub’s powerful version control capabilities make it an ideal platform for managing technical documentation in a professional setting. Using a &lt;strong&gt;branching strategy&lt;/strong&gt; for documentation, similar to how code is managed, allows multiple contributors to work on different parts of the documentation simultaneously without causing conflicts. For instance, if one team member is updating the API documentation and another is refining the architecture overview, they can work in separate branches and merge their changes once approved.&lt;/p&gt;
+&lt;p&gt;Automating documentation checks through &lt;strong&gt;&lt;a href=&#34;https://docs.github.com/en/actions/automating-builds-and-tests/about-continuous-integration&#34;&gt;Continuous Integration (CI)&lt;/a&gt;&lt;/strong&gt; is another best practice. &lt;strong&gt;&lt;a href=&#34;https://github.com/features/actions&#34;&gt;GitHub Actions&lt;/a&gt;&lt;/strong&gt;, for example, can be used to run markdown linting, check for broken links, or even spell-check your documentation every time changes are pushed. This helps maintain high-quality documentation and prevents errors from slipping through the cracks.&lt;/p&gt;
+&lt;p&gt;For large projects, you can also use &lt;strong&gt;&lt;a href=&#34;https://pages.github.com/&#34;&gt;GitHub Pages&lt;/a&gt;&lt;/strong&gt; or other static site generators like &lt;strong&gt;&lt;a href=&#34;https://jekyllrb.com/&#34;&gt;Jekyll&lt;/a&gt;&lt;/strong&gt;, &lt;strong&gt;&lt;a href=&#34;https://www.mkdocs.org/&#34;&gt;MkDocs&lt;/a&gt;&lt;/strong&gt;, or &lt;strong&gt;&lt;a href=&#34;https://docusaurus.io/&#34;&gt;Docusaurus&lt;/a&gt;&lt;/strong&gt; to automatically publish your documentation as a static website. This makes the documentation accessible to non-technical stakeholders while keeping it updated with every push to the repository.&lt;/p&gt;
+&lt;h2 id=&#34;structuring-technical-documentation-effectively&#34; &gt;
+&lt;div&gt;
+    &lt;a href=&#34;#structuring-technical-documentation-effectively&#34;&gt;
+        #
+    &lt;/a&gt;
+    Structuring Technical Documentation Effectively
+&lt;/div&gt;
+&lt;/h2&gt;
+&lt;p&gt;Maintaining a clear structure is critical for technical documentation. Start by organizing your documentation into logical sections, such as API references, project architecture, and development processes. Each section should follow a consistent template, with headings for an overview, use cases, code examples, and versioning information.&lt;/p&gt;
+&lt;p&gt;As your documentation grows, leveraging Obsidian’s &lt;strong&gt;Graph View&lt;/strong&gt; can be incredibly helpful for identifying gaps or unclear relationships between sections. This visual representation of your notes enables you to keep track of how different documents relate to one another, ensuring that your knowledge base remains well-structured and easy to navigate.&lt;/p&gt;
+&lt;h2 id=&#34;keeping-documentation-up-to-date&#34; &gt;
+&lt;div&gt;
+    &lt;a href=&#34;#keeping-documentation-up-to-date&#34;&gt;
+        #
+    &lt;/a&gt;
+    Keeping Documentation Up-to-Date
+&lt;/div&gt;
+&lt;/h2&gt;
+&lt;p&gt;One of the key advantages of using GitHub to manage documentation is that it encourages the practice of keeping documentation close to the codebase. This means that whenever the code is updated, the corresponding documentation can be updated as part of the same workflow. By integrating documentation into the development process, you ensure that it remains accurate and relevant throughout the project lifecycle.&lt;/p&gt;
+&lt;h2 id=&#34;backups-and-accessibility&#34; &gt;
+&lt;div&gt;
+    &lt;a href=&#34;#backups-and-accessibility&#34;&gt;
+        #
+    &lt;/a&gt;
+    Backups and Accessibility
+&lt;/div&gt;
+&lt;/h2&gt;
+&lt;p&gt;Storing your documentation in GitHub also provides &lt;strong&gt;&lt;a href=&#34;https://docs.github.com/en/repositories/creating-and-managing-repositories/backing-up-a-repository&#34;&gt;automatic backups&lt;/a&gt;&lt;/strong&gt;. If anything happens to your local files, the latest version of your documentation is always safe and accessible in your GitHub repository. If your repository is private, you can also maintain confidentiality for sensitive information.&lt;/p&gt;
+&lt;p&gt;Additionally, &lt;strong&gt;Obsidian&lt;/strong&gt; is an offline-first application, so you can work on your documentation even when you don’t have internet access. This is especially useful for remote work or when traveling.&lt;/p&gt;
 </description>
     </item>
     
@@ -262,98 +404,6 @@ First of all, you will create a repository on Github from your profile page, giv
 &lt;p&gt;&lt;strong&gt;Integration with CI/CD Pipelines&lt;/strong&gt;: OpenAPI can be integrated into Continuous Integration/Continuous Deployment (CI/CD) pipelines, ensuring that the API documentation is generated and updated automatically as part of the development lifecycle. This means the API documentation is always current, and discrepancies between code and documentation can be flagged early in the development process.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Using Obsidian and GitHub to Professionally Write and Organize Technical Documentation</title>
-      <link>/posts/using-obsidian-and-github-to-professionally-write-and-organize-technical-documentation/</link>
-      <pubDate>Mon, 30 Sep 2024 00:00:00 +0000</pubDate>
-      
-      <guid>/posts/using-obsidian-and-github-to-professionally-write-and-organize-technical-documentation/</guid>
-      <description>&lt;h2 id=&#34;introduction&#34; &gt;
-&lt;div&gt;
-    &lt;a href=&#34;#introduction&#34;&gt;
-        #
-    &lt;/a&gt;
-    Introduction
-&lt;/div&gt;
-&lt;/h2&gt;
-&lt;p&gt;In today’s fast-paced technical environments, clear and well-organized documentation is key to ensuring smooth workflows and successful collaboration. Whether you’re working on API documentation, software architecture overviews, or development processes, managing this information effectively is essential. Two tools that offer a powerful solution for handling technical documentation are &lt;strong&gt;&lt;a href=&#34;https://obsidian.md/&#34;&gt;Obsidian&lt;/a&gt;&lt;/strong&gt; and &lt;strong&gt;&lt;a href=&#34;https://github.com/&#34;&gt;GitHub&lt;/a&gt;&lt;/strong&gt;. Together, they provide an efficient system for writing, organizing, and sharing technical documents.&lt;/p&gt;
-&lt;p&gt;In this article, we’ll explore how to use Obsidian’s note-taking capabilities in combination with GitHub’s version control and collaborative features to streamline your technical documentation workflow.&lt;/p&gt;
-&lt;h2 id=&#34;why-obsidian-and-github&#34; &gt;
-&lt;div&gt;
-    &lt;a href=&#34;#why-obsidian-and-github&#34;&gt;
-        #
-    &lt;/a&gt;
-    Why Obsidian and GitHub?
-&lt;/div&gt;
-&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://obsidian.md/&#34;&gt;Obsidian&lt;/a&gt;&lt;/strong&gt; is a markdown-based note-taking tool that excels at helping users connect pieces of information in a non-linear fashion. This feature is particularly valuable for technical documentation because it allows you to create a web of interconnected notes that are easy to navigate. Additionally, it supports rich formatting options, including code blocks, tables, and media embedding, which are critical for technical content.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://github.com/&#34;&gt;GitHub&lt;/a&gt;&lt;/strong&gt;, on the other hand, is a widely-used platform for version control and collaboration. It ensures that your documentation is synced with your code, allowing for versioning and team collaboration. With GitHub, you can track changes, manage pull requests, and review updates, making it ideal for teams that need to maintain accurate and up-to-date technical documentation.&lt;/p&gt;
-&lt;p&gt;When used together, these two tools allow you to write and maintain comprehensive documentation while keeping it synchronized with your development process.&lt;/p&gt;
-&lt;h2 id=&#34;setting-up-obsidian-for-documentation&#34; &gt;
-&lt;div&gt;
-    &lt;a href=&#34;#setting-up-obsidian-for-documentation&#34;&gt;
-        #
-    &lt;/a&gt;
-    Setting Up Obsidian for Documentation
-&lt;/div&gt;
-&lt;/h2&gt;
-&lt;p&gt;The first step in using Obsidian for technical documentation is setting up your workspace. After downloading and installing &lt;a href=&#34;https://obsidian.md/&#34;&gt;Obsidian&lt;/a&gt;, create a dedicated vault for your documentation. A vault is essentially a folder where all your notes are stored. Within this vault, you can organize your content into folders based on categories such as API documentation, architecture notes, or development workflows.&lt;/p&gt;
-&lt;p&gt;One of the core strengths of Obsidian is its &lt;strong&gt;bidirectional linking&lt;/strong&gt; feature. This allows you to link related notes seamlessly. For example, if you reference an API endpoint in your architecture documentation, you can link directly to the detailed API documentation, making it easy for readers to navigate between connected concepts. As your documentation grows, you can visualize the relationships between your notes using Obsidian’s &lt;strong&gt;Graph View&lt;/strong&gt;, which shows the links between documents as a dynamic network of nodes.&lt;/p&gt;
-&lt;p&gt;In terms of formatting, Obsidian supports markdown, so you can include headings, subheadings, code snippets, tables, and other essential elements for technical documentation. Tagging is another useful feature in Obsidian, allowing you to categorize your notes and easily find related content. By using &lt;strong&gt;metadata and tags&lt;/strong&gt;, you can add context to your documentation and ensure it is well-organized.&lt;/p&gt;
-&lt;h2 id=&#34;integrating-obsidian-with-github&#34; &gt;
-&lt;div&gt;
-    &lt;a href=&#34;#integrating-obsidian-with-github&#34;&gt;
-        #
-    &lt;/a&gt;
-    Integrating Obsidian with GitHub
-&lt;/div&gt;
-&lt;/h2&gt;
-&lt;p&gt;Once your documentation is set up in Obsidian, the next step is to integrate it with GitHub to enable version control and collaboration. This process involves linking your Obsidian vault with a &lt;a href=&#34;https://docs.github.com/en/get-started/quickstart/create-a-repo&#34;&gt;GitHub repository&lt;/a&gt;. If you haven’t already, create a repository on GitHub specifically for your documentation. This can either be a separate repository or part of an existing project repository.&lt;/p&gt;
-&lt;p&gt;To link Obsidian with GitHub, simply store your Obsidian vault inside the local folder where your Git repository is located. After initializing Git in this folder, connect it to your remote GitHub repository by following this &lt;a href=&#34;https://docs.github.com/en/get-started/quickstart/set-up-git&#34;&gt;guide&lt;/a&gt;. From there, you can regularly commit and push changes to GitHub. This workflow ensures that every update to your documentation is versioned and can be tracked or rolled back if necessary.&lt;/p&gt;
-&lt;p&gt;In a collaborative environment, GitHub makes it easy for teams to review and contribute to documentation. You can create &lt;strong&gt;&lt;a href=&#34;https://guides.github.com/introduction/flow/&#34;&gt;branches&lt;/a&gt;&lt;/strong&gt; for specific documentation tasks, such as updating API references or adding new sections, and submit &lt;strong&gt;&lt;a href=&#34;https://docs.github.com/en/pull-requests&#34;&gt;pull requests&lt;/a&gt;&lt;/strong&gt; for review. This ensures that documentation changes are carefully reviewed before being merged into the main documentation repository.&lt;/p&gt;
-&lt;h2 id=&#34;managing-documentation-changes-with-github&#34; &gt;
-&lt;div&gt;
-    &lt;a href=&#34;#managing-documentation-changes-with-github&#34;&gt;
-        #
-    &lt;/a&gt;
-    Managing Documentation Changes with GitHub
-&lt;/div&gt;
-&lt;/h2&gt;
-&lt;p&gt;GitHub’s powerful version control capabilities make it an ideal platform for managing technical documentation in a professional setting. Using a &lt;strong&gt;branching strategy&lt;/strong&gt; for documentation, similar to how code is managed, allows multiple contributors to work on different parts of the documentation simultaneously without causing conflicts. For instance, if one team member is updating the API documentation and another is refining the architecture overview, they can work in separate branches and merge their changes once approved.&lt;/p&gt;
-&lt;p&gt;Automating documentation checks through &lt;strong&gt;&lt;a href=&#34;https://docs.github.com/en/actions/automating-builds-and-tests/about-continuous-integration&#34;&gt;Continuous Integration (CI)&lt;/a&gt;&lt;/strong&gt; is another best practice. &lt;strong&gt;&lt;a href=&#34;https://github.com/features/actions&#34;&gt;GitHub Actions&lt;/a&gt;&lt;/strong&gt;, for example, can be used to run markdown linting, check for broken links, or even spell-check your documentation every time changes are pushed. This helps maintain high-quality documentation and prevents errors from slipping through the cracks.&lt;/p&gt;
-&lt;p&gt;For large projects, you can also use &lt;strong&gt;&lt;a href=&#34;https://pages.github.com/&#34;&gt;GitHub Pages&lt;/a&gt;&lt;/strong&gt; or other static site generators like &lt;strong&gt;&lt;a href=&#34;https://jekyllrb.com/&#34;&gt;Jekyll&lt;/a&gt;&lt;/strong&gt;, &lt;strong&gt;&lt;a href=&#34;https://www.mkdocs.org/&#34;&gt;MkDocs&lt;/a&gt;&lt;/strong&gt;, or &lt;strong&gt;&lt;a href=&#34;https://docusaurus.io/&#34;&gt;Docusaurus&lt;/a&gt;&lt;/strong&gt; to automatically publish your documentation as a static website. This makes the documentation accessible to non-technical stakeholders while keeping it updated with every push to the repository.&lt;/p&gt;
-&lt;h2 id=&#34;structuring-technical-documentation-effectively&#34; &gt;
-&lt;div&gt;
-    &lt;a href=&#34;#structuring-technical-documentation-effectively&#34;&gt;
-        #
-    &lt;/a&gt;
-    Structuring Technical Documentation Effectively
-&lt;/div&gt;
-&lt;/h2&gt;
-&lt;p&gt;Maintaining a clear structure is critical for technical documentation. Start by organizing your documentation into logical sections, such as API references, project architecture, and development processes. Each section should follow a consistent template, with headings for an overview, use cases, code examples, and versioning information.&lt;/p&gt;
-&lt;p&gt;As your documentation grows, leveraging Obsidian’s &lt;strong&gt;Graph View&lt;/strong&gt; can be incredibly helpful for identifying gaps or unclear relationships between sections. This visual representation of your notes enables you to keep track of how different documents relate to one another, ensuring that your knowledge base remains well-structured and easy to navigate.&lt;/p&gt;
-&lt;h2 id=&#34;keeping-documentation-up-to-date&#34; &gt;
-&lt;div&gt;
-    &lt;a href=&#34;#keeping-documentation-up-to-date&#34;&gt;
-        #
-    &lt;/a&gt;
-    Keeping Documentation Up-to-Date
-&lt;/div&gt;
-&lt;/h2&gt;
-&lt;p&gt;One of the key advantages of using GitHub to manage documentation is that it encourages the practice of keeping documentation close to the codebase. This means that whenever the code is updated, the corresponding documentation can be updated as part of the same workflow. By integrating documentation into the development process, you ensure that it remains accurate and relevant throughout the project lifecycle.&lt;/p&gt;
-&lt;h2 id=&#34;backups-and-accessibility&#34; &gt;
-&lt;div&gt;
-    &lt;a href=&#34;#backups-and-accessibility&#34;&gt;
-        #
-    &lt;/a&gt;
-    Backups and Accessibility
-&lt;/div&gt;
-&lt;/h2&gt;
-&lt;p&gt;Storing your documentation in GitHub also provides &lt;strong&gt;&lt;a href=&#34;https://docs.github.com/en/repositories/creating-and-managing-repositories/backing-up-a-repository&#34;&gt;automatic backups&lt;/a&gt;&lt;/strong&gt;. If anything happens to your local files, the latest version of your documentation is always safe and accessible in your GitHub repository. If your repository is private, you can also maintain confidentiality for sensitive information.&lt;/p&gt;
-&lt;p&gt;Additionally, &lt;strong&gt;Obsidian&lt;/strong&gt; is an offline-first application, so you can work on your documentation even when you don’t have internet access. This is especially useful for remote work or when traveling.&lt;/p&gt;
 </description>
     </item>
     
