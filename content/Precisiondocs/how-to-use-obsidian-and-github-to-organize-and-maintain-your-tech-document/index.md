@@ -11,25 +11,26 @@ In this article, we’ll explore how to use Obsidian’s note-taking capabilitie
 
 ## Why Obsidian and GitHub?
 
-**[Obsidian](https://obsidian.md/)** is a markdown-based note-taking tool that excels at helping users connect pieces of information in a non-linear fashion. This feature is particularly valuable for technical documentation because it allows you to create a web of interconnected notes that are easy to navigate. Additionally, it supports rich formatting options, including code blocks, tables, and media embedding, which are critical for technical content.
-
-**[GitHub](https://github.com/)**, on the other hand, is a widely-used platform for version control and collaboration. It ensures that your documentation is synced with your code, allowing for versioning and team collaboration. With GitHub, you can track changes, manage pull requests, and review updates, making it ideal for teams that need to maintain accurate and up-to-date technical documentation.
-
-When used together, these two tools allow you to write and maintain comprehensive documentation while keeping it synchronized with your development process.
+Github is a well known go-to tool for code storage, continuous integration and version control. Github is also widely-used for tech documentation, usually in addition with static site generators like Astro, Hugo, Jekyll. So you may want to choose Github to store and evolve all your markdown content. Obsidian on the other end is one of the best markdown editor around. Its realtime WYSIWYG interface makes it a very usable editing tool, but the most important feature that makes it the perfect companion for Github, is the Git integration, that makes it very easy to seamlessly push newly edited content to Github.
 
 ## Setting Up Obsidian for Documentation
 
-The first step in using Obsidian for technical documentation is setting up your workspace. After downloading and installing [Obsidian](https://obsidian.md/), create a dedicated vault for your documentation. A vault is essentially a folder where all your notes are stored. Within this vault, you can organize your content into folders based on categories such as API documentation, architecture notes, or development workflows.
-
-One of the core strengths of Obsidian is its **bidirectional linking** feature. This allows you to link related notes seamlessly. For example, if you reference an API endpoint in your architecture documentation, you can link directly to the detailed API documentation, making it easy for readers to navigate between connected concepts. As your documentation grows, you can visualize the relationships between your notes using Obsidian’s **Graph View**, which shows the links between documents as a dynamic network of nodes.
-
-In terms of formatting, Obsidian supports markdown, so you can include headings, subheadings, code snippets, tables, and other essential elements for technical documentation. Tagging is another useful feature in Obsidian, allowing you to categorize your notes and easily find related content. By using **metadata and tags**, you can add context to your documentation and ensure it is well-organized.
+The first step in using Obsidian for technical documentation is setting up your workspace. After downloading and installing [Obsidian](https://obsidian.md/), you will create a dedicated vault for your documentation, and you'll start writing your documentation files. In terms of formatting, Obsidian supports markdown, so you can include headings, subheadings, code snippets, tables, and other essential elements for technical documentation. Tagging is another useful feature in Obsidian, allowing you to categorize your notes and easily find related content. By using **metadata and tags**, you can add context to your documentation and ensure it is well-organized.
 
 ## Integrating Obsidian with GitHub
 
-Once your documentation is set up in Obsidian, the next step is to integrate it with GitHub to enable version control and collaboration. This process involves linking your Obsidian vault with a [GitHub repository](https://docs.github.com/en/get-started/quickstart/create-a-repo). If you haven’t already, create a repository on GitHub specifically for your documentation. This can either be a separate repository or part of an existing project repository.
+Once your documentation is set up in Obsidian, the next step is to integrate it with GitHub to enable version control and collaboration. This process involves linking your Obsidian vault with a [GitHub repository](https://docs.github.com/en/get-started/quickstart/create-a-repo). If you haven’t already, [create a repository on GitHub](https://github.com/new) specifically for your documentation. 
+Then, to link Obsidian with GitHub, you will use your terminal:
+1. Go to the folder where your Obsidian Vault is stored
+2. ```git init ``` to initialize your local repo.
+3. ```git add -A ``` to prepare your files for your new repository 
+4. ```git commit -m "first commit"``` to commit the files you prepared
+5. ```git remote add origin https://github.com/example/repo-git-url.git``` to add  your Github repository URL as origin for your local repository
+6. ```git push -u origin main``` to upload your files to the main branch of your repo
+   
+Now your local Obsidian Vault is connected to your Github repository
 
-To link Obsidian with GitHub, simply store your Obsidian vault inside the local folder where your Git repository is located. After initializing Git in this folder, connect it to your remote GitHub repository by following this [guide](https://docs.github.com/en/get-started/quickstart/set-up-git). From there, you can regularly commit and push changes to GitHub. This workflow ensures that every update to your documentation is versioned and can be tracked or rolled back if necessary.
+
 
 In a collaborative environment, GitHub makes it easy for teams to review and contribute to documentation. You can create **[branches](https://guides.github.com/introduction/flow/)** for specific documentation tasks, such as updating API references or adding new sections, and submit **[pull requests](https://docs.github.com/en/pull-requests)** for review. This ensures that documentation changes are carefully reviewed before being merged into the main documentation repository.
 
