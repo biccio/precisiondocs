@@ -20,14 +20,23 @@ The first step in using Obsidian for technical documentation is setting up your 
 ## Integrating Obsidian with GitHub
 
 Once your documentation is set up in Obsidian, the next step is to integrate it with GitHub to enable version control and collaboration. This process involves linking your Obsidian vault with a [GitHub repository](https://docs.github.com/en/get-started/quickstart/create-a-repo). If you haven’t already, [create a repository on GitHub](https://github.com/new) specifically for your documentation. 
-Then, to link Obsidian with GitHub, you will use your terminal:
-1. Go to the folder where your Obsidian Vault is stored
-2. ```git init ``` to initialize your local repo.
-3. ```git add -A ``` to prepare your files for your new repository 
-4. ```git commit -m "first commit"``` to commit the files you prepared
-5. ```git remote add origin https://github.com/example/repo-git-url.git``` to add  your Github repository URL as origin for your local repository
-6. ```git push -u origin main``` to upload your files to the main branch of your repo
-   
+Then, to link Obsidian with GitHub, you will use your terminal. 
+
+Go to the folder where your Obsidian Vault is stored and use this command to initialize your local repo.
+
+```bash
+git init
+```
+
+Then, prepare and commit your files, add the Github repository as origin for your local one, and push to the main branch of the repository the content you created with Obsidian 
+
+```bash
+git add -A
+git commit -m "first commit"
+git remote add origin https://github.com/your_user/your_repo.git
+git push -u origin main
+```
+
 Now your local Obsidian Vault is connected to your Github repository
 
 
