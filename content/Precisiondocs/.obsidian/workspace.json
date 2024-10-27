@@ -21,7 +21,9 @@
                     "file": "how-to-use-obsidian-and-github-to-organize-and-maintain-your-tech-document/index.md",
                     "mode": "source",
                     "source": false
-                  }
+                  },
+                  "icon": "lucide-file",
+                  "title": "index"
                 }
               },
               {
@@ -30,10 +32,12 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "how-to-build-a-technical-blog-with-hugo-github-and-netlify/index.md",
+                    "file": "how-to-build-a-minimal-blog-with-hugo-github-and-netlify/index.md",
                     "mode": "source",
                     "source": false
-                  }
+                  },
+                  "icon": "lucide-file",
+                  "title": "index"
                 }
               },
               {
@@ -42,12 +46,14 @@
                 "state": {
                   "type": "surfing-view",
                   "state": {
-                    "url": "http://localhost:1313/"
-                  }
+                    "url": "http://localhost:1313/posts/how-to-build-a-technical-blog-with-hugo-github-and-netlify/"
+                  },
+                  "icon": "lucide-file",
+                  "title": "Surfing"
                 }
               }
             ],
-            "currentTab": 2
+            "currentTab": 1
           },
           {
             "id": "809a29bf78c459c8",
@@ -85,13 +91,15 @@
                         "useWin32Conhost": true
                       },
                       "serial": {
-                        "columns": 116,
-                        "data": "fabrizio.ulisse@AirdiFaioUlisse posts % cd /Users/fabrizio.ulisse/Documents/HUGO\r\nfabrizio.ulisse@AirdiFaioUlisse HUGO % cd precisiondocs\r\nfabrizio.ulisse@AirdiFaioUlisse precisiondocs % hugo server\r\nzsh: command not found: hugo\r\nfabrizio.ulisse@AirdiFaioUlisse precisiondocs % git add -A",
+                        "columns": 83,
+                        "data": "",
                         "rows": 6
                       }
                     }
                   },
-                  "pinned": true
+                  "pinned": true,
+                  "icon": "terminal",
+                  "title": "Terminal: zsh"
                 }
               }
             ]
@@ -117,7 +125,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -132,7 +142,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -140,7 +152,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ]
@@ -163,7 +177,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "how-to-use-obsidian-and-github-to-organize-and-maintain-your-tech-document/index.md",
+                "file": "how-to-build-a-technical-blog-with-hugo-github-and-netlify/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,7 +185,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for index"
             }
           },
           {
@@ -180,10 +196,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "how-to-use-obsidian-and-github-to-organize-and-maintain-your-tech-document/index.md",
+                "file": "how-to-build-a-technical-blog-with-hugo-github-and-netlify/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from index"
             }
           },
           {
@@ -194,7 +212,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -203,8 +223,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "how-to-use-obsidian-and-github-to-organize-and-maintain-your-tech-document/index.md"
-              }
+                "file": "how-to-build-a-technical-blog-with-hugo-github-and-netlify/index.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of index"
             }
           },
           {
@@ -212,7 +234,9 @@
             "type": "leaf",
             "state": {
               "type": "git-view",
-              "state": {}
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
         ],
@@ -220,8 +244,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -235,12 +258,14 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "39b67a81b594c599",
+  "active": "d1b75487b4f96b0c",
   "lastOpenFiles": [
-    "how-to-build-a-technical-blog-with-hugo-github-and-netlify/index.md",
+    "Screenshot 2024-10-09 alle 11.57.59.png",
+    "how-to-build-a-minimal-blog-with-hugo-github-and-netlify/index.md",
+    "Untitled",
     "how-to-use-obsidian-and-github-to-organize-and-maintain-your-tech-document/index.md",
     "the-pros-and-cons-of-embedding-technical-documentation-inside-the-codebase/index.md",
-    "how-to-build-a-technical-blog-with-hugo-github-and-netlify",
+    "how-to-build-a-minimal-blog-with-hugo-github-and-netlify",
     "the-pros-and-cons-of-embedding-technical-documentation-inside-the-codebase/The Pros and Cons of Embedding Technical Documentation Inside the Codebase.md",
     "the-pros-and-cons-of-embedding-technical-documentation-inside-the-codebase",
     "Untitled/The Pros and Cons of Embedding Technical Documentation Inside the Codebase.md",
