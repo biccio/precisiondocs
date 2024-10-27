@@ -1,5 +1,5 @@
 ---
-title: How to Build a Minimal Blog with Hugo, Github and Netlify
+title: How to Build and Deploy a Blog with Hugo, Github and Netlify
 date: 2024-09-30
 summary: Hugo is a powerful static site generator functioning as a complete framework. Along with Github as storage repository and Netlify as deployment tool, it makes a perfect platform to run and mantain a fast and lightweight documentation website.
 ---
@@ -90,7 +90,6 @@ Assuming that you followed the previous steps, now you should have your content 
    - Select **Add new site** → **Import an existing project**
    - Select **Github** and authenticate (or you may be already logged in)
    - Choose the repo where you stored your content
- 
 2. **Review your configuration**
    - Choose a name for your new website
    - Choose your branch (usually ``main``)
@@ -100,5 +99,5 @@ Assuming that you followed the previous steps, now you should have your content 
    - Leave default in *Functions Directory*
    - **important**: add *Hugo version* as *environmental variable*: key: `HUGO_VERSION` / value: `X.X.X` (you may find your hugo version with the terminal command `hugo version`)
    
-### Step 2 - Deploy the website
-Now you're ready to deploy, push the button and the magic will happen! Note that Netlify will choose for you a temporary subdomain: you'll be able to change it, or even set up a custom domain. If everything is ok, you'll be able to browse your new website in a couple of minutes!
+   ### Step 2 - Deploy the website
+   Now you're ready to deploy, push the button and the magic will happen! Note that Netlify will choose for you a temporary subdomain: you'll be able to change it, or even set up a custom domain. If everything is ok, you'll be able to browse your new website in a couple of minutes!

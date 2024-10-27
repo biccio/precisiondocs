@@ -59,7 +59,7 @@
                       },
                       "serial": {
                         "columns": 83,
-                        "data": "fabrizio.ulisse@AirdiFaioUlisse Precisiondocs % git add ",
+                        "data": "fabrizio.ulisse@AirdiFaioUlisse Precisiondocs % git add -A\r\nfabrizio.ulisse@AirdiFaioUlisse Precisiondocs % git commit -m \"rename post\"\r\n[main 1042744] rename post\r\n 1 file changed, 15 insertions(+), 48 deletions(-)\r\nfabrizio.ulisse@AirdiFaioUlisse Precisiondocs % git push\r\nEnumerating objects: 55, done.\r\nCounting objects: 100% (55/55), done.\r\nDelta compression using up to 8 threads\r\nCompressing objects: 100% (41/41), done.\r\nWriting objects: 100% (47/47), 1.02 MiB | 11.49 MiB/s, done.\r\nTotal 47 (delta 13), reused 0 (delta 0), pack-reused 0\r\nerror: RPC failed; HTTP 400 curl 22 The requested URL returned error: 400\r\nsend-pack: unexpected disconnect while reading sideband packet\r\nfatal: the remote end hung up unexpectedly\r\nEverything up-to-date\r\nfabrizio.ulisse@AirdiFaioUlisse Precisiondocs % ",
                         "rows": 19
                       }
                     }
