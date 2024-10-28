@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "how-to-use-obsidian-and-github-to-organize-and-maintain-your-tech-document/index.md",
+                "file": "the-pros-and-cons-of-embedding-technical-documentation-inside-the-codebase/index.md",
                 "mode": "source",
                 "source": false
               },
@@ -228,11 +228,12 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "5d23b427cef4029b",
+  "active": "6235d06cc2ca4c20",
   "lastOpenFiles": [
+    "why-diataxis-framework-is-a-game-changer-for-organizing-technical-documentation/index.md",
+    "how-to-use-obsidian-and-github-to-organize-and-maintain-your-tech-document/index.md",
     "Screenshot 2024-10-28 alle 20.38.15.png",
     "how-to-build-and-deploy-a-blog-with-hugo-github-and-netlify/index.md",
-    "how-to-use-obsidian-and-github-to-organize-and-maintain-your-tech-document/index.md",
     "how-to-build-and-deploy-a-blog-with-hugo-github-and-netlify",
     "how-to-build-a-minimal-blog-with-hugo-github-and-netlify/index.md",
     "Screenshot 2024-10-09 alle 11.57.59.png",
@@ -243,7 +244,6 @@
     "the-pros-and-cons-of-embedding-technical-documentation-inside-the-codebase",
     "Untitled/The Pros and Cons of Embedding Technical Documentation Inside the Codebase.md",
     "s/index.md",
-    "why-diataxis-framework-is-a-game-changer-for-organizing-technical-documentation/index.md",
     "why-diataxis-framework-is-a-game-changer-for-organizing-technical-documentation",
     "second-post/index.md",
     "how-to-use-obsidian-and-github-to-organize-and-maintain-your-tech-document",
