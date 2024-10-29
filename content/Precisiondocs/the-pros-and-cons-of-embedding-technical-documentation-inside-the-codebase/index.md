@@ -2,6 +2,15 @@
 title: The Pros and Cons of Embedding Documentation in Code
 date: 2024-09-30
 summary: Embedding documentation in code offers easy access and encourages updates but can cause clutter and limited structure. OpenAPI provides a solution by automating and centralizing API documentation, ensuring consistency without compromising code clarity.
+tags:
+  - emoji
+  - documentation
+  - docstrings
+  - sphinx
+  - jsdoc
+  - confluence
+  - notion
+  - gitbook
 ---
 ## Introduction: Choosing the Best Place for Documentation
 f you’ve ever worked with code and tech documentation, you may have asked yourself, “Where should all that essential information go?” Embedding documentation directly in the codebase versus keeping it separate (like in a standalone knowledge base) each comes with pros and cons, along with specific use cases where one approach may work better than the other. Here, we’ll examine the arguments for both options to help you decide which method best fits your project.
