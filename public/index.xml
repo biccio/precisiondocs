@@ -239,12 +239,12 @@ Then, to link Obsidian with GitHub, you will use your terminal.&lt;/p&gt;
       <pubDate>Mon, 30 Sep 2024 00:00:00 +0000</pubDate>
       
       <guid>/precisiondocs/the-pros-and-cons-of-embedding-technical-documentation-inside-the-codebase/</guid>
-      <description>&lt;h2 id=&#34;introduction-navigating-the-best-place-for-documentation&#34; &gt;
+      <description>&lt;h2 id=&#34;introduction-choosing-the-best-place-for-documentation&#34; &gt;
 &lt;div&gt;
-    &lt;a href=&#34;#introduction-navigating-the-best-place-for-documentation&#34;&gt;
+    &lt;a href=&#34;#introduction-choosing-the-best-place-for-documentation&#34;&gt;
         #
     &lt;/a&gt;
-    Introduction: Navigating the Best Place for Documentation
+    Introduction: Choosing the Best Place for Documentation
 &lt;/div&gt;
 &lt;/h2&gt;
 &lt;p&gt;f you’ve ever worked with code and tech documentation, you may have asked yourself, “Where should all that essential information go?” Embedding documentation directly in the codebase versus keeping it separate (like in a standalone knowledge base) each comes with pros and cons, along with specific use cases where one approach may work better than the other. Here, we’ll examine the arguments for both options to help you decide which method best fits your project.&lt;/p&gt;
@@ -256,8 +256,8 @@ Then, to link Obsidian with GitHub, you will use your terminal.&lt;/p&gt;
     Why choose to embed documentation
 &lt;/div&gt;
 &lt;/h2&gt;
-&lt;p&gt;One of the biggest arguments for embedding documentation in code is &lt;strong&gt;the sheer convenience&lt;/strong&gt;. For developers who spend most of their time in an &lt;a href=&#34;https://en.wikipedia.org/wiki/Integrated_development_environment&#34;&gt;IDE&lt;/a&gt;, having documentation alongside the code itself makes a huge difference. With embedded documentation, developers avoid hunting through separate tools, finding essential information—function descriptions, parameters, tricky logic explanations—all integrated into the code. This ease of access saves time and reduces context-switching, especially valuable in fast-paced or Agile environments where quick transitions between tasks are the norm.&lt;/p&gt;
-&lt;p&gt;Another major benefit is that &lt;strong&gt;embedded documentation tends to stay more accurate&lt;/strong&gt;. When a method or function changes, developers can immediately update the associated docstring or comment, reducing the chances of outdated documentation that could lead to frustration down the road. This proximity between code and documentation is a lifesaver in highly iterative settings or for smaller teams where maintaining separate documentation can feel like an added burden.&lt;/p&gt;
+&lt;p&gt;For developers who spend most of their time in an &lt;a href=&#34;https://en.wikipedia.org/wiki/Integrated_development_environment&#34;&gt;IDE&lt;/a&gt;, having documentation alongside the code itself makes a huge difference. With embedded documentation, developers avoid hunting through separate tools, finding essential information—function descriptions, parameters, tricky logic explanations—all integrated into the code. This ease of access saves time and reduces context-switching, especially valuable in fast-paced or Agile environments.&lt;/p&gt;
+&lt;p&gt;Furthermore, &lt;strong&gt;Embedded documentation is often more accurate&lt;/strong&gt;. When a method or function changes, it&amp;rsquo;s easy for developers to quickly update the related docstring and comment, to prevent outdated documentation. Keeping the code and documentation close together is a huge help, especially for small teams that may not have time or resources to maintain a separate workflow for tech writing.&lt;/p&gt;
 &lt;h3 id=&#34;some-drawbacks-of-embedded-documentation&#34; &gt;
 &lt;div&gt;
     &lt;a href=&#34;#some-drawbacks-of-embedded-documentation&#34;&gt;
