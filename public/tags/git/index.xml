@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Git on PrecisionDocs</title>
+    <link>/tags/git/</link>
+    <description>PrecisionDocs (Git)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+
+    
+    <lastBuildDate>Mon, 30 Sep 2024 00:00:00 +0000</lastBuildDate>
+    
+    <atom:link href="/tags/git/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>How to use Obsidian and Github to Organize and Maintain your Tech Documentation</title>
+      <link>/precisiondocs/how-to-use-obsidian-and-github-to-organize-and-maintain-your-tech-document/</link>
+      <pubDate>Mon, 30 Sep 2024 00:00:00 +0000</pubDate>
+      
+      <guid>/precisiondocs/how-to-use-obsidian-and-github-to-organize-and-maintain-your-tech-document/</guid>
+      <description>&lt;h2 id=&#34;introduction-managing-information-effectively&#34; &gt;
+&lt;div&gt;
+    &lt;a href=&#34;#introduction-managing-information-effectively&#34;&gt;
+        #
+    &lt;/a&gt;
+    Introduction: Managing Information Effectively
+&lt;/div&gt;
+&lt;/h2&gt;
+&lt;p&gt;In today’s fast-paced technical environments, clear and well-organized documentation is key to ensuring smooth workflows and successful collaboration. Whether you’re working on API documentation, software architecture overviews, or development processes, managing this information effectively is essential. Two tools that offer a powerful solution for handling technical documentation are &lt;a href=&#34;https://obsidian.md/&#34;&gt;Obsidian&lt;/a&gt; and &lt;a href=&#34;https://github.com/&#34;&gt;GitHub&lt;/a&gt;. Together, they provide an efficient system for writing, organizing, and sharing technical documents.&lt;/p&gt;
+&lt;p&gt;In this article, we’ll explore how to use Obsidian’s note-taking capabilities in combination with GitHub’s version control and collaborative features to streamline your technical documentation workflow.&lt;/p&gt;
+&lt;h2 id=&#34;obsidian-and-github&#34; &gt;
+&lt;div&gt;
+    &lt;a href=&#34;#obsidian-and-github&#34;&gt;
+        #
+    &lt;/a&gt;
+    Obsidian and GitHub
+&lt;/div&gt;
+&lt;/h2&gt;
+&lt;p&gt;Github is the most important git platform for code storage, continuous integration and version control, and it&amp;rsquo;s also widely-used for tech documentation storage and collaborative editing, usually in addition with static site generators like &lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt;, &lt;a href=&#34;https://jekyllrb.com/&#34;&gt;Jekyll&lt;/a&gt;, &lt;a href=&#34;https://docusaurus.io/&#34;&gt;Docusaurus&lt;/a&gt;. Obsidian is one of the best markdown editor around, with a great and very usable WYSIWYG interface, and some cool plugins that makes it the perfect all-in-one platform to manage tech documentation content. But how can we make the two tool work together?&lt;/p&gt;
+&lt;h2 id=&#34;setting-up-obsidian-for-documentation&#34; &gt;
+&lt;div&gt;
+    &lt;a href=&#34;#setting-up-obsidian-for-documentation&#34;&gt;
+        #
+    &lt;/a&gt;
+    Setting Up Obsidian for Documentation
+&lt;/div&gt;
+&lt;/h2&gt;
+&lt;p&gt;First of all you&amp;rsquo;ll want to set up your workspace. After downloading and installing &lt;a href=&#34;https://obsidian.md/&#34;&gt;Obsidian&lt;/a&gt;, you will create a dedicated vault for your documentation, and you&amp;rsquo;ll start writing your documentation files. In terms of formatting, Obsidian supports markdown, so you can include headings, subheadings, code snippets, tables, and other essential elements for technical documentation. Tagging is another useful feature in Obsidian, allowing you to categorize your notes and easily find related content. By using &lt;strong&gt;metadata and tags&lt;/strong&gt;, you can add context to your documentation and ensure it is well-organized.&lt;/p&gt;
+&lt;h2 id=&#34;integrating-obsidian-with-github&#34; &gt;
+&lt;div&gt;
+    &lt;a href=&#34;#integrating-obsidian-with-github&#34;&gt;
+        #
+    &lt;/a&gt;
+    Integrating Obsidian with GitHub
+&lt;/div&gt;
+&lt;/h2&gt;
+&lt;p&gt;Once your documentation is set up in Obsidian, the next step is to integrate it with GitHub to enable version control and collaboration. This process involves linking your Obsidian vault with a &lt;a href=&#34;https://docs.github.com/en/get-started/quickstart/create-a-repo&#34;&gt;GitHub repository&lt;/a&gt;. If you haven’t already, &lt;a href=&#34;https://github.com/new&#34;&gt;create a repository on GitHub&lt;/a&gt; specifically for your documentation.
+Then, to link Obsidian with GitHub, you will use your terminal.&lt;/p&gt;
+&lt;p&gt;Go to the folder where your Obsidian Vault is stored and use this command to initialize your local repo.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git init
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Then, prepare and commit your files, add the Github repository as origin for your local one, and push to the main branch of the repository the content you created with Obsidian&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git add -A
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git commit -m &lt;span style=&#34;color:#0ff;font-weight:bold&#34;&gt;&amp;#34;first commit&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git remote add origin https://github.com/your_user/your_repo.git
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git push -u origin main
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Now your local Obsidian Vault is connected to your Github repository.&lt;/p&gt;
+&lt;h2 id=&#34;continuous-integration-within-obsidian&#34; &gt;
+&lt;div&gt;
+    &lt;a href=&#34;#continuous-integration-within-obsidian&#34;&gt;
+        #
+    &lt;/a&gt;
+    Continuous integration within Obsidian
+&lt;/div&gt;
+&lt;/h2&gt;
+&lt;p&gt;Now that your local and remote repos are aligned, how will you update your newly edited content directly within Obsidian? You can add to Obsidian a &lt;a href=&#34;https://github.com/Vinzent03/obsidian-git&#34;&gt;Git plugin&lt;/a&gt;, to make it very easy to update your content without using your terminal.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Go to menu &lt;strong&gt;Obsidian&lt;/strong&gt; → &lt;strong&gt;Preferences&lt;/strong&gt; → &lt;strong&gt;Community&lt;/strong&gt; plugin and turn them on (they&amp;rsquo;re off by default).&lt;/li&gt;
+&lt;li&gt;Search &amp;ldquo;Git&amp;rdquo; in the plugin repository.&lt;/li&gt;
+&lt;li&gt;Install and enable the plugin.&lt;/li&gt;
+&lt;li&gt;You will notice a Git icon on the left hand sidebar. Press that button and on the right hand side of the interface you will notice the Git panel, with &lt;code&gt;add&lt;/code&gt;, &lt;code&gt;commit&lt;/code&gt; and &lt;code&gt;push&lt;/code&gt; commands ready to be used within Obsidian.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;You&amp;rsquo;ll now ready to use Obsidian to edit your documentation content in a visual environment, with easy collaborative storage on Github&lt;/p&gt;
+&lt;h2 id=&#34;publish-your-content&#34; &gt;
+&lt;div&gt;
+    &lt;a href=&#34;#publish-your-content&#34;&gt;
+        #
+    &lt;/a&gt;
+    Publish your Content
+&lt;/div&gt;
+&lt;/h2&gt;
+&lt;p&gt;If you have your files on Github and you need to publish them in an easy way, you may want to choose &lt;a href=&#34;https://pages.github.com/&#34;&gt;Github Pages&lt;/a&gt;. &lt;a href=&#34;https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site#creating-your-site&#34;&gt;Here&amp;rsquo;s a tutorial&lt;/a&gt; that will easily guide you through all the steps needed.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
