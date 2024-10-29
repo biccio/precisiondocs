@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+
+
+<html lang="en-us" data-theme="">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    
+        
+<meta charset="utf-8">
+<meta name="HandheldFriendly" content="True">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="referrer" content="no-referrer-when-downgrade">
+
+<title>The Pros and Cons of Embedding Documentation in Code - PrecisionDocs</title>
+
+<meta name="description" content="Embedding documentation in code offers easy access and encourages updates but can cause clutter and limited structure. OpenAPI provides a solution by automating and centralizing API documentation, ensuring consistency without compromising code clarity.">
+
+
+
+
+
+<link rel="icon" type="image/x-icon" href="http://localhost:1313/favicon.ico">
+<link rel="apple-touch-icon-precomposed" href="http://localhost:1313/favicon.png">
+
+
+
+
+
+
+    
+
+
+
+    
+
+
+
+<style>
+  body {
+    visibility: hidden;
+    opacity: 0;
+  }
+</style>
+
+<noscript>
+  <style>
+    body {
+      visibility: visible;
+      opacity: 1;
+    }
+  </style>
+</noscript>
+
+
+
+
+    
+
+
+
+
+
+    
+    
+    
+
+    
+        <link rel="stylesheet" href="/css/style.03df79c682b91915c7cd261ecd1a6ec4d0fe668c98fa46310d0fbade319b11bd.css" integrity="sha256-A995xoK5GRXHzSYezRpuxND&#43;ZoyY&#43;kYxDQ&#43;63jGbEb0=">
+    
+
+
+
+
+
+    
+
+
+
+
+
+    
+    
+    
+
+    
+        <link rel="stylesheet" href="/css/style.9c1888ebff42c0224ce04dac10cb2c401f1b77f54f78e8d87d73c3bed781c263.css" integrity="sha256-nBiI6/9CwCJM4E2sEMssQB8bd/VPeOjYfXPDvteBwmM=">
+    
+
+
+
+
+
+    
+
+
+
+
+
+    
+    
+    
+
+    
+        <link rel="stylesheet" href="/css/style.acd606c0fce58853afe0248d37bb41acbbcdd8b1aca2412b6c0fa760da0137f3.css" integrity="sha256-rNYGwPzliFOv4CSNN7tBrLvN2LGsokErbA&#43;nYNoBN/M=">
+    
+
+
+
+
+
+
+
+    
+    
+      
+    
+
+    
+      
+        <link rel="stylesheet" href="/css/style.min.9737b20efa1dc21352a48b2b553cd94d21de8136d57fe410b416ae44bd3362bb.css" integrity="sha256-lzeyDvodwhNSpIsrVTzZTSHegTbVf&#43;QQtBauRL0zYrs=" crossorigin="anonymous">
+      
+    
+
+
+
+
+
+
+    
+
+    
+
+
+
+
+
+    
+    
+    
+
+    
+        <script src="/js/script.672e2309c296e07c18bcd08b28d797a56222ff941d65f308fba3158c44885b14.js" type="text/javascript" charset="utf-8" integrity="sha256-Zy4jCcKW4HwYvNCLKNeXpWIi/5QdZfMI&#43;6MVjESIWxQ="></script>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+</head>
+<body>
+    <a class="skip-main" href="#main">Skip to main content</a>
+    <div class="container">
+        <header class="common-header">
+            
+                <div class="header-top">
+    <div class="header-top-left">
+        <h1 class="site-title noselect">
+    <a href="/">PrecisionDocs</a>
+</h1>
+
+        
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+    <script>
+        const STORAGE_KEY = 'user-color-scheme'
+        const defaultTheme = "auto"
+
+        let currentTheme
+        let switchButton
+        let autoDefinedScheme = window.matchMedia('(prefers-color-scheme: dark)')
+
+        function switchTheme(e) {
+            currentTheme = (currentTheme === 'dark') ? 'light' : 'dark';
+            if (localStorage) localStorage.setItem(STORAGE_KEY, currentTheme);
+            document.documentElement.setAttribute('data-theme', currentTheme);
+            changeGiscusTheme(currentTheme);
+            document.body.dispatchEvent(new CustomEvent(currentTheme + "-theme-set"));
+        }
+
+        const autoChangeScheme = e => {
+            currentTheme = e.matches ? 'dark' : 'light'
+            document.documentElement.setAttribute('data-theme', currentTheme);
+            changeGiscusTheme(currentTheme);
+            document.body.dispatchEvent(new CustomEvent(currentTheme + "-theme-set"));
+        }
+
+        document.addEventListener('DOMContentLoaded', function () {
+            switchButton = document.querySelector('.theme-switcher')
+            currentTheme = detectCurrentScheme()
+
+            if (currentTheme === 'auto') {
+                autoChangeScheme(autoDefinedScheme);
+                autoDefinedScheme.addListener(autoChangeScheme);
+            } else {
+                document.documentElement.setAttribute('data-theme', currentTheme)
+            }
+
+            if (switchButton) {
+                switchButton.addEventListener('click', switchTheme, false)
+            }
+
+            showContent();
+        })
+
+        function detectCurrentScheme() {
+            if (localStorage !== null && localStorage.getItem(STORAGE_KEY)) {
+                return localStorage.getItem(STORAGE_KEY)
+            }
+            if (defaultTheme) {
+                return defaultTheme
+            }
+            return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+        }
+
+        function showContent() {
+            document.body.style.visibility = 'visible';
+            document.body.style.opacity = 1;
+        }
+
+        function changeGiscusTheme (theme) {
+            function sendMessage(message) {
+              const iframe = document.querySelector('iframe.giscus-frame');
+              if (!iframe) return;
+              iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+            }
+
+            sendMessage({
+              setConfig: {
+                theme: theme
+              }
+            });
+        }
+    </script>
+
+
+        <ul class="social-icons noselect">
+
+
+    
+        <li>
+            <a href="https://github.com/biccio" title="Github" rel="me">
+            <span class="inline-svg">
+
+    
+
+
+    
+    
+    
+    
+    
+
+    <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-brand-github"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" /></svg>
+
+
+</span>
+
+            </a>
+        </li>
+    
+
+    
+        <li>
+            <a href="https://www.linkedin.com/in/fabrizioulisse" title="Linkedin" rel="me">
+            <span class="inline-svg">
+
+    
+
+
+    
+    
+    
+    
+    
+
+    <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-brand-linkedin"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" /><path d="M8 11l0 5" /><path d="M8 8l0 .01" /><path d="M12 16l0 -5" /><path d="M16 16v-3a2 2 0 0 0 -4 0" /></svg>
+
+
+</span>
+
+            </a>
+        </li>
+    
+
+
+
+
+
+
+    <li>
+            <a href="/index.xml" title="RSS" rel="me">
+            <span class="inline-svg">
+
+    
+
+
+    
+    
+    
+    
+    
+
+    <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-rss"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M5 19m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" /><path d="M4 4a16 16 0 0 1 16 16" /><path d="M4 11a9 9 0 0 1 9 9" /></svg>
+
+
+</span>
+
+            </a>
+        </li>
+    
+
+</ul>
+
+    </div>
+    <div class="header-top-right">
+
+    </div>
+</div>
+
+
+    <nav class="noselect">
+        
+        
+        <a class="" href="http://localhost:1313/" title="">Home</a>
+        
+        <a class="" href="http://localhost:1313/about/" title="">About</a>
+        
+        <a class="" href="http://localhost:1313/tags/" title="">Tags</a>
+        
+        <a class="" href="http://localhost:1313/posts/" title="">Archive</a>
+        
+    </nav>
+
+
+
+
+
+
+
+
+            
+        </header>
+        <main id="main" tabindex="-1">
+            
+    
+
+    <article class="post h-entry">
+        <div class="post-header">
+            <header>
+                <h1 class="p-name post-title">The Pros and Cons of Embedding Documentation in Code</h1>
+                
+
+            </header>
+            
+
+    
+
+
+
+<div class="post-info noselect">
+    
+        <div class="post-date dt-published">
+            <time datetime="2024-09-30">2024-09-30</time>
+            
+        </div>
+    
+
+    <a class="post-hidden-url u-url" href="/precisiondocs/the-pros-and-cons-of-embedding-technical-documentation-inside-the-codebase/">/precisiondocs/the-pros-and-cons-of-embedding-technical-documentation-inside-the-codebase/</a>
+    <a href="http://localhost:1313/" class="p-name p-author post-hidden-author h-card" rel="me"></a>
+
+
+    <div class="post-taxonomies">
+        
+        
+        
+    </div>
+</div>
+
+        </div>
+        
+
+  
+  
+
+
+
+
+  
+  
+  
+  <details class="toc noselect">
+    <summary>Table of Contents</summary>
+    <div class="inner"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#introduction">Introduction</a>
+      <ul>
+        <li><a href="#why-embed-documentation-in-the-code">Why embed documentation in the code?</a></li>
+      </ul>
+    </li>
+    <li><a href="#why-its-not-great">Why it&rsquo;s not great</a>
+      <ul>
+        <li></li>
+      </ul>
+    </li>
+    <li><a href="#openapi-bridging-the-gap">OpenAPI: Bridging the Gap</a>
+      <ul>
+        <li><a href="#key-benefits-of-openapi-in-addressing-the-dilemma">Key Benefits of OpenAPI in Addressing the Dilemma</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav></div>
+  </details>
+  
+
+
+
+<script>
+  var toc = document.querySelector(".toc");
+  if (toc) {
+    toc.addEventListener("click", function () {
+      if (event.target.tagName !== "A") {
+        event.preventDefault();
+        if (this.open) {
+          this.open = false;
+          this.classList.remove("expanded");
+        } else {
+          this.open = true;
+          this.classList.add("expanded");
+        }
+      }
+    });
+  }
+</script>
+
+        <div class="content e-content">
+            <h2 id="introduction" >
+<div>
+    <a href="#introduction">
+        #
+    </a>
+    Introduction
+</div>
+</h2>
+<p>Usually, technical documentation is built separated from the codebase, but sometimes this choice can prove to be useful, having the two worlds evolve together. In this case, technical documentation will be included inside the codebase in form of comments, markdown files, or autogenerated docs based on code annotations. Each choice has its own pros and cons, and we&rsquo;re going to analyze them and discuss the best solution for different use cases.</p>
+<h3 id="why-embed-documentation-in-the-code" >
+<div>
+    <a href="#why-embed-documentation-in-the-code">
+        ##
+    </a>
+    Why embed documentation in the code?
+</div>
+</h3>
+<h4 id="documentation-close-to-code" >
+<div>
+    <a href="#documentation-close-to-code">
+        ###
+    </a>
+    Documentation Close to Code
+</div>
+</h4>
+<p>Of course one of the main benefits of having the tech documentation inside the codebase is proximity. Developers may make use of documentation while coding or reviewing code directly from the source. The key here is <em>context</em>: the code is commented right where it works, as inline comments, docstrings, or markdown files, and this helps better understand the ratio behind architectural decisions.</p>
+<h4 id="suggests-regular-updates" >
+<div>
+    <a href="#suggests-regular-updates">
+        ###
+    </a>
+    Suggests regular updates
+</div>
+</h4>
+<p>Because the documentation is stored alongside the code, developers are more likely to update it as the codebase evolves. This decreases the likelihood of the documentation being out of current, as developers often work in the same environment as the documentation. Automated tools such as <strong>Javadoc</strong> for Java and <strong>Sphinx</strong> for Python can also help ensure that code changes result in documentation updates.###</p>
+<h4 id="version-control-for-documentation" >
+<div>
+    <a href="#version-control-for-documentation">
+        ###
+    </a>
+    Version Control for Documentation
+</div>
+</h4>
+<p>When documentation is part of the codebase, it benefits from version control systems like Git. This means that any changes to the documentation are tracked, just like code changes. If a feature is added, deprecated, or updated, the associated documentation can be versioned alongside it. Having this level of traceability allows teams to easily review and roll back documentation to previous states if needed.</p>
+<h4 id="reduced-documentation-drift" >
+<div>
+    <a href="#reduced-documentation-drift">
+        ###
+    </a>
+    Reduced Documentation Drift
+</div>
+</h4>
+<p>Documentation drift is a common uneasy scenario in which the code and its documentation doesn&rsquo;t evolve in sync, leading to confusion and inconsistency.By embedding documentation directly in the code, you help mitigate this issue. Since developers are actively working on the code and can see the embedded documentation, there is less of a gap between what the code does and what the documentation says it does.</p>
+<h4 id="code-driven-documentation-generation" >
+<div>
+    <a href="#code-driven-documentation-generation">
+        ###
+    </a>
+    Code-Driven Documentation Generation
+</div>
+</h4>
+<p>Tools like <strong>Doxygen</strong>, <strong>Sphinx</strong>, and <strong>JSDoc</strong> can automatically generate comprehensive documentation websites directly from annotated code. This reduces the manual effort required to maintain external documentation and ensures that the latest version of the docs is always aligned with the latest codebase. These tools can generate everything from API documentation to complex diagrams, saving valuable time for developers.</p>
+<h2 id="why-its-not-great" >
+<div>
+    <a href="#why-its-not-great">
+        #
+    </a>
+    Why it&rsquo;s not great
+</div>
+</h2>
+<h4 id="overloading-the-codebase" >
+<div>
+    <a href="#overloading-the-codebase">
+        ###
+    </a>
+    Overloading the Codebase
+</div>
+</h4>
+<p>While embedding documentation in the codebase makes it easier to access, it can also clutter the code. Excessive inline comments or long docstrings can make the code harder to read. When developers focus on the logic, too much documentation can become noise, distracting from the main purpose of reading the code. In addition, markdown files and related documents can bloat the repository, making it harder to navigate, especially in large codebases.</p>
+<h4 id="limited-scope" >
+<div>
+    <a href="#limited-scope">
+        ###
+    </a>
+    Limited Scope
+</div>
+</h4>
+<p>Embedded documentation typically focuses on implementation details, such as how specific functions or modules work. However, broader technical documentation, such as architecture overviews, user guides, or high-level design discussions, is more challenging to embed effectively in code. These types of documentation often require context that spans multiple parts of a system or involves strategic decisions, which are better suited for external, centralized documentation systems like <strong>Confluence</strong>, <strong>Notion</strong>, or <strong>GitHub Wikis</strong>.</p>
+<h4 id="maintaining-clarity-and-structure" >
+<div>
+    <a href="#maintaining-clarity-and-structure">
+        ###
+    </a>
+    Maintaining Clarity and Structure
+</div>
+</h4>
+<p>While embedded documentation can provide helpful context, maintaining clarity is critical. There’s a fine line between useful comments and documentation that overwhelms the reader. Developers may not always have the time or inclination to write clear, structured documentation directly in the code. Poorly written or disorganized documentation can be as harmful as having no documentation at all. Additionally, not every developer has the skill to write documentation that is both technically accurate and easy to understand.</p>
+<h4 id="lack-of-a-centralized-view" >
+<div>
+    <a href="#lack-of-a-centralized-view">
+        ###
+    </a>
+    Lack of a Centralized View
+</div>
+</h4>
+<p>When documentation is scattered throughout the codebase, it can be difficult to get a high-level, centralized view of the system. Developers often need to jump from file to file, gathering information piecemeal, which can make understanding the system as a whole more difficult. For teams and stakeholders who are not directly involved in coding but still need to understand the project, navigating through code comments or inline docs may not be practical.</p>
+<h4 id="documentation-fatigue" >
+<div>
+    <a href="#documentation-fatigue">
+        ###
+    </a>
+    Documentation Fatigue
+</div>
+</h4>
+<p>There’s a risk that embedding documentation too closely with code will lead to documentation fatigue. Developers may feel burdened by the expectation to continuously document their code while coding, which could lead to superficial or incomplete documentation. Over time, this could result in under-documentation or documentation that is inaccurate due to being rushed or deprioritized.</p>
+<h2 id="openapi-bridging-the-gap" >
+<div>
+    <a href="#openapi-bridging-the-gap">
+        #
+    </a>
+    OpenAPI: Bridging the Gap
+</div>
+</h2>
+<p>OpenAPI, formerly known as Swagger, provides a machine-readable way to define APIs. The OpenAPI specification standardizes how APIs are described, focusing on endpoints, request/response formats, authentication methods, and more. What makes OpenAPI a powerful solution in the context of the documentation dilemma is that it serves as a dynamic link between the code and external documentation—offering the best of both worlds.</p>
+<h3 id="key-benefits-of-openapi-in-addressing-the-dilemma" >
+<div>
+    <a href="#key-benefits-of-openapi-in-addressing-the-dilemma">
+        ##
+    </a>
+    Key Benefits of OpenAPI in Addressing the Dilemma
+</div>
+</h3>
+<ol>
+<li>
+<p><strong>Automatic Generation of Documentation</strong>: OpenAPI allows developers to define their APIs in a YAML or JSON format, and from this single source of truth, comprehensive documentation can be generated. This ensures that documentation remains consistent with the code without manual intervention. Tools like Swagger UI or Redoc can automatically convert an OpenAPI specification into interactive and user-friendly documentation, minimizing the risk of divergence.</p>
+</li>
+<li>
+<p><strong>Clear Separation of Concerns</strong>: While OpenAPI files live alongside the code, they do not clutter the actual source code. This ensures that the code remains clean while providing all the necessary details about the API structure in an organized way. Developers can focus on writing code, while tools can handle the heavy lifting of turning these API specifications into rich documentation.</p>
+</li>
+<li>
+<p><strong>Improved Collaboration</strong>: OpenAPI files are written in easily understandable formats (YAML/JSON) that can be edited by both developers and non-developers alike. This makes it easier for different stakeholders, including product managers and technical writers, to contribute to or modify the documentation without needing to directly interact with the codebase.</p>
+</li>
+<li>
+<p><strong>Enforced Consistency</strong>: One of the biggest advantages of using OpenAPI is that it enforces consistency. If the API evolves, the specification file can be updated accordingly, and the documentation is automatically updated to reflect those changes. This reduces the risk of having outdated or incomplete documentation and lowers maintenance overhead.</p>
+</li>
+<li>
+<p><strong>Support for Code Annotations</strong>: While OpenAPI provides external specifications, it can also integrate with in-code annotations using libraries like <code>Swagger annotations</code> in Java or Spring. This allows for hybrid solutions where some level of documentation can still be embedded directly into the codebase, without compromising on structure or creating clutter. The annotations in the code can automatically populate the OpenAPI specification, which then generates comprehensive documentation.</p>
+</li>
+<li>
+<p><strong>Integration with CI/CD Pipelines</strong>: OpenAPI can be integrated into Continuous Integration/Continuous Deployment (CI/CD) pipelines, ensuring that the API documentation is generated and updated automatically as part of the development lifecycle. This means the API documentation is always current, and discrepancies between code and documentation can be flagged early in the development process.</p>
+</li>
+</ol>
+
+        </div>
+
+    </article>
+
+    
+    
+
+    
+        
+        
+    
+
+    
+        
+    
+    
+    <div class="pagination post-pagination">
+        <div class="left pagination-item ">
+            
+                <a href="/precisiondocs/how-to-use-obsidian-and-github-to-organize-and-maintain-your-tech-document/">How to use Obsidian and Github to Organize and Maintain your Tech Documentation</a>
+            
+        </div>
+        <div class="right pagination-item ">
+            
+                <a href="/precisiondocs/why-diataxis-framework-is-a-game-changer-for-organizing-technical-documentation/">Why Diataxis Framework is A Game Changer for Organizing Technical Documentation</a>
+            
+        </div>
+    </div>
+
+
+
+
+
+    
+
+    
+        
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+        </main>
+        
+            <footer class="common-footer noselect">
+    
+    
+
+    <div class="common-footer-bottom">
+        
+
+        <div style="display: flex; align-items: center; gap:8px">
+            ©  2024
+            
+        </div>
+        <div style="display:flex;align-items: center">
+            
+            
+            
+            
+            
+            
+        </div>
+        <div>
+            Powered by <a target="_blank" rel="noopener noreferrer" href="https://gohugo.io/">Hugo</a>, theme <a target="_blank" rel="noopener noreferrer" href="https://github.com/Junyi-99/hugo-theme-anubis2">Anubis2</a>.<br>
+            
+
+        </div>
+    </div>
+
+    <p class="h-card vcard">
+
+    <a href=http://localhost:1313/ class="p-name u-url url fn" rel="me"></a>
+
+    
+
+    
+</p>
+
+</footer>
+
+        
+    </div>
+</body>
+</html>

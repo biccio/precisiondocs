@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>PrecisionDocs</title>
-    <link>/</link>
-    <description>PrecisionDocs</description>
+    <title>Precisiondocs on PrecisionDocs</title>
+    <link>/precisiondocs/</link>
+    <description>PrecisionDocs (Precisiondocs)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
@@ -11,7 +11,7 @@
     
     <lastBuildDate>Mon, 30 Sep 2024 00:00:00 +0000</lastBuildDate>
     
-    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/precisiondocs/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -507,23 +507,6 @@ Then, to link Obsidian with GitHub, you will use your terminal.&lt;/p&gt;
 &lt;li&gt;Train teams on how to use the framework so that new content is created in line with Diátaxis principles.&lt;/li&gt;
 &lt;li&gt;Continuously improve by gathering user feedback and adjusting your documentation structure to meet evolving needs.&lt;/li&gt;
 &lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>About me</title>
-      <link>/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/about/</guid>
-      <description>&lt;p&gt;Hello there 👋🏻&lt;/p&gt;
-&lt;p&gt;My name is &lt;a href=&#34;https://linkedin.com/in/fabrizioulisse&#34;&gt;Fabrizio Ulisse&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;🔭 I’m currently working as Senior Tech Communication Officer @&lt;a href=&#34;https://pagopa.it&#34;&gt;PagoPA&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;😄 Pronouns: he/him&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;I come from an &lt;strong&gt;information architecture&lt;/strong&gt;, &lt;strong&gt;interaction design&lt;/strong&gt; and &lt;strong&gt;project management&lt;/strong&gt; background, mostly in streaming video web projects. Now I&amp;rsquo;m Senior Tech Communication @&lt;a href=&#34;https://pagopa.it&#34;&gt;PagoPA&lt;/a&gt; (Italy). I spent all my work life in digital agencies, simplifying and humanizing tech complexities.&lt;/p&gt;
-&lt;p&gt;I love travelling with my gravel bike (and I run a &lt;a href=&#34;https://ciclogravelista.com&#34;&gt;blog about my trips&lt;/a&gt;), and playing rock blues with my Fender Stratocaster. Most importantly, I&amp;rsquo;m a father.&lt;/p&gt;
 </description>
     </item>
     
