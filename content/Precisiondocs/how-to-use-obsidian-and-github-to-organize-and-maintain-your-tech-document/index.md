@@ -3,15 +3,15 @@ title: How to use Obsidian and Github to Organize and Maintain your Tech Documen
 date: 2024-09-30
 summary: Obsidian is a powerful WYSIWYG markdown editor that makes it easy to write and organize your content. Paring it with Github is the perfect solution to develop and maintain technical documentation.
 ---
-## Introduction
+## Introduction: Managing Information Effectively
 
 In today’s fast-paced technical environments, clear and well-organized documentation is key to ensuring smooth workflows and successful collaboration. Whether you’re working on API documentation, software architecture overviews, or development processes, managing this information effectively is essential. Two tools that offer a powerful solution for handling technical documentation are [Obsidian](https://obsidian.md/) and [GitHub](https://github.com/). Together, they provide an efficient system for writing, organizing, and sharing technical documents.
 
 In this article, we’ll explore how to use Obsidian’s note-taking capabilities in combination with GitHub’s version control and collaborative features to streamline your technical documentation workflow.
 
-## Why Obsidian and GitHub?
+## Obsidian and GitHub
 
-Github is a well known go-to tool for code storage, continuous integration and version control, and it's also widely-used for tech documentation storage and collaborative editing, usually in addition with static site generators like [Hugo](https://gohugo.io), [Jekyll](https://jekyllrb.com/), [Docusaurus](https://docusaurus.io/). Obsidian is one of the best markdown editor around, with a great and very usable WYSIWYG interface, and some cool plugins that makes it the perfect all-in-one platform to manage tech documentation content. But how can we make the two tool work together?
+Github is the most important git platform for code storage, continuous integration and version control, and it's also widely-used for tech documentation storage and collaborative editing, usually in addition with static site generators like [Hugo](https://gohugo.io), [Jekyll](https://jekyllrb.com/), [Docusaurus](https://docusaurus.io/). Obsidian is one of the best markdown editor around, with a great and very usable WYSIWYG interface, and some cool plugins that makes it the perfect all-in-one platform to manage tech documentation content. But how can we make the two tool work together?
 
 ## Setting Up Obsidian for Documentation
 
@@ -47,7 +47,7 @@ Now that your local and remote repos are aligned, how will you update your newly
 4. You will notice a Git icon on the left hand sidebar. Press that button and on the right hand side of the interface you will notice the Git panel, with ```add```, ```commit``` and ```push``` commands ready to be used within Obsidian. 
 
 You'll now ready to use Obsidian to edit your documentation content in a visual environment, with easy collaborative storage on Github
-## Publish your content
+## Publish your Content
 
 If you have your files on Github and you need to publish them in an easy way, you may want to choose [Github Pages](https://pages.github.com/). [Here's a tutorial](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site#creating-your-site) that will easily guide you through all the steps needed.
 

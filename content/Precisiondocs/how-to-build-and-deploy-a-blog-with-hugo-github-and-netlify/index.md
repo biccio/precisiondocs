@@ -3,9 +3,9 @@ title: How to Build and Deploy a Blog with Hugo, Github and Netlify
 date: 2024-09-30
 summary: Hugo is a powerful static site generator functioning as a complete framework. Along with Github as storage repository and Netlify as deployment tool, it makes a perfect platform to run and mantain a fast and lightweight documentation website.
 ---
-## Introduction
+## Introduction: Deploying a  Static Site 
 Static site generation is a very popular solution in today's publishing environments, especially for technical documentation. The available frameworks are solid and easy to use, and the resulting website is blazing fast with no hiccups and zero render time. If you add Github to the workflow as a storage solution, and Netlify as deployment framework, you have a perfect solution to a fast and clean publishing process.
-In this article, I'll describe all the steps I've taken to bring Precisiondocs online, and how I maintain the content in my publishing process.
+In this article, I'll describe all the steps I've taken to bring Precisiondocs online
 
 ## Framework: Hugo
 As static site generator, I went for [Hugo](https://gohugo.io/). It's a solid framework, with good themes, and it's based on markdown files organized in a simple file system. To install the Hugo framework, you need to start by setting up Hugo on your machine. You can install Hugo via a package manager or download it directly

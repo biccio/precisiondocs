@@ -20,16 +20,16 @@
       <pubDate>Mon, 30 Sep 2024 00:00:00 +0000</pubDate>
       
       <guid>/precisiondocs/how-to-build-and-deploy-a-blog-with-hugo-github-and-netlify/</guid>
-      <description>&lt;h2 id=&#34;introduction&#34; &gt;
+      <description>&lt;h2 id=&#34;introduction-deploying-a--static-site&#34; &gt;
 &lt;div&gt;
-    &lt;a href=&#34;#introduction&#34;&gt;
+    &lt;a href=&#34;#introduction-deploying-a--static-site&#34;&gt;
         #
     &lt;/a&gt;
-    Introduction
+    Introduction: Deploying a  Static Site
 &lt;/div&gt;
 &lt;/h2&gt;
 &lt;p&gt;Static site generation is a very popular solution in today&amp;rsquo;s publishing environments, especially for technical documentation. The available frameworks are solid and easy to use, and the resulting website is blazing fast with no hiccups and zero render time. If you add Github to the workflow as a storage solution, and Netlify as deployment framework, you have a perfect solution to a fast and clean publishing process.
-In this article, I&amp;rsquo;ll describe all the steps I&amp;rsquo;ve taken to bring Precisiondocs online, and how I maintain the content in my publishing process.&lt;/p&gt;
+In this article, I&amp;rsquo;ll describe all the steps I&amp;rsquo;ve taken to bring Precisiondocs online&lt;/p&gt;
 &lt;h2 id=&#34;framework-hugo&#34; &gt;
 &lt;div&gt;
     &lt;a href=&#34;#framework-hugo&#34;&gt;
@@ -159,25 +159,25 @@ The easiest way to create and manage a new website is &lt;em&gt;importing a new 
       <pubDate>Mon, 30 Sep 2024 00:00:00 +0000</pubDate>
       
       <guid>/precisiondocs/how-to-use-obsidian-and-github-to-organize-and-maintain-your-tech-document/</guid>
-      <description>&lt;h2 id=&#34;introduction&#34; &gt;
+      <description>&lt;h2 id=&#34;introduction-managing-information-effectively&#34; &gt;
 &lt;div&gt;
-    &lt;a href=&#34;#introduction&#34;&gt;
+    &lt;a href=&#34;#introduction-managing-information-effectively&#34;&gt;
         #
     &lt;/a&gt;
-    Introduction
+    Introduction: Managing Information Effectively
 &lt;/div&gt;
 &lt;/h2&gt;
 &lt;p&gt;In today’s fast-paced technical environments, clear and well-organized documentation is key to ensuring smooth workflows and successful collaboration. Whether you’re working on API documentation, software architecture overviews, or development processes, managing this information effectively is essential. Two tools that offer a powerful solution for handling technical documentation are &lt;a href=&#34;https://obsidian.md/&#34;&gt;Obsidian&lt;/a&gt; and &lt;a href=&#34;https://github.com/&#34;&gt;GitHub&lt;/a&gt;. Together, they provide an efficient system for writing, organizing, and sharing technical documents.&lt;/p&gt;
 &lt;p&gt;In this article, we’ll explore how to use Obsidian’s note-taking capabilities in combination with GitHub’s version control and collaborative features to streamline your technical documentation workflow.&lt;/p&gt;
-&lt;h2 id=&#34;why-obsidian-and-github&#34; &gt;
+&lt;h2 id=&#34;obsidian-and-github&#34; &gt;
 &lt;div&gt;
-    &lt;a href=&#34;#why-obsidian-and-github&#34;&gt;
+    &lt;a href=&#34;#obsidian-and-github&#34;&gt;
         #
     &lt;/a&gt;
-    Why Obsidian and GitHub?
+    Obsidian and GitHub
 &lt;/div&gt;
 &lt;/h2&gt;
-&lt;p&gt;Github is a well known go-to tool for code storage, continuous integration and version control, and it&amp;rsquo;s also widely-used for tech documentation storage and collaborative editing, usually in addition with static site generators like &lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt;, &lt;a href=&#34;https://jekyllrb.com/&#34;&gt;Jekyll&lt;/a&gt;, &lt;a href=&#34;https://docusaurus.io/&#34;&gt;Docusaurus&lt;/a&gt;. Obsidian is one of the best markdown editor around, with a great and very usable WYSIWYG interface, and some cool plugins that makes it the perfect all-in-one platform to manage tech documentation content. But how can we make the two tool work together?&lt;/p&gt;
+&lt;p&gt;Github is the most important git platform for code storage, continuous integration and version control, and it&amp;rsquo;s also widely-used for tech documentation storage and collaborative editing, usually in addition with static site generators like &lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt;, &lt;a href=&#34;https://jekyllrb.com/&#34;&gt;Jekyll&lt;/a&gt;, &lt;a href=&#34;https://docusaurus.io/&#34;&gt;Docusaurus&lt;/a&gt;. Obsidian is one of the best markdown editor around, with a great and very usable WYSIWYG interface, and some cool plugins that makes it the perfect all-in-one platform to manage tech documentation content. But how can we make the two tool work together?&lt;/p&gt;
 &lt;h2 id=&#34;setting-up-obsidian-for-documentation&#34; &gt;
 &lt;div&gt;
     &lt;a href=&#34;#setting-up-obsidian-for-documentation&#34;&gt;
@@ -226,7 +226,7 @@ Then, to link Obsidian with GitHub, you will use your terminal.&lt;/p&gt;
     &lt;a href=&#34;#publish-your-content&#34;&gt;
         #
     &lt;/a&gt;
-    Publish your content
+    Publish your Content
 &lt;/div&gt;
 &lt;/h2&gt;
 &lt;p&gt;If you have your files on Github and you need to publish them in an easy way, you may want to choose &lt;a href=&#34;https://pages.github.com/&#34;&gt;Github Pages&lt;/a&gt;. &lt;a href=&#34;https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site#creating-your-site&#34;&gt;Here&amp;rsquo;s a tutorial&lt;/a&gt; that will easily guide you through all the steps needed.&lt;/p&gt;
@@ -239,158 +239,81 @@ Then, to link Obsidian with GitHub, you will use your terminal.&lt;/p&gt;
       <pubDate>Mon, 30 Sep 2024 00:00:00 +0000</pubDate>
       
       <guid>/precisiondocs/the-pros-and-cons-of-embedding-technical-documentation-inside-the-codebase/</guid>
-      <description>&lt;h2 id=&#34;introduction&#34; &gt;
+      <description>&lt;h2 id=&#34;introduction-navigating-the-best-place-for-documentation&#34; &gt;
 &lt;div&gt;
-    &lt;a href=&#34;#introduction&#34;&gt;
+    &lt;a href=&#34;#introduction-navigating-the-best-place-for-documentation&#34;&gt;
         #
     &lt;/a&gt;
-    Introduction
+    Introduction: Navigating the Best Place for Documentation
 &lt;/div&gt;
 &lt;/h2&gt;
-&lt;p&gt;Usually, technical documentation is built separated from the codebase, but sometimes this choice can prove to be useful, having the two worlds evolve together. In this case, technical documentation will be included inside the codebase in form of comments, markdown files, or autogenerated docs based on code annotations. Each choice has its own pros and cons, and we&amp;rsquo;re going to analyze them and discuss the best solution for different use cases.&lt;/p&gt;
-&lt;h3 id=&#34;why-embed-documentation-in-the-code&#34; &gt;
+&lt;p&gt;f you’ve ever worked with code and tech documentation, you may have asked yourself, “Where should all that essential information go?” Embedding documentation directly in the codebase versus keeping it separate (like in a standalone knowledge base) each comes with pros and cons, along with specific use cases where one approach may work better than the other. Here, we’ll examine the arguments for both options to help you decide which method best fits your project.&lt;/p&gt;
+&lt;h2 id=&#34;why-choose-to-embed-documentation&#34; &gt;
 &lt;div&gt;
-    &lt;a href=&#34;#why-embed-documentation-in-the-code&#34;&gt;
+    &lt;a href=&#34;#why-choose-to-embed-documentation&#34;&gt;
+        #
+    &lt;/a&gt;
+    Why choose to embed documentation
+&lt;/div&gt;
+&lt;/h2&gt;
+&lt;p&gt;One of the biggest arguments for embedding documentation in code is &lt;strong&gt;the sheer convenience&lt;/strong&gt;. For developers who spend most of their time in an &lt;a href=&#34;https://en.wikipedia.org/wiki/Integrated_development_environment&#34;&gt;IDE&lt;/a&gt;, having documentation alongside the code itself makes a huge difference. With embedded documentation, developers avoid hunting through separate tools, finding essential information—function descriptions, parameters, tricky logic explanations—all integrated into the code. This ease of access saves time and reduces context-switching, especially valuable in fast-paced or Agile environments where quick transitions between tasks are the norm.&lt;/p&gt;
+&lt;p&gt;Another major benefit is that &lt;strong&gt;embedded documentation tends to stay more accurate&lt;/strong&gt;. When a method or function changes, developers can immediately update the associated docstring or comment, reducing the chances of outdated documentation that could lead to frustration down the road. This proximity between code and documentation is a lifesaver in highly iterative settings or for smaller teams where maintaining separate documentation can feel like an added burden.&lt;/p&gt;
+&lt;h3 id=&#34;some-drawbacks-of-embedded-documentation&#34; &gt;
+&lt;div&gt;
+    &lt;a href=&#34;#some-drawbacks-of-embedded-documentation&#34;&gt;
         ##
     &lt;/a&gt;
-    Why embed documentation in the code?
+    Some Drawbacks of Embedded Documentation
 &lt;/div&gt;
 &lt;/h3&gt;
-&lt;h4 id=&#34;documentation-close-to-code&#34; &gt;
+&lt;p&gt;While embedded comments and &lt;a href=&#34;https://it.wikipedia.org/wiki/Docstring&#34;&gt;docstrings&lt;/a&gt; work for specific, isolated explanations, &lt;strong&gt;they can clutter the code if overused.&lt;/strong&gt; Readability may suffer, especially when sections are filled with verbose documentation that obscures the actual code logic. There’s also limited formatting flexibility—comments in code are generally plain text, which doesn’t allow for rich formatting like tables, images, or structured examples&lt;/p&gt;
+&lt;h3 id=&#34;use-case-for-embedded-documentation&#34; &gt;
 &lt;div&gt;
-    &lt;a href=&#34;#documentation-close-to-code&#34;&gt;
-        ###
-    &lt;/a&gt;
-    Documentation Close to Code
-&lt;/div&gt;
-&lt;/h4&gt;
-&lt;p&gt;Of course one of the main benefits of having the tech documentation inside the codebase is proximity. Developers may make use of documentation while coding or reviewing code directly from the source. The key here is &lt;em&gt;context&lt;/em&gt;: the code is commented right where it works, as inline comments, docstrings, or markdown files, and this helps better understand the ratio behind architectural decisions.&lt;/p&gt;
-&lt;h4 id=&#34;suggests-regular-updates&#34; &gt;
-&lt;div&gt;
-    &lt;a href=&#34;#suggests-regular-updates&#34;&gt;
-        ###
-    &lt;/a&gt;
-    Suggests regular updates
-&lt;/div&gt;
-&lt;/h4&gt;
-&lt;p&gt;Because the documentation is stored alongside the code, developers are more likely to update it as the codebase evolves. This decreases the likelihood of the documentation being out of current, as developers often work in the same environment as the documentation. Automated tools such as &lt;strong&gt;Javadoc&lt;/strong&gt; for Java and &lt;strong&gt;Sphinx&lt;/strong&gt; for Python can also help ensure that code changes result in documentation updates.###&lt;/p&gt;
-&lt;h4 id=&#34;version-control-for-documentation&#34; &gt;
-&lt;div&gt;
-    &lt;a href=&#34;#version-control-for-documentation&#34;&gt;
-        ###
-    &lt;/a&gt;
-    Version Control for Documentation
-&lt;/div&gt;
-&lt;/h4&gt;
-&lt;p&gt;When documentation is part of the codebase, it benefits from version control systems like Git. This means that any changes to the documentation are tracked, just like code changes. If a feature is added, deprecated, or updated, the associated documentation can be versioned alongside it. Having this level of traceability allows teams to easily review and roll back documentation to previous states if needed.&lt;/p&gt;
-&lt;h4 id=&#34;reduced-documentation-drift&#34; &gt;
-&lt;div&gt;
-    &lt;a href=&#34;#reduced-documentation-drift&#34;&gt;
-        ###
-    &lt;/a&gt;
-    Reduced Documentation Drift
-&lt;/div&gt;
-&lt;/h4&gt;
-&lt;p&gt;Documentation drift is a common uneasy scenario in which the code and its documentation doesn&amp;rsquo;t evolve in sync, leading to confusion and inconsistency.By embedding documentation directly in the code, you help mitigate this issue. Since developers are actively working on the code and can see the embedded documentation, there is less of a gap between what the code does and what the documentation says it does.&lt;/p&gt;
-&lt;h4 id=&#34;code-driven-documentation-generation&#34; &gt;
-&lt;div&gt;
-    &lt;a href=&#34;#code-driven-documentation-generation&#34;&gt;
-        ###
-    &lt;/a&gt;
-    Code-Driven Documentation Generation
-&lt;/div&gt;
-&lt;/h4&gt;
-&lt;p&gt;Tools like &lt;strong&gt;Doxygen&lt;/strong&gt;, &lt;strong&gt;Sphinx&lt;/strong&gt;, and &lt;strong&gt;JSDoc&lt;/strong&gt; can automatically generate comprehensive documentation websites directly from annotated code. This reduces the manual effort required to maintain external documentation and ensures that the latest version of the docs is always aligned with the latest codebase. These tools can generate everything from API documentation to complex diagrams, saving valuable time for developers.&lt;/p&gt;
-&lt;h2 id=&#34;why-its-not-great&#34; &gt;
-&lt;div&gt;
-    &lt;a href=&#34;#why-its-not-great&#34;&gt;
-        #
-    &lt;/a&gt;
-    Why it&amp;rsquo;s not great
-&lt;/div&gt;
-&lt;/h2&gt;
-&lt;h4 id=&#34;overloading-the-codebase&#34; &gt;
-&lt;div&gt;
-    &lt;a href=&#34;#overloading-the-codebase&#34;&gt;
-        ###
-    &lt;/a&gt;
-    Overloading the Codebase
-&lt;/div&gt;
-&lt;/h4&gt;
-&lt;p&gt;While embedding documentation in the codebase makes it easier to access, it can also clutter the code. Excessive inline comments or long docstrings can make the code harder to read. When developers focus on the logic, too much documentation can become noise, distracting from the main purpose of reading the code. In addition, markdown files and related documents can bloat the repository, making it harder to navigate, especially in large codebases.&lt;/p&gt;
-&lt;h4 id=&#34;limited-scope&#34; &gt;
-&lt;div&gt;
-    &lt;a href=&#34;#limited-scope&#34;&gt;
-        ###
-    &lt;/a&gt;
-    Limited Scope
-&lt;/div&gt;
-&lt;/h4&gt;
-&lt;p&gt;Embedded documentation typically focuses on implementation details, such as how specific functions or modules work. However, broader technical documentation, such as architecture overviews, user guides, or high-level design discussions, is more challenging to embed effectively in code. These types of documentation often require context that spans multiple parts of a system or involves strategic decisions, which are better suited for external, centralized documentation systems like &lt;strong&gt;Confluence&lt;/strong&gt;, &lt;strong&gt;Notion&lt;/strong&gt;, or &lt;strong&gt;GitHub Wikis&lt;/strong&gt;.&lt;/p&gt;
-&lt;h4 id=&#34;maintaining-clarity-and-structure&#34; &gt;
-&lt;div&gt;
-    &lt;a href=&#34;#maintaining-clarity-and-structure&#34;&gt;
-        ###
-    &lt;/a&gt;
-    Maintaining Clarity and Structure
-&lt;/div&gt;
-&lt;/h4&gt;
-&lt;p&gt;While embedded documentation can provide helpful context, maintaining clarity is critical. There’s a fine line between useful comments and documentation that overwhelms the reader. Developers may not always have the time or inclination to write clear, structured documentation directly in the code. Poorly written or disorganized documentation can be as harmful as having no documentation at all. Additionally, not every developer has the skill to write documentation that is both technically accurate and easy to understand.&lt;/p&gt;
-&lt;h4 id=&#34;lack-of-a-centralized-view&#34; &gt;
-&lt;div&gt;
-    &lt;a href=&#34;#lack-of-a-centralized-view&#34;&gt;
-        ###
-    &lt;/a&gt;
-    Lack of a Centralized View
-&lt;/div&gt;
-&lt;/h4&gt;
-&lt;p&gt;When documentation is scattered throughout the codebase, it can be difficult to get a high-level, centralized view of the system. Developers often need to jump from file to file, gathering information piecemeal, which can make understanding the system as a whole more difficult. For teams and stakeholders who are not directly involved in coding but still need to understand the project, navigating through code comments or inline docs may not be practical.&lt;/p&gt;
-&lt;h4 id=&#34;documentation-fatigue&#34; &gt;
-&lt;div&gt;
-    &lt;a href=&#34;#documentation-fatigue&#34;&gt;
-        ###
-    &lt;/a&gt;
-    Documentation Fatigue
-&lt;/div&gt;
-&lt;/h4&gt;
-&lt;p&gt;There’s a risk that embedding documentation too closely with code will lead to documentation fatigue. Developers may feel burdened by the expectation to continuously document their code while coding, which could lead to superficial or incomplete documentation. Over time, this could result in under-documentation or documentation that is inaccurate due to being rushed or deprioritized.&lt;/p&gt;
-&lt;h2 id=&#34;openapi-bridging-the-gap&#34; &gt;
-&lt;div&gt;
-    &lt;a href=&#34;#openapi-bridging-the-gap&#34;&gt;
-        #
-    &lt;/a&gt;
-    OpenAPI: Bridging the Gap
-&lt;/div&gt;
-&lt;/h2&gt;
-&lt;p&gt;OpenAPI, formerly known as Swagger, provides a machine-readable way to define APIs. The OpenAPI specification standardizes how APIs are described, focusing on endpoints, request/response formats, authentication methods, and more. What makes OpenAPI a powerful solution in the context of the documentation dilemma is that it serves as a dynamic link between the code and external documentation—offering the best of both worlds.&lt;/p&gt;
-&lt;h3 id=&#34;key-benefits-of-openapi-in-addressing-the-dilemma&#34; &gt;
-&lt;div&gt;
-    &lt;a href=&#34;#key-benefits-of-openapi-in-addressing-the-dilemma&#34;&gt;
+    &lt;a href=&#34;#use-case-for-embedded-documentation&#34;&gt;
         ##
     &lt;/a&gt;
-    Key Benefits of OpenAPI in Addressing the Dilemma
+    Use case for embedded documentation
 &lt;/div&gt;
 &lt;/h3&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Automatic Generation of Documentation&lt;/strong&gt;: OpenAPI allows developers to define their APIs in a YAML or JSON format, and from this single source of truth, comprehensive documentation can be generated. This ensures that documentation remains consistent with the code without manual intervention. Tools like Swagger UI or Redoc can automatically convert an OpenAPI specification into interactive and user-friendly documentation, minimizing the risk of divergence.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Clear Separation of Concerns&lt;/strong&gt;: While OpenAPI files live alongside the code, they do not clutter the actual source code. This ensures that the code remains clean while providing all the necessary details about the API structure in an organized way. Developers can focus on writing code, while tools can handle the heavy lifting of turning these API specifications into rich documentation.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Improved Collaboration&lt;/strong&gt;: OpenAPI files are written in easily understandable formats (YAML/JSON) that can be edited by both developers and non-developers alike. This makes it easier for different stakeholders, including product managers and technical writers, to contribute to or modify the documentation without needing to directly interact with the codebase.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Enforced Consistency&lt;/strong&gt;: One of the biggest advantages of using OpenAPI is that it enforces consistency. If the API evolves, the specification file can be updated accordingly, and the documentation is automatically updated to reflect those changes. This reduces the risk of having outdated or incomplete documentation and lowers maintenance overhead.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Support for Code Annotations&lt;/strong&gt;: While OpenAPI provides external specifications, it can also integrate with in-code annotations using libraries like &lt;code&gt;Swagger annotations&lt;/code&gt; in Java or Spring. This allows for hybrid solutions where some level of documentation can still be embedded directly into the codebase, without compromising on structure or creating clutter. The annotations in the code can automatically populate the OpenAPI specification, which then generates comprehensive documentation.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Integration with CI/CD Pipelines&lt;/strong&gt;: OpenAPI can be integrated into Continuous Integration/Continuous Deployment (CI/CD) pipelines, ensuring that the API documentation is generated and updated automatically as part of the development lifecycle. This means the API documentation is always current, and discrepancies between code and documentation can be flagged early in the development process.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
+&lt;p&gt;Embedded documentation is most effective when projects focus on technical use cases that benefit directly from inline clarification. For example, if you’re building an API, inline docstrings make each function’s purpose, parameters, and output clear. Combined with tools like &lt;a href=&#34;https://www.sphinx-doc.org/&#34;&gt;Sphinx&lt;/a&gt; or &lt;a href=&#34;https://jsdoc.app/&#34;&gt;JSDoc&lt;/a&gt;, these inline comments can even auto-generate documentation pages, making them accessible without the need for manual upkeep.&lt;/p&gt;
+&lt;h2 id=&#34;why-use-separate-documentation&#34; &gt;
+&lt;div&gt;
+    &lt;a href=&#34;#why-use-separate-documentation&#34;&gt;
+        #
+    &lt;/a&gt;
+    Why Use Separate Documentation?
+&lt;/div&gt;
+&lt;/h2&gt;
+&lt;p&gt;In contrast, keeping documentation separate from code can be a great choice, &lt;strong&gt;especially for larger, cross-functional teams or complex projects&lt;/strong&gt;. With dedicated documentation tools like &lt;a href=&#34;https://www.atlassian.com/software/confluence&#34;&gt;Confluence&lt;/a&gt;, &lt;a href=&#34;https://www.notion.so/&#34;&gt;Notion&lt;/a&gt;, or &lt;a href=&#34;https://www.gitbook.com/&#34;&gt;GitBook&lt;/a&gt;, you can create comprehensive guides, tutorials, and high-level overviews that surpass the limitations of inline comments. Separate documentation allows you to include multimedia elements like tables, diagrams, and step-by-step user flows, making it ideal for non-developers or anyone who might be intimidated by the codebase.&lt;/p&gt;
+&lt;p&gt;Keeping documentation separate from the codebase also makes it more accessible to &lt;strong&gt;non-developer stakeholders&lt;/strong&gt; like product managers or customer support. Many documentation platforms include advanced search and organizational features, making it easier to find specific information than if it were buried in code comments.&lt;/p&gt;
+&lt;h3 id=&#34;potential-downsides-of-separate-documentation&#34; &gt;
+&lt;div&gt;
+    &lt;a href=&#34;#potential-downsides-of-separate-documentation&#34;&gt;
+        ##
+    &lt;/a&gt;
+    Potential Downsides of Separate Documentation
+&lt;/div&gt;
+&lt;/h3&gt;
+&lt;p&gt;One common challenge with separate documentation is that it’s prone to getting out of sync with the actual code. Without a rigorous update process, changes to the code may not always reflect in the documentation, leading to potential confusion. Separate documentation also requires more upkeep, often involving additional workflow steps like reviews or approvals, which can slow down development and add maintenance overhead.&lt;/p&gt;
+&lt;h3 id=&#34;use-cases-for-separate-documentation&#34; &gt;
+&lt;div&gt;
+    &lt;a href=&#34;#use-cases-for-separate-documentation&#34;&gt;
+        ##
+    &lt;/a&gt;
+    Use Cases for Separate Documentation
+&lt;/div&gt;
+&lt;/h3&gt;
+&lt;p&gt;Separate documentation is essential for larger, more complex projects where high-level overviews, architectural diagrams, or tutorials are common. For onboarding, a structured knowledge base that provides an overview of architecture, workflows, and team processes is more accessible than embedded comments alone. High-level architectural diagrams, setup instructions, or step-by-step tutorials for feature implementations are often better suited to a dedicated documentation platform.&lt;/p&gt;
+&lt;h2 id=&#34;a-common-middle-ground-combining-embedded-and-separate-documentation&#34; &gt;
+&lt;div&gt;
+    &lt;a href=&#34;#a-common-middle-ground-combining-embedded-and-separate-documentation&#34;&gt;
+        #
+    &lt;/a&gt;
+    A Common Middle Ground: Combining Embedded and Separate Documentation
+&lt;/div&gt;
+&lt;/h2&gt;
+&lt;p&gt;For many teams, a balanced approach is often the best solution. Smaller projects or those primarily managed by developers might benefit from embedded documentation for its simplicity. In contrast, larger, cross-functional projects typically require a dedicated documentation platform to support collaboration, onboarding, and in-depth guides.&lt;/p&gt;
+&lt;p&gt;A middle-ground approach could be to use &lt;strong&gt;embedded documentation for lower-level details&lt;/strong&gt;—method descriptions, parameters, and inline clarifications of complex logic—while using a separate documentation tool for &lt;strong&gt;higher-level overviews, architecture diagrams, and tutorials&lt;/strong&gt;. This method allows the code to stay readable and uncluttered, while higher-level information remains accessible, flexible, and easy to maintain.&lt;/p&gt;
 </description>
     </item>
     
@@ -400,16 +323,16 @@ Then, to link Obsidian with GitHub, you will use your terminal.&lt;/p&gt;
       <pubDate>Mon, 30 Sep 2024 00:00:00 +0000</pubDate>
       
       <guid>/precisiondocs/why-diataxis-framework-is-a-game-changer-for-organizing-technical-documentation/</guid>
-      <description>&lt;h2 id=&#34;context&#34; &gt;
+      <description>&lt;h2 id=&#34;introduction-managing-technical-documentation&#34; &gt;
 &lt;div&gt;
-    &lt;a href=&#34;#context&#34;&gt;
+    &lt;a href=&#34;#introduction-managing-technical-documentation&#34;&gt;
         #
     &lt;/a&gt;
-    Context
+    Introduction: Managing Technical Documentation
 &lt;/div&gt;
 &lt;/h2&gt;
 &lt;p&gt;Effective technical documentation is critical to the success of any company, particularly in tech-driven environments where internal teams, partners, and customers rely on precise and accessible information. However, creating and managing high-quality documentation is no easy task. It’s common to end up with scattered, inconsistent, or overly complex content that makes it difficult for users to find what they need, when they need it.&lt;/p&gt;
-&lt;p&gt;This is where the Diátaxis Framework comes in: a structured, modern approach to organizing technical documentation that not only streamlines your content but also enhances its usability. Whether you&amp;rsquo;re documenting for developers, end-users, or internal teams,&lt;/p&gt;
+&lt;p&gt;This is where the &lt;a href=&#34;https://www.diataxis.fr/&#34;&gt;Diátaxis Framework&lt;/a&gt; comes in: a structured, modern approach to organizing technical documentation that not only streamlines your content but also enhances its usability. Whether you&amp;rsquo;re documenting for developers, end-users, or internal teams,&lt;/p&gt;
 &lt;h2 id=&#34;what-is-the-diátaxis-framework&#34; &gt;
 &lt;div&gt;
     &lt;a href=&#34;#what-is-the-di%c3%a1taxis-framework&#34;&gt;
@@ -492,21 +415,22 @@ Then, to link Obsidian with GitHub, you will use your terminal.&lt;/p&gt;
 &lt;/h3&gt;
 &lt;p&gt;If your company has multiple teams contributing to technical documentation, maintaining consistency in style, format, and tone can be a nightmare. The Diátaxis Framework creates a standardized approach for documentation creation, regardless of the contributor&amp;rsquo;s technical expertise or writing style.&lt;/p&gt;
 &lt;p&gt;Teams can adopt a consistent format for each type of content, ensuring that all documentation follows the same logical flow. This not only makes the documentation easier to use but also helps in managing it long-term, as everyone is working with the same structure in mind.&lt;/p&gt;
-&lt;h2 id=&#34;implementing-diátaxis-in-your-company&#34; &gt;
+&lt;h3 id=&#34;implementing-diátaxis-in-your-companys-documentation-workflow&#34; &gt;
 &lt;div&gt;
-    &lt;a href=&#34;#implementing-di%c3%a1taxis-in-your-company&#34;&gt;
-        #
+    &lt;a href=&#34;#implementing-di%c3%a1taxis-in-your-companys-documentation-workflow&#34;&gt;
+        ##
     &lt;/a&gt;
-    Implementing Diátaxis in Your Company
+    Implementing Diátaxis in Your Company&amp;rsquo;s Documentation Workflow
 &lt;/div&gt;
-&lt;/h2&gt;
-&lt;p&gt;Diataxis is easy to implementeverything but a Start by reviewing your existing documentation and identifying where it fits within the four categories. You can then reorganize the content according to the framework.&lt;/p&gt;
-&lt;p&gt;Once you&amp;rsquo;ve adopted this approach, you can:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Create templates for each type of documentation to maintain consistency.&lt;/li&gt;
-&lt;li&gt;Train teams on how to use the framework so that new content is created in line with Diátaxis principles.&lt;/li&gt;
-&lt;li&gt;Continuously improve by gathering user feedback and adjusting your documentation structure to meet evolving needs.&lt;/li&gt;
-&lt;/ul&gt;
+&lt;/h3&gt;
+&lt;p&gt;Integrating the Diátaxis Framework into your company’s tech documentation workflow can streamline content creation and maintenance while ensuring a more user-centered experience. To get started, follow this main steps&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Create a centralized documentation plan that aligns with Diátaxis’ four categories&lt;/strong&gt;—tutorials, how-to guides, explanations, and references&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Define which team members will be responsible for each type of documentation&lt;/strong&gt;, whether you have dedicated technical writers, product developers, or a mix of contributors.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Create a set of templates and guidelines for each category to ensure consistency&lt;/strong&gt;. For example, tutorials might include a step-by-step format and specific prerequisites, while how-to guides should be goal-oriented and solution-focused. This helps your documentation team maintain a cohesive style across all types of content, making it easier to understand and navigate.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Integrate Diátaxis-specific labels or sections in your documentation tool,&lt;/strong&gt; like Confluence or &lt;a href=&#34;https://www.gitbook.com/&#34;&gt;GitBook&lt;/a&gt;. This way, each type of content is visually distinguishable, and users can quickly navigate to the section they need. Additionally, implement regular documentation audits to keep content updated. For instance, assign quarterly reviews for each category to ensure tutorials, how-tos, and explanations stay relevant, and reference materials remain accurate.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;By creating a structured workflow around Diátaxis, you empower your teams to collaborate effectively on documentation, providing end-users with a seamless experience. This approach not only reduces onboarding time for new employees and customers but also allows for documentation that evolves as your product and user needs change, without compromising on clarity or usability.&lt;/p&gt;
 </description>
     </item>
     
