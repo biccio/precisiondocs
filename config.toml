@@ -53,10 +53,3 @@ identifier = "tags"
 name = "Tags"
 url = "/tags/"
 weight = 3
-
-[[menu.main]]
-name = "Archive"
-identifier = "archive"
-url = "/posts/"
-weight = 4
-
