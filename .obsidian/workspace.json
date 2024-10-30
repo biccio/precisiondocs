@@ -1,0 +1,186 @@
+{
+  "main": {
+    "id": "79156cf391733762",
+    "type": "split",
+    "children": [
+      {
+        "id": "ea3049f4bb4bbe4a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "96ca6b6b05d83e4d",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "f18e2da5cde7f01c",
+    "type": "split",
+    "children": [
+      {
+        "id": "de490af51b74461d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "169d29beea494cdc",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "84f3cbad96077871",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "63db2b2d86649960",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "caf121223333e260",
+    "type": "split",
+    "children": [
+      {
+        "id": "af513448d7a2ff02",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fed9511e66cdf5b4",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "750c828821bc152d",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "af3ffb874e31b3eb",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "31e99b818d4e86e1",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {},
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "169d29beea494cdc",
+  "lastOpenFiles": [
+    "content/p/why-diataxis-framework-is-a-game-changer-for-organizing-technical-documentation/index.md",
+    "content/p/why-diataxis-framework-is-a-game-changer-for-organizing-technical-documentation",
+    "content/p/the-pros-and-cons-of-embedding-technical-documentation-inside-the-codebase/index.md",
+    "content/p/the-pros-and-cons-of-embedding-technical-documentation-inside-the-codebase",
+    "content/p/how-to-use-obsidian-and-github-to-organize-and-maintain-your-tech-document/index.md",
+    "content/p/how-to-use-obsidian-and-github-to-organize-and-maintain-your-tech-document",
+    "content/p/how-to-build-and-deploy-a-blog-with-hugo-github-and-netlify/index.md",
+    "content/p/how-to-build-and-deploy-a-blog-with-hugo-github-and-netlify",
+    "content/p",
+    "content/why-diataxis-framework-is-a-game-changer-for-organizing-technical-documentation/index.md",
+    "content/why-diataxis-framework-is-a-game-changer-for-organizing-technical-documentation",
+    "content/the-pros-and-cons-of-embedding-technical-documentation-inside-the-codebase/index.md",
+    "content/the-pros-and-cons-of-embedding-technical-documentation-inside-the-codebase",
+    "content/how-to-use-obsidian-and-github-to-organize-and-maintain-your-tech-document/index.md",
+    "content/how-to-use-obsidian-and-github-to-organize-and-maintain-your-tech-document",
+    "content/how-to-build-and-deploy-a-blog-with-hugo-github-and-netlify/index.md",
+    "content/how-to-build-and-deploy-a-blog-with-hugo-github-and-netlify",
+    "public/p/why-diataxis-framework-is-a-game-changer-for-organizing-technical-documentation/index.html",
+    "content/blog/why-diataxis-framework-is-a-game-changer-for-organizing-technical-documentation/index.md",
+    "content/blog/the-pros-and-cons-of-embedding-technical-documentation-inside-the-codebase/index.md",
+    "content/blog/how-to-use-obsidian-and-github-to-organize-and-maintain-your-tech-document/index.md",
+    "content/blog/how-to-build-and-deploy-a-blog-with-hugo-github-and-netlify/index.md",
+    "content/Precisiondocs/why-diataxis-framework-is-a-game-changer-for-organizing-technical-documentation/index.md",
+    "content/Precisiondocs/the-pros-and-cons-of-embedding-technical-documentation-inside-the-codebase/index.md",
+    "content/Precisiondocs/how-to-use-obsidian-and-github-to-organize-and-maintain-your-tech-document/index.md",
+    "content/Precisiondocs/how-to-build-and-deploy-a-blog-with-hugo-github-and-netlify/index.md"
+  ]
+}
