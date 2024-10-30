@@ -1,6 +1,6 @@
 ---
 title: How to Build and Deploy a Tech Documentation Static Site with Hugo
-date: 2024-05-30
+date: 2024-09-30
 summary: Hugo is a powerful static site generator functioning as a complete framework. Along with Github as storage repository and Netlify as deployment tool, it makes a perfect platform to run and mantain a fast and lightweight documentation website.
 tags:
   - hugo
