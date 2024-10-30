@@ -1,19 +1,19 @@
 ---
-title: How to Build and Deploy a Blog with Hugo, Github and Netlify
-date: 2024-09-30
+title: How to Build and Deploy a Tech Documentation Static Site with Hugo and Docsy
+date: 2024-05-30
 summary: Hugo is a powerful static site generator functioning as a complete framework. Along with Github as storage repository and Netlify as deployment tool, it makes a perfect platform to run and mantain a fast and lightweight documentation website.
 tags:
   - hugo
-  - anubis2
   - netlify
   - staticsitegenerator
   - frameworks
   - github
   - deployment
+  - docsy
 ---
-## Introduction: Deploying a  Static Site 
+## Introduction:  A Static Site for Tech Documentation
 Static site generation is a very popular solution in today's publishing environments, especially for technical documentation. The available frameworks are solid and easy to use, and the resulting website is blazing fast with no hiccups and zero render time. If you add Github to the workflow as a storage solution, and Netlify as deployment framework, you have a perfect solution to a fast and clean publishing process.
-In this article, I'll describe all the steps I've taken to bring Precisiondocs online
+In this article, I'll describe all the steps you'll need to create a Tech Documentation website with Hugo and Docsy, using Github and Netlify for deployment.
 
 ## Framework: Hugo
 As static site generator, I went for [Hugo](https://gohugo.io/). It's a solid framework, with good themes, and it's based on markdown files organized in a simple file system. To install the Hugo framework, you need to start by setting up Hugo on your machine. You can install Hugo via a package manager or download it directly
@@ -56,8 +56,8 @@ At this point, you may want to move into the newly created website folder:
 cd my-website
 ```
 
-### Step 3: Install the Anubis2 Theme
-In any Hugo installation you will need to add a *theme* to provide a layout and a presentation layer  to your content. In my case I chose Anubis2. You can install this theme (as any other) using Git. Run the following command to add it as a submodule:
+### Step 3: Install the Docsy Theme
+In any Hugo installation you will need to add a *theme* to provide a layout and a presentation layer  to your content. In this case I suggest choosing [Techdoc](https://github.com/thingsym/hugo-theme-techdoc) , a very . You can install this theme (as any other) using Git. Run the following command to add it as a submodule:
 ```bash
 git init
 git submodule add https://github.com/Mitrichius/hugo-theme-anubis.git themes/anubis2
