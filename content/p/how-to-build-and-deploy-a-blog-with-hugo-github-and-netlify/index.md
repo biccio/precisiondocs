@@ -1,5 +1,5 @@
 ---
-title: How to Build and Deploy a Tech Documentation Static Site with Hugo and Docsy
+title: How to Build and Deploy a Tech Documentation Static Site with Hugo
 date: 2024-05-30
 summary: Hugo is a powerful static site generator functioning as a complete framework. Along with Github as storage repository and Netlify as deployment tool, it makes a perfect platform to run and mantain a fast and lightweight documentation website.
 tags:
@@ -9,16 +9,17 @@ tags:
   - frameworks
   - github
   - deployment
+  - techdoc
   - docsy
 ---
 ## Introduction:  A Static Site for Tech Documentation
 Static site generation is a very popular solution in today's publishing environments, especially for technical documentation. The available frameworks are solid and easy to use, and the resulting website is blazing fast with no hiccups and zero render time. If you add Github to the workflow as a storage solution, and Netlify as deployment framework, you have a perfect solution to a fast and clean publishing process.
-In this article, I'll describe all the steps you'll need to create a Tech Documentation website with Hugo and Docsy, using Github and Netlify for deployment.
+In this article, I'll describe all the steps you'll need to create a Tech Documentation website with Hugo using Github and Netlify for deployment.
 
 ## Framework: Hugo
-As static site generator, I went for [Hugo](https://gohugo.io/). It's a solid framework, with good themes, and it's based on markdown files organized in a simple file system. To install the Hugo framework, you need to start by setting up Hugo on your machine. You can install Hugo via a package manager or download it directly
+As static site generator, I went for [Hugo](https://gohugo.io/). It's a solid framework, with good themes, and it's based on markdown files organized in a simple file system. To install the Hugo framework, you need to start by setting up Hugo on your machine. You can install Hugo via a package manager or download it directly. Hugo implements [themes](https://themes.gohugo.io/) to add ready made frontend to your website (or you can create a custom theme for yourself). For Hugo you can find a well known theme called Docsy, hosted on Google Github and unofficially supported, but for the purpose of this post we're going to use [Techdoc](https://github.com/thingsym/hugo-theme-techdoc), easier to manage if you're new to Hugo.
 
-Here is a step-by-step guide to installing the Hugo framework, creating a new website, and installing the [Anubis2 theme](https://github.com/Junyi-99/hugo-theme-anubis2), the one I chose for this website.
+Here is a step-by-step guide to installing the Hugo framework, creating a new website, and installing Techdoc.
 ### Step 1: Install Hugo
 
 For **macOS**:
@@ -56,18 +57,14 @@ At this point, you may want to move into the newly created website folder:
 cd my-website
 ```
 
-### Step 3: Install the Docsy Theme
-In any Hugo installation you will need to add a *theme* to provide a layout and a presentation layer  to your content. In this case I suggest choosing [Techdoc](https://github.com/thingsym/hugo-theme-techdoc) , a very . You can install this theme (as any other) using Git. Run the following command to add it as a submodule:
+### Step 3: Install the Techdoc Theme
+To install Techdoc you're going to use Git submodules. Run the following command to initialize ```git``` and to add the theme to ```themes``` folder:
 ```bash
 git init
-git submodule add https://github.com/Mitrichius/hugo-theme-anubis.git themes/anubis2
+git submodule add https://github.com/thingsym/hugo-theme-techdoc.git themes/hugo-theme-techdoc
 ```
 
-Now that the theme is installed, you will need to let Hugo know. Look in the root for a file called `config.toml` file and add the following line to specify the Anubis2 theme:
-
-```toml
-theme = "anubis2"
-```
+Now that the theme is installed, you will need to configure Hugo to use it at its best. Look for the [hugo.toml](https://github.com/thingsym/hugo-theme-techdoc/blob/master/exampleSite/hugo.toml) file in exampleSite folder of the theme and copy it in the root of your newly created website
 
 Now you' re ready to launch the website using this command:
 
@@ -78,10 +75,9 @@ hugo server
    This will make your site available at `http://localhost:1313`. Hugo will automatically rebuild
 ## Repository: Github
 Once your site is ready, you may want to create a repository on [Github](https://github.com) and put your website in it. This way you'll be able to easily push updates online, and - as we'll see - deploy the content.
-First of all, you will create a repository on Github from your profile page, giving it a name of your choice and deciding for it to be ```public``` or ```private```. Then you'll go back to your terminal and initialize ```git``` using the commands provided from Github to connect your local repo to the online counterpart. 
+First of all, you will create a repository on Github from your profile page, giving it a name of your choice and deciding for it to be ```public``` or ```private```. Then you'll go back to your terminal and initialize ```git``` using the commands provided from Github to connect your local repo to the online counterpart.  Git is already initalized in your folder so you won't need ```git init```
 
 ```bash
-git init
 git remote add origin https://github.com/biccio/prova.git
 git branch -M main
 git push -u origin main
