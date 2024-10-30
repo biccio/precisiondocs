@@ -53,3 +53,7 @@ identifier = "tags"
 name = "Tags"
 url = "/tags/"
 weight = 3
+
+[params.GoogleAnalytics]
+enabled = true
+gtag = "G-8TN2DVWLG0"
