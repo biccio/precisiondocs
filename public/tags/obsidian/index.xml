@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Obsidian on PrecisionDocs</title>
+    <title>Obsidian on → PrecisionDocs</title>
     <link>/tags/obsidian/</link>
-    <description>PrecisionDocs (Obsidian)</description>
+    <description>→ PrecisionDocs (Obsidian)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
 
     
-    <lastBuildDate>Fri, 23 Aug 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 30 Sep 2024 00:00:00 +0000</lastBuildDate>
     
     <atom:link href="/tags/obsidian/index.xml" rel="self" type="application/rss+xml" />
     
@@ -17,7 +17,7 @@
     <item>
       <title>How to use Obsidian and Github to Organize and Maintain your Tech Documentation</title>
       <link>/p/how-to-use-obsidian-and-github-to-organize-and-maintain-your-tech-document/</link>
-      <pubDate>Fri, 23 Aug 2024 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2024 00:00:00 +0000</pubDate>
       
       <guid>/p/how-to-use-obsidian-and-github-to-organize-and-maintain-your-tech-document/</guid>
       <description>&lt;h2 id=&#34;introduction-managing-information-effectively&#34; &gt;

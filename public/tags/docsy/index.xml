@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Docsy on → PrecisionDocs</title>
+    <link>/tags/docsy/</link>
+    <description>→ PrecisionDocs (Docsy)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+
+    
+    <lastBuildDate>Fri, 23 Aug 2024 00:00:00 +0000</lastBuildDate>
+    
+    <atom:link href="/tags/docsy/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>How to Build and Deploy a Tech Documentation Static Site with Hugo</title>
+      <link>/p/how-to-build-and-deploy-a-blog-with-hugo-github-and-netlify/</link>
+      <pubDate>Fri, 23 Aug 2024 00:00:00 +0000</pubDate>
+      
+      <guid>/p/how-to-build-and-deploy-a-blog-with-hugo-github-and-netlify/</guid>
+      <description>&lt;h2 id=&#34;introduction--a-static-site-for-tech-documentation&#34; &gt;
+&lt;div&gt;
+    &lt;a href=&#34;#introduction--a-static-site-for-tech-documentation&#34;&gt;
+        #
+    &lt;/a&gt;
+    Introduction:  A Static Site for Tech Documentation
+&lt;/div&gt;
+&lt;/h2&gt;
+&lt;p&gt;Static site generation is a very popular solution in today&amp;rsquo;s publishing environments, especially for technical documentation. The available frameworks are solid and easy to use, and the resulting website is blazing fast with no hiccups and zero render time. If you add Github to the workflow as a storage solution, and Netlify as deployment framework, you have a perfect solution to a fast and clean publishing process.
+In this article, I&amp;rsquo;ll describe all the steps you&amp;rsquo;ll need to create a Tech Documentation website with Hugo using Github and Netlify for deployment.&lt;/p&gt;
+&lt;h2 id=&#34;framework-hugo&#34; &gt;
+&lt;div&gt;
+    &lt;a href=&#34;#framework-hugo&#34;&gt;
+        #
+    &lt;/a&gt;
+    Framework: Hugo
+&lt;/div&gt;
+&lt;/h2&gt;
+&lt;p&gt;As static site generator, I went for &lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt;. It&amp;rsquo;s a solid framework, with good themes, and it&amp;rsquo;s based on markdown files organized in a simple file system. To install the Hugo framework, you need to start by setting up Hugo on your machine. You can install Hugo via a package manager or download it directly. Hugo implements &lt;a href=&#34;https://themes.gohugo.io/&#34;&gt;themes&lt;/a&gt; to add ready made frontend to your website (or you can create a custom theme for yourself). For Hugo you can find a well known theme called Docsy, hosted on Google Github and unofficially supported, but for the purpose of this post we&amp;rsquo;re going to use &lt;a href=&#34;https://github.com/thingsym/hugo-theme-techdoc&#34;&gt;Techdoc&lt;/a&gt;, easier to manage if you&amp;rsquo;re new to Hugo.&lt;/p&gt;
+&lt;p&gt;Here is a step-by-step guide to installing the Hugo framework, creating a new website, and installing Techdoc.&lt;/p&gt;
+&lt;h3 id=&#34;step-1-install-hugo&#34; &gt;
+&lt;div&gt;
+    &lt;a href=&#34;#step-1-install-hugo&#34;&gt;
+        ##
+    &lt;/a&gt;
+    Step 1: Install Hugo
+&lt;/div&gt;
+&lt;/h3&gt;
+&lt;p&gt;For &lt;strong&gt;macOS&lt;/strong&gt;:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;brew install hugo
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;For &lt;strong&gt;Linux&lt;/strong&gt;:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo apt-get install hugo
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;For &lt;strong&gt;Windows&lt;/strong&gt;:
+Download the binary from the &lt;a href=&#34;https://github.com/gohugoio/hugo/releases&#34;&gt;Hugo GitHub releases&lt;/a&gt; and add it to your PATH.&lt;/p&gt;
+&lt;p&gt;Once Hugo is installed, check if it’s working correctly by running:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;hugo version
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;step-2-create-a-new-website&#34; &gt;
+&lt;div&gt;
+    &lt;a href=&#34;#step-2-create-a-new-website&#34;&gt;
+        ##
+    &lt;/a&gt;
+    Step 2: Create a New Website
+&lt;/div&gt;
+&lt;/h3&gt;
+&lt;p&gt;Now that you installed Hugo, you need to create a new Hugo site by running the following command:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;hugo new site my-website
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;This command will create a new folder &lt;code&gt;my-website&lt;/code&gt; with the necessary Hugo folder structure.
+At this point, you may want to move into the newly created website folder:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;cd&lt;/span&gt; my-website
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;step-3-install-the-techdoc-theme&#34; &gt;
+&lt;div&gt;
+    &lt;a href=&#34;#step-3-install-the-techdoc-theme&#34;&gt;
+        ##
+    &lt;/a&gt;
+    Step 3: Install the Techdoc Theme
+&lt;/div&gt;
+&lt;/h3&gt;
+&lt;p&gt;To install Techdoc you&amp;rsquo;re going to use Git submodules. Run the following command to initialize &lt;code&gt;git&lt;/code&gt; and to add the theme to &lt;code&gt;themes&lt;/code&gt; folder:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git init
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git submodule add https://github.com/thingsym/hugo-theme-techdoc.git themes/hugo-theme-techdoc
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Now that the theme is installed, you will need to configure Hugo to use it at its best. Look for the &lt;a href=&#34;https://github.com/thingsym/hugo-theme-techdoc/blob/master/exampleSite/hugo.toml&#34;&gt;hugo.toml&lt;/a&gt; file in exampleSite folder of the theme and copy it in the root of your newly created website&lt;/p&gt;
+&lt;p&gt;Now you&amp;rsquo; re ready to launch the website using this command:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;hugo server
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;This will make your site available at &lt;code&gt;http://localhost:1313&lt;/code&gt;. Hugo will automatically rebuild&lt;/p&gt;
+&lt;h2 id=&#34;repository-github&#34; &gt;
+&lt;div&gt;
+    &lt;a href=&#34;#repository-github&#34;&gt;
+        #
+    &lt;/a&gt;
+    Repository: Github
+&lt;/div&gt;
+&lt;/h2&gt;
+&lt;p&gt;Once your site is ready, you may want to create a repository on &lt;a href=&#34;https://github.com&#34;&gt;Github&lt;/a&gt; and put your website in it. This way you&amp;rsquo;ll be able to easily push updates online, and - as we&amp;rsquo;ll see - deploy the content.
+First of all, you will create a repository on Github from your profile page, giving it a name of your choice and deciding for it to be &lt;code&gt;public&lt;/code&gt; or &lt;code&gt;private&lt;/code&gt;. Then you&amp;rsquo;ll go back to your terminal and initialize &lt;code&gt;git&lt;/code&gt; using the commands provided from Github to connect your local repo to the online counterpart.  Git is already initalized in your folder so you won&amp;rsquo;t need &lt;code&gt;git init&lt;/code&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git remote add origin https://github.com/biccio/prova.git
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git branch -M main
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git push -u origin main
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Now you&amp;rsquo;re all set! Let&amp;rsquo;s go to deployment!&lt;/p&gt;
+&lt;h2 id=&#34;deployment-netlify&#34; &gt;
+&lt;div&gt;
+    &lt;a href=&#34;#deployment-netlify&#34;&gt;
+        #
+    &lt;/a&gt;
+    Deployment: Netlify
+&lt;/div&gt;
+&lt;/h2&gt;
+&lt;p&gt;Netlify is a great solution to deploy a website from a variety of framework, providing a great interface to manage multiple websites and their build and deployment. Netlify offers a free starter package with &lt;strong&gt;100 GB of bandwidth&lt;/strong&gt;, &lt;strong&gt;300 build per minutes&lt;/strong&gt; for a single member seat.
+The easiest way to create and manage a new website is &lt;em&gt;importing a new project&lt;/em&gt; (other options are: &lt;em&gt;manually uploading your files&lt;/em&gt; or &lt;em&gt;starting from a template&lt;/em&gt;, a great solution if you need to start from scratch with backend and frontend).&lt;/p&gt;
+&lt;h3 id=&#34;step-1---create-a-new-website-importing-a-project&#34; &gt;
+&lt;div&gt;
+    &lt;a href=&#34;#step-1---create-a-new-website-importing-a-project&#34;&gt;
+        ##
+    &lt;/a&gt;
+    Step 1 - Create a new website importing a project
+&lt;/div&gt;
+&lt;/h3&gt;
+&lt;p&gt;Assuming that you followed the previous steps, now you should have your content and framework stored in a repository on Github.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Create a new site&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Select &lt;strong&gt;Add new site&lt;/strong&gt; → &lt;strong&gt;Import an existing project&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Select &lt;strong&gt;Github&lt;/strong&gt; and authenticate (or you may be already logged in)&lt;/li&gt;
+&lt;li&gt;Choose the repo where you stored your content&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Review your configuration&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Choose a name for your new website&lt;/li&gt;
+&lt;li&gt;Choose your branch (usually &lt;code&gt;main&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;Leave blank &lt;em&gt;Base directory&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Write &lt;code&gt;hugo&lt;/code&gt; as &lt;em&gt;Build Command&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;public&lt;/code&gt; as &lt;em&gt;Publish Directory&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Leave default in &lt;em&gt;Functions Directory&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;important&lt;/strong&gt;: add &lt;em&gt;Hugo version&lt;/em&gt; as &lt;em&gt;environmental variable&lt;/em&gt;: key: &lt;code&gt;HUGO_VERSION&lt;/code&gt; / value: &lt;code&gt;X.X.X&lt;/code&gt; (you may find your hugo version with the terminal command &lt;code&gt;hugo version&lt;/code&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;step-2---deploy-the-website&#34; &gt;
+&lt;div&gt;
+    &lt;a href=&#34;#step-2---deploy-the-website&#34;&gt;
+        ##
+    &lt;/a&gt;
+    Step 2 - Deploy the website
+&lt;/div&gt;
+&lt;/h3&gt;
+&lt;p&gt;Now you&amp;rsquo;re ready to deploy, push the button and the magic will happen! Note that Netlify will choose for you a temporary subdomain: you&amp;rsquo;ll be able to change it, or even set up a custom domain. If everything is ok, you&amp;rsquo;ll be able to browse your new website in a couple of minutes!&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

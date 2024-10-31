@@ -1,35 +1,35 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Frameworks on PrecisionDocs</title>
+    <title>Frameworks on → PrecisionDocs</title>
     <link>/tags/frameworks/</link>
-    <description>PrecisionDocs (Frameworks)</description>
+    <description>→ PrecisionDocs (Frameworks)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
 
     
-    <lastBuildDate>Mon, 30 Sep 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 23 Aug 2024 00:00:00 +0000</lastBuildDate>
     
     <atom:link href="/tags/frameworks/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>How to Build and Deploy a Blog with Hugo, Github and Netlify</title>
+      <title>How to Build and Deploy a Tech Documentation Static Site with Hugo</title>
       <link>/p/how-to-build-and-deploy-a-blog-with-hugo-github-and-netlify/</link>
-      <pubDate>Mon, 30 Sep 2024 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 23 Aug 2024 00:00:00 +0000</pubDate>
       
       <guid>/p/how-to-build-and-deploy-a-blog-with-hugo-github-and-netlify/</guid>
-      <description>&lt;h2 id=&#34;introduction-deploying-a--static-site&#34; &gt;
+      <description>&lt;h2 id=&#34;introduction--a-static-site-for-tech-documentation&#34; &gt;
 &lt;div&gt;
-    &lt;a href=&#34;#introduction-deploying-a--static-site&#34;&gt;
+    &lt;a href=&#34;#introduction--a-static-site-for-tech-documentation&#34;&gt;
         #
     &lt;/a&gt;
-    Introduction: Deploying a  Static Site
+    Introduction:  A Static Site for Tech Documentation
 &lt;/div&gt;
 &lt;/h2&gt;
 &lt;p&gt;Static site generation is a very popular solution in today&amp;rsquo;s publishing environments, especially for technical documentation. The available frameworks are solid and easy to use, and the resulting website is blazing fast with no hiccups and zero render time. If you add Github to the workflow as a storage solution, and Netlify as deployment framework, you have a perfect solution to a fast and clean publishing process.
-In this article, I&amp;rsquo;ll describe all the steps I&amp;rsquo;ve taken to bring Precisiondocs online&lt;/p&gt;
+In this article, I&amp;rsquo;ll describe all the steps you&amp;rsquo;ll need to create a Tech Documentation website with Hugo using Github and Netlify for deployment.&lt;/p&gt;
 &lt;h2 id=&#34;framework-hugo&#34; &gt;
 &lt;div&gt;
     &lt;a href=&#34;#framework-hugo&#34;&gt;
@@ -38,8 +38,8 @@ In this article, I&amp;rsquo;ll describe all the steps I&amp;rsquo;ve taken to b
     Framework: Hugo
 &lt;/div&gt;
 &lt;/h2&gt;
-&lt;p&gt;As static site generator, I went for &lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt;. It&amp;rsquo;s a solid framework, with good themes, and it&amp;rsquo;s based on markdown files organized in a simple file system. To install the Hugo framework, you need to start by setting up Hugo on your machine. You can install Hugo via a package manager or download it directly&lt;/p&gt;
-&lt;p&gt;Here is a step-by-step guide to installing the Hugo framework, creating a new website, and installing the &lt;a href=&#34;https://github.com/Junyi-99/hugo-theme-anubis2&#34;&gt;Anubis2 theme&lt;/a&gt;, the one I chose for this website.&lt;/p&gt;
+&lt;p&gt;As static site generator, I went for &lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt;. It&amp;rsquo;s a solid framework, with good themes, and it&amp;rsquo;s based on markdown files organized in a simple file system. To install the Hugo framework, you need to start by setting up Hugo on your machine. You can install Hugo via a package manager or download it directly. Hugo implements &lt;a href=&#34;https://themes.gohugo.io/&#34;&gt;themes&lt;/a&gt; to add ready made frontend to your website (or you can create a custom theme for yourself). For Hugo you can find a well known theme called Docsy, hosted on Google Github and unofficially supported, but for the purpose of this post we&amp;rsquo;re going to use &lt;a href=&#34;https://github.com/thingsym/hugo-theme-techdoc&#34;&gt;Techdoc&lt;/a&gt;, easier to manage if you&amp;rsquo;re new to Hugo.&lt;/p&gt;
+&lt;p&gt;Here is a step-by-step guide to installing the Hugo framework, creating a new website, and installing Techdoc.&lt;/p&gt;
 &lt;h3 id=&#34;step-1-install-hugo&#34; &gt;
 &lt;div&gt;
     &lt;a href=&#34;#step-1-install-hugo&#34;&gt;
@@ -69,20 +69,19 @@ Download the binary from the &lt;a href=&#34;https://github.com/gohugoio/hugo/re
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;This command will create a new folder &lt;code&gt;my-website&lt;/code&gt; with the necessary Hugo folder structure.
 At this point, you may want to move into the newly created website folder:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;cd&lt;/span&gt; my-website
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;step-3-install-the-anubis2-theme&#34; &gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;step-3-install-the-techdoc-theme&#34; &gt;
 &lt;div&gt;
-    &lt;a href=&#34;#step-3-install-the-anubis2-theme&#34;&gt;
+    &lt;a href=&#34;#step-3-install-the-techdoc-theme&#34;&gt;
         ##
     &lt;/a&gt;
-    Step 3: Install the Anubis2 Theme
+    Step 3: Install the Techdoc Theme
 &lt;/div&gt;
 &lt;/h3&gt;
-&lt;p&gt;In any Hugo installation you will need to add a &lt;em&gt;theme&lt;/em&gt; to provide a layout and a presentation layer  to your content. In my case I chose Anubis2. You can install this theme (as any other) using Git. Run the following command to add it as a submodule:&lt;/p&gt;
+&lt;p&gt;To install Techdoc you&amp;rsquo;re going to use Git submodules. Run the following command to initialize &lt;code&gt;git&lt;/code&gt; and to add the theme to &lt;code&gt;themes&lt;/code&gt; folder:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git init
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git submodule add https://github.com/Mitrichius/hugo-theme-anubis.git themes/anubis2
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Now that the theme is installed, you will need to let Hugo know. Look in the root for a file called &lt;code&gt;config.toml&lt;/code&gt; file and add the following line to specify the Anubis2 theme:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-toml&#34; data-lang=&#34;toml&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;theme = &lt;span style=&#34;color:#0ff;font-weight:bold&#34;&gt;&amp;#34;anubis2&amp;#34;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Now you&amp;rsquo; re ready to launch the website using this command:&lt;/p&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git submodule add https://github.com/thingsym/hugo-theme-techdoc.git themes/hugo-theme-techdoc
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Now that the theme is installed, you will need to configure Hugo to use it at its best. Look for the &lt;a href=&#34;https://github.com/thingsym/hugo-theme-techdoc/blob/master/exampleSite/hugo.toml&#34;&gt;hugo.toml&lt;/a&gt; file in exampleSite folder of the theme and copy it in the root of your newly created website&lt;/p&gt;
+&lt;p&gt;Now you&amp;rsquo; re ready to launch the website using this command:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;hugo server
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;This will make your site available at &lt;code&gt;http://localhost:1313&lt;/code&gt;. Hugo will automatically rebuild&lt;/p&gt;
 &lt;h2 id=&#34;repository-github&#34; &gt;
@@ -94,9 +93,8 @@ At this point, you may want to move into the newly created website folder:&lt;/p
 &lt;/div&gt;
 &lt;/h2&gt;
 &lt;p&gt;Once your site is ready, you may want to create a repository on &lt;a href=&#34;https://github.com&#34;&gt;Github&lt;/a&gt; and put your website in it. This way you&amp;rsquo;ll be able to easily push updates online, and - as we&amp;rsquo;ll see - deploy the content.
-First of all, you will create a repository on Github from your profile page, giving it a name of your choice and deciding for it to be &lt;code&gt;public&lt;/code&gt; or &lt;code&gt;private&lt;/code&gt;. Then you&amp;rsquo;ll go back to your terminal and initialize &lt;code&gt;git&lt;/code&gt; using the commands provided from Github to connect your local repo to the online counterpart.&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git init
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git remote add origin https://github.com/biccio/prova.git
+First of all, you will create a repository on Github from your profile page, giving it a name of your choice and deciding for it to be &lt;code&gt;public&lt;/code&gt; or &lt;code&gt;private&lt;/code&gt;. Then you&amp;rsquo;ll go back to your terminal and initialize &lt;code&gt;git&lt;/code&gt; using the commands provided from Github to connect your local repo to the online counterpart.  Git is already initalized in your folder so you won&amp;rsquo;t need &lt;code&gt;git init&lt;/code&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git remote add origin https://github.com/biccio/prova.git
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git branch -M main
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git push -u origin main
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Now you&amp;rsquo;re all set! Let&amp;rsquo;s go to deployment!&lt;/p&gt;

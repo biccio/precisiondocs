@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Documentation on PrecisionDocs</title>
+    <title>Documentation on → PrecisionDocs</title>
     <link>/tags/documentation/</link>
-    <description>PrecisionDocs (Documentation)</description>
+    <description>→ PrecisionDocs (Documentation)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
 
     
-    <lastBuildDate>Sun, 07 Jul 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 30 Sep 2024 00:00:00 +0000</lastBuildDate>
     
     <atom:link href="/tags/documentation/index.xml" rel="self" type="application/rss+xml" />
     
@@ -17,7 +17,7 @@
     <item>
       <title>The Pros and Cons of Embedding Documentation in Code</title>
       <link>/p/the-pros-and-cons-of-embedding-technical-documentation-inside-the-codebase/</link>
-      <pubDate>Sun, 07 Jul 2024 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2024 00:00:00 +0000</pubDate>
       
       <guid>/p/the-pros-and-cons-of-embedding-technical-documentation-inside-the-codebase/</guid>
       <description>&lt;h2 id=&#34;introduction-choosing-the-best-place-for-documentation&#34; &gt;

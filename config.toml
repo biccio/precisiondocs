@@ -1,7 +1,7 @@
 baseURL = "https://precisiondocs.tech/"
 languageCode = "en-us"
 theme = "anubis2"
-title = "PrecisionDocs"
+title = "→ PrecisionDocs"
 
 [author]
 name = "Fabrizio Ulisse"
@@ -21,20 +21,17 @@ pagerSize = 5
 
 [params]
 description = "Tech and docs writing resources and stuff"
-dateFormat = "2006-01-02"
+dateFormat = "January 2, 2006"
 paginationSinglePost = true
 colorTheme = "auto"
 colorThemeSwitcher = false
-rssAsSocialIcon = true
+rssIcon = false
 anchorLineNos      = false
 
 customCSS = ["custom-css/custom-css1.css"]
 
 
-social = [
-    { id = "github", url = "https://github.com/biccio" },
-    { id = "linkedin", url = "https://www.linkedin.com/in/fabrizioulisse" },
-]
+
 
 [[menu.main]]
 identifier = "home"
