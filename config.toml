@@ -28,7 +28,7 @@ colorThemeSwitcher = false
 rssIcon = false
 anchorLineNos      = false
 
-customCSS = ["custom-css/custom-css1.css"]
+customCSS = ["custom-css/custom-css.css"]
 
 
 
