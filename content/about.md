@@ -5,7 +5,7 @@ meta: true
 
 Hello there 👋🏻
 
-My name is [Fabrizio Ulisse](https://linkedin.com/in/fabrizioulisse)
+My name is [Fabrizio Ulisse](https://fabrizioulisse.it)
 
 - I’m currently working as Senior Tech Communication Officer @[PagoPA](https://pagopa.it)
 - Pronouns: he/him
