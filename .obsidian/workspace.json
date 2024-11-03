@@ -11,10 +11,14 @@
             "id": "e4baf41a2a458fa8",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "content/p/why-diataxis-framework-is-a-game-changer-for-organizing-technical-documentation/index.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "index"
             }
           }
         ]
@@ -127,6 +131,18 @@
               "icon": "lucide-tags",
               "title": "Tags"
             }
+          },
+          {
+            "id": "7f9a96eaeaf26512",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "content/p/why-diataxis-framework-is-a-game-changer-for-organizing-technical-documentation/index.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of index"
+            }
           }
         ],
         "currentTab": 2
@@ -146,12 +162,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "af3ffb874e31b3eb",
+  "active": "e4baf41a2a458fa8",
   "lastOpenFiles": [
     "content/p/how-to-build-and-deploy-a-blog-with-hugo-github-and-netlify/index.md",
-    "content/p/how-to-use-obsidian-and-github-to-organize-and-maintain-your-tech-document/index.md",
     "content/p/why-diataxis-framework-is-a-game-changer-for-organizing-technical-documentation/index.md",
     "content/p/the-pros-and-cons-of-embedding-technical-documentation-inside-the-codebase/index.md",
+    "content/p/how-to-use-obsidian-and-github-to-organize-and-maintain-your-tech-document/index.md",
     "content/p/why-diataxis-framework-is-a-game-changer-for-organizing-technical-documentation",
     "content/p/the-pros-and-cons-of-embedding-technical-documentation-inside-the-codebase",
     "content/p/how-to-use-obsidian-and-github-to-organize-and-maintain-your-tech-document",
