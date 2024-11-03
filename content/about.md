@@ -16,3 +16,5 @@ I come from an **information architecture**, **interaction design** and **projec
 I love travelling with my gravel bike (and I run a [blog about my trips](https://ciclogravelista.com)), and [playing my Fender Stratocaster](https://youtu.be/_505xUKLlAo). 
 
 Most importantly, I'm a father.
+
+(*disclaimer: the content on this website reflects personal opinion and researches,and it's not directly related to, or connected with, my job*)
