@@ -36,7 +36,7 @@ lastmod = false
 rss = true
 pagination = "10"
 hideAuthor = true
-description="A blog about Technical writing and technical communication"
+description="A blog about Technical Writing and All Things Technical Communication"
 previewCardImagePlacement = "top"
 
 [Params.Author]
