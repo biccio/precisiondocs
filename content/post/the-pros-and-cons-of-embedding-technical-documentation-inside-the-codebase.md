@@ -8,7 +8,7 @@ image : "/img/posts/img-3.png"
 
 ---
 
-## Introduction: Choosing the Best Place for Documentation
+## Choosing the Best Place for Documentation
 If you’ve ever worked with code and tech documentation, you may have asked yourself, “Where should all that essential information go?” Embedding documentation directly in the codebase versus keeping it separate (like in a standalone knowledge base) each comes with pros and cons, along with specific use cases where one approach may work better than the other. Here, we’ll examine the arguments for both options to help you decide which method best fits your project.
 ## Why choose to embed documentation
 For developers who spend most of their time in an [IDE](https://en.wikipedia.org/wiki/Integrated_development_environment), having documentation alongside the code itself makes a huge difference. With embedded documentation, developers avoid hunting through separate tools, finding essential information—function descriptions, parameters, tricky logic explanations—all integrated into the code. This ease of access saves time and reduces context-switching, especially valuable in fast-paced or Agile environments.

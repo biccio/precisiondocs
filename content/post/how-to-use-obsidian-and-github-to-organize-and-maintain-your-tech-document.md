@@ -6,7 +6,7 @@ description: Obsidian is a powerful WYSIWYG markdown editor that makes it easy t
 featured: true
 image : "/img/posts/img-2.png"
 ---
-## Introduction: Managing Information Effectively
+## Managing Information Effectively
 
 In today’s fast-paced technical environments, clear and well-organized documentation is key to ensuring smooth workflows and successful collaboration. Whether you’re working on API documentation, software architecture overviews, or development processes, managing this information effectively is essential. Two tools that offer a powerful solution for handling technical documentation are [Obsidian](https://obsidian.md/) and [GitHub](https://github.com/). Together, they provide an efficient system for writing, organizing, and sharing technical documents.
 

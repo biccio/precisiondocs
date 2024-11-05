@@ -7,11 +7,13 @@ featured: true
 image : "/img/posts/img-4.png"
 ---
 
-
+## Why we need a framework for Technical Documentation
 Effective technical documentation is critical to the success of any company, particularly in tech-driven environments where internal teams, partners, and customers rely on precise and accessible information. However, creating and managing high-quality documentation is no easy task. It’s common to end up with scattered, inconsistent, or overly complex content that makes it difficult for users to find what they need, when they need it. 
 
 This is where the [Diátaxis Framework](https://www.diataxis.fr/) comes in: a structured, modern approach to organizing technical documentation that not only streamlines your content but also enhances its usability. Whether you're documenting for developers, end-users, or internal teams, 
+
 ## What is the Diátaxis Framework?
+
 The Diátaxis Framework, developed by Daniele Procida, is a model that provides a clear, logical methodology that ensures everyone finds the right information easily, categorizing technical documentation into four distinct types:
 
 - **Tutorials** – Learning-oriented content that guides users through accomplishing a specific task. These are step-by-step instructions for beginners who are unfamiliar with your product or technology.
