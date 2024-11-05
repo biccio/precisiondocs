@@ -1,4 +1,4 @@
-baseURL = "https://lightbi-hugo-theme.netlify.app/"
+baseURL = "https://precisiondocs.tech/"
 DefaultContentLanguage = "en"
 defaultContentLanguageInSubdir = false
 languageCode = "en-us"
@@ -36,7 +36,7 @@ lastmod = false
 rss = true
 pagination = "10"
 hideAuthor = true
-description="Your can add your website description here."
+description="A blog about Technical writing and technical communication"
 previewCardImagePlacement = "top"
 
 [Params.Author]
