@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="en" itemscope itemtype="http://schema.org/WebPage">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<title>How to Build and Deploy a Tech Documentation Static Site with Hugo - PrecisionDocs</title>
+<meta name="description" content="Hugo is a powerful static site generator functioning as a complete framework. Along with Github as storage repository and Netlify as deployment tool, it makes a perfect platform to run and mantain a fast and lightweight documentation website.">
+
+<meta name="author" content="Fabrizio Ulisse"><script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "WebSite",
+    "name": "PrecisionDocs",
+    
+    "url": "http:\/\/localhost:1313\/"
+}
+</script><script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Organization",
+  "name": "",
+  "url": "http:\/\/localhost:1313\/"
+  
+  
+  
+  
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+          "@id": "http:\/\/localhost:1313\/",
+          "name": "home"
+        }
+    },{
+        "@type": "ListItem",
+        "position": 3,
+        "item": {
+          "@id": "http:\/\/localhost:1313\/post\/how-to-build-and-deploy-a-blog-with-hugo-github-and-netlify\/",
+          "name": "How to build and deploy a tech documentation static site with hugo"
+        }
+    }]
+}
+</script><script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Article",
+  "author": {
+    "name" : "Fabrizio Ulisse"
+  },
+  "headline": "How to Build and Deploy a Tech Documentation Static Site with Hugo",
+  "description" : "Hugo is a powerful static site generator functioning as a complete framework. Along with Github as storage repository and Netlify as deployment tool, it makes a perfect platform to run and mantain a fast and lightweight documentation website.",
+  "inLanguage" : "en",
+  "wordCount":  833 ,
+  "datePublished" : "2024-08-23T00:00:00",
+  "dateModified" : "2024-08-23T00:00:00",
+  "image" : "http:\/\/localhost:1313\/",
+  "keywords" : [ "hugo, netlify, staticsitegenerator, frameworks, github, deployment, techdoc, docsy" ],
+  "mainEntityOfPage" : "http:\/\/localhost:1313\/post\/how-to-build-and-deploy-a-blog-with-hugo-github-and-netlify\/",
+  "publisher" : {
+    "@type": "Organization",
+    "name" : "http:\/\/localhost:1313\/",
+    "logo" : {
+        "@type" : "ImageObject",
+        "url" : "http:\/\/localhost:1313\/",
+        "height" :  60 ,
+        "width" :  60
+    }
+  }
+}
+</script>
+
+<meta property="og:title" content="How to Build and Deploy a Tech Documentation Static Site with Hugo" />
+<meta property="og:description" content="Hugo is a powerful static site generator functioning as a complete framework. Along with Github as storage repository and Netlify as deployment tool, it makes a perfect platform to run and mantain a fast and lightweight documentation website.">
+<meta property="og:image" content="http://localhost:1313/img/posts/img-1.png" />
+<meta property="og:url" content="http://localhost:1313/post/how-to-build-and-deploy-a-blog-with-hugo-github-and-netlify/" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="PrecisionDocs" />
+<link rel="apple-touch-icon" sizes="180x180" href=" http://localhost:1313/favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon/favicon-16x16.png">
+
+
+<meta name="generator" content="Hugo 0.135.0">
+<link rel="alternate" href="http://localhost:1313/index.xml" type="application/rss+xml" title="PrecisionDocs">
+<script src="http://localhost:1313/js/dark-mode.js"></script><script src="http://localhost:1313/vendor/lunr/lunr.min.js"></script><script src="http://localhost:1313/js/lunr-search.js" data-index="/search.json"></script><link rel="stylesheet" href="/style.min.css">
+
+
+
+
+
+
+
+  </head>
+  <body>
+    
+<div class="container fixed-top mw-100">
+  <div class="row justify-content-center">
+    <div class="col-sm-12 col-md-12 col-lg-10 col-xl-10">
+
+      <nav class="navbar navbar-expand-lg navbar-light fixed-top p-0">
+        <div class="container">
+
+          <a class="navbar-brand fw-bold" href="http://localhost:1313/">PrecisionDocs</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav mb-2 mb-lg-0 align-items-baseline">
+              
+              
+
+              <li class="nav-item">
+                
+                
+                
+                
+                
+
+                <a class="nav-link " title="Home"
+                  href="/"> Home</a>
+              </li>
+
+              
+              
+              
+
+              <li class="nav-item">
+                
+                
+                
+                
+                
+
+                <a class="nav-link " title="Tags"
+                  href="/tags/"> Tags</a>
+              </li>
+
+              
+              
+              
+
+              <li class="nav-item">
+                
+                
+                
+                
+                
+
+                <a class="nav-link " title="About"
+                  href="/about/"> About</a>
+              </li>
+
+              
+              
+
+
+                
+            
+
+            
+              <li class="nav-item nav-link">
+                <a id="dark-mode-toggle" class="bi bi-moon-stars" role="button"></a>
+              </li>
+
+              
+              
+              <li class="nav-item search-item">
+                <form id="search" class="search" role="search">
+                  <label for="search-input" class="bi bi-search search-icon"></label>
+                  <input type="search" id="search-input" class="search-input">
+                </form>
+              </li>
+              
+            </ul>
+
+            
+            <template id="search-heading" hidden data-results-none=""
+              data-results-one=""
+              data-results-many="">
+              <div class="row">
+                <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 ">
+                  <h1 id="search-title" class="search-title"></h1>
+                </div>
+              </div>
+            </template>
+
+            <template id="search-result" hidden>
+              <div class="row">
+                <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 ">
+                  <article class="content post">
+                    <h2><a class="summary-title-link"></a></h2>
+                    <div class="post-entry"></div>
+                    <div class="read-more-section">
+                      <h6 class="text-muted link-underline">
+                        <a class="read-more-link">
+                          Read More
+                          <i class="bi bi-arrow-right"></i>
+                        </a>
+                      </h6>
+                    </div>
+                  </article>
+                </div>
+              </div>
+            </template>
+            
+          </div>
+        </div>
+      </nav>
+
+    </div>
+  </div>
+</div>
+    
+
+
+
+
+
+
+
+
+
+<header class="header-section ">
+
+  <div class="intro-header no-img mt-10">
+    <div class="container">
+      <div class="row justify-content-center">
+        
+        <div class="col-sm-12 col-md-12 col-lg-8 col-xl-8">
+          
+
+          
+          <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+            
+
+            <div class="post-heading">
+              
+
+              
+
+              
+              <h1 class="fw-semibold display-5 lh-1 mb-3"> 
+                How to Build and Deploy a Tech Documentation Static Site with Hugo
+                
+              </h1>
+              
+              
+
+              
+
+              
+              
+              <span class="post-meta">
+  
+  
+  &nbsp;23 August 2024
+
+  
+
+  
+
+  
+</span>
+
+
+              
+              
+            </div>
+          </div>
+          
+        </div>
+        
+        
+      </div>
+      
+    </div>
+  </div>
+</header>
+
+
+
+    
+<div class="container" role="main">
+  <div class="row">
+    <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 ">
+
+      <div class="card-image card-image-blog p-0">
+        
+        
+          
+            <img src="/img/posts/img-1.png" alt="/img/posts/img-1.png" class="card-img-bottom rounded img-fluid lazyload">
+          
+        
+
+
+        
+      </div>
+    </div>
+
+    <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 pt-4">
+      <article role="main" class="blog-post">
+        <h2 id="a-static-site-for-tech-documentation">A Static Site for Tech Documentation</h2>
+<p>Static site generation is a very popular solution in today&rsquo;s publishing environments, especially for technical documentation. The available frameworks are solid and easy to use, and the resulting website is blazing fast with no hiccups and zero render time. If you add Github to the workflow as a storage solution, and Netlify as deployment framework, you have a perfect solution to a fast and clean publishing process.
+In this article, I&rsquo;ll describe all the steps you&rsquo;ll need to create a Tech Documentation website with Hugo using Github and Netlify for deployment.</p>
+<h2 id="framework-hugo">Framework: Hugo</h2>
+<p>As static site generator, I went for <a href="https://gohugo.io/">Hugo</a>. It&rsquo;s a solid framework, with good themes, and it&rsquo;s based on markdown files organized in a simple file system. To install the Hugo framework, you need to start by setting up Hugo on your machine. You can install Hugo via a package manager or download it directly. Hugo implements <a href="https://themes.gohugo.io/">themes</a> to add ready made frontend to your website (or you can create a custom theme for yourself). For Hugo you can find a well known theme called Docsy, hosted on Google Github and unofficially supported, but for the purpose of this post we&rsquo;re going to use <a href="https://github.com/thingsym/hugo-theme-techdoc">Techdoc</a>, easier to manage if you&rsquo;re new to Hugo.</p>
+<p>Here is a step-by-step guide to installing the Hugo framework, creating a new website, and installing Techdoc.</p>
+<h3 id="step-1-install-hugo">Step 1: Install Hugo</h3>
+<p>For <strong>macOS</strong>:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>brew install hugo
+</span></span></code></pre></div><p>For <strong>Linux</strong>:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo apt-get install hugo
+</span></span></code></pre></div><p>For <strong>Windows</strong>:
+Download the binary from the <a href="https://github.com/gohugoio/hugo/releases">Hugo GitHub releases</a> and add it to your PATH.</p>
+<p>Once Hugo is installed, check if it’s working correctly by running:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>hugo version
+</span></span></code></pre></div><h3 id="step-2-create-a-new-website">Step 2: Create a New Website</h3>
+<p>Now that you installed Hugo, you need to create a new Hugo site by running the following command:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>hugo new site my-website
+</span></span></code></pre></div><p>This command will create a new folder <code>my-website</code> with the necessary Hugo folder structure.
+At this point, you may want to move into the newly created website folder:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#999">cd</span> my-website
+</span></span></code></pre></div><h3 id="step-3-install-the-techdoc-theme">Step 3: Install the Techdoc Theme</h3>
+<p>To install Techdoc you&rsquo;re going to use Git submodules. Run the following command to initialize <code>git</code> and to add the theme to <code>themes</code> folder:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git init
+</span></span><span style="display:flex;"><span>git submodule add https://github.com/thingsym/hugo-theme-techdoc.git themes/hugo-theme-techdoc
+</span></span></code></pre></div><p>Now that the theme is installed, you will need to configure Hugo to use it at its best. Look for the <a href="https://github.com/thingsym/hugo-theme-techdoc/blob/master/exampleSite/hugo.toml">hugo.toml</a> file in exampleSite folder of the theme and copy it in the root of your newly created website</p>
+<p>Now you&rsquo; re ready to launch the website using this command:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>hugo server
+</span></span></code></pre></div><p>This will make your site available at <code>http://localhost:1313</code>. Hugo will automatically rebuild</p>
+<h2 id="repository-github">Repository: Github</h2>
+<p>Once your site is ready, you may want to create a repository on <a href="https://github.com">Github</a> and put your website in it. This way you&rsquo;ll be able to easily push updates online, and - as we&rsquo;ll see - deploy the content.
+First of all, you will create a repository on Github from your profile page, giving it a name of your choice and deciding for it to be <code>public</code> or <code>private</code>. Then you&rsquo;ll go back to your terminal and initialize <code>git</code> using the commands provided from Github to connect your local repo to the online counterpart.  Git is already initalized in your folder so you won&rsquo;t need <code>git init</code></p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git remote add origin https://github.com/biccio/prova.git
+</span></span><span style="display:flex;"><span>git branch -M main
+</span></span><span style="display:flex;"><span>git push -u origin main
+</span></span></code></pre></div><p>Now you&rsquo;re all set! Let&rsquo;s go to deployment!</p>
+<h2 id="deployment-netlify">Deployment: Netlify</h2>
+<p>Netlify is a great solution to deploy a website from a variety of framework, providing a great interface to manage multiple websites and their build and deployment. Netlify offers a free starter package with <strong>100 GB of bandwidth</strong>, <strong>300 build per minutes</strong> for a single member seat.
+The easiest way to create and manage a new website is <em>importing a new project</em> (other options are: <em>manually uploading your files</em> or <em>starting from a template</em>, a great solution if you need to start from scratch with backend and frontend).</p>
+<h3 id="step-1---create-a-new-website-importing-a-project">Step 1 - Create a new website importing a project</h3>
+<p>Assuming that you followed the previous steps, now you should have your content and framework stored in a repository on Github.</p>
+<ol>
+<li><strong>Create a new site</strong>
+<ul>
+<li>Select <strong>Add new site</strong> → <strong>Import an existing project</strong></li>
+<li>Select <strong>Github</strong> and authenticate (or you may be already logged in)</li>
+<li>Choose the repo where you stored your content</li>
+</ul>
+</li>
+<li><strong>Review your configuration</strong>
+<ul>
+<li>Choose a name for your new website</li>
+<li>Choose your branch (usually <code>main</code>)</li>
+<li>Leave blank <em>Base directory</em></li>
+<li>Write <code>hugo</code> as <em>Build Command</em></li>
+<li><code>public</code> as <em>Publish Directory</em></li>
+<li>Leave default in <em>Functions Directory</em></li>
+<li><strong>important</strong>: add <em>Hugo version</em> as <em>environmental variable</em>: key: <code>HUGO_VERSION</code> / value: <code>X.X.X</code> (you may find your hugo version with the terminal command <code>hugo version</code>)</li>
+</ul>
+</li>
+</ol>
+<h3 id="step-2---deploy-the-website">Step 2 - Deploy the website</h3>
+<p>Now you&rsquo;re ready to deploy, push the button and the magic will happen! Note that Netlify will choose for you a temporary subdomain: you&rsquo;ll be able to change it, or even set up a custom domain. If everything is ok, you&rsquo;ll be able to browse your new website in a couple of minutes!</p>
+
+      </article>
+    </div>
+  </div>
+
+  
+  <div class="row">
+    <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1">
+      <hr class="m-0"/>
+    </div>
+    <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 pt-2">
+      
+      <div class="blog-tags">
+        
+        <a href="http://localhost:1313/tags/hugo/">hugo</a>
+        
+        <a href="http://localhost:1313/tags/netlify/">netlify</a>
+        
+        <a href="http://localhost:1313/tags/staticsitegenerator/">staticsitegenerator</a>
+        
+        <a href="http://localhost:1313/tags/frameworks/">frameworks</a>
+        
+        <a href="http://localhost:1313/tags/github/">github</a>
+        
+        <a href="http://localhost:1313/tags/deployment/">deployment</a>
+        
+        <a href="http://localhost:1313/tags/techdoc/">techdoc</a>
+        
+        <a href="http://localhost:1313/tags/docsy/">docsy</a>
+        
+      </div>
+      
+    </div>
+
+    <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 pt-4">
+      
+    </div>
+
+    
+
+    <div class="col-lg-8 offset-lg-2 col-md-12 offset-md-1 pt-4">
+      
+      <ul class="list-group list-group-horizontal" style="flex-direction: row">
+        
+        <li class="list-group-item b-0 p-0">
+
+          <a type="button" class="btn btn-dark" role="button" href="http://localhost:1313/post/how-to-use-obsidian-and-github-to-organize-and-maintain-your-tech-document/"
+            data-toggle="tooltip" data-placement="top" title="How to use Obsidian and Github to Organize and Maintain your Tech Documentation">&larr;
+            Previous Post</a>
+        </li>
+        
+
+
+        
+        <li class="list-group-item ms-auto b-0 p-0">
+          <a type="button" class="btn btn-dark" role="button" href="http://localhost:1313/post/the-pros-and-cons-of-embedding-technical-documentation-inside-the-codebase/"
+            data-toggle="tooltip" data-placement="top" title="The Pros and Cons of Embedding Documentation in Code">Next Post
+            &rarr;</a>
+        </li>
+        
+      </ul>
+      
+    </div>
+
+    <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 pt-4">
+    </div>
+  </div>
+  
+</div>
+
+<div class="">
+  
+  
+  
+  
+  
+
+  
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 col-md-12 mt-3">
+        <h3>Read More</h3>
+        <hr />
+      </div>
+
+      
+      
+
+      
+<div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 mb-4">
+    <a href="http://localhost:1313/post/how-to-use-obsidian-and-github-to-organize-and-maintain-your-tech-document/">
+        <div class="card single-post-card h-100 shadow-effect border">
+            
+            <img src="/img/posts/img-2_hu16682170945996241224.png" alt="/img/posts/img-2.png"
+                class="card-img-top img-fluid lazyload">
+            
+
+            
+            <div class="card-body">
+
+                <h3 class="fw-medium post-title">How to use Obsidian and Github to Organize and Maintain your Tech Documentation</h3>
+                
+
+                <p class="post-meta">
+                    <span class="post-meta text-muted">
+  
+  
+
+  24 July 2024
+
+  
+
+  
+
+  
+
+  
+</span>
+
+                </p>
+                
+                <div class="post-entry">
+
+                    
+                    Obsidian is a powerful WYSIWYG markdown editor that makes it easy to write and organize your content. Paring it with Github is the perfect solution to develop and maintain technical documentation.
+
+                    
+                </div>
+
+                <div class="read-more-section">
+                    <h6 class="text-muted link-underline">Read More <i class="bi bi-arrow-right"></i></h6>
+                </div>
+            </div>
+        </div>
+    </a>
+</div>
+
+
+
+      
+    </div>
+  </div>
+  
+  
+
+  
+
+</div>
+
+    
+
+
+<footer>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <ul
+          class="list-inline list-group list-group-horizontal text-center footer-links d-flex justify-content-center flex-row">
+
+          
+          <li>
+            <a href="https://github.com/biccio" title="GitHub" target="_blank">
+              <span class="mx-2">
+                <i class="bi bi-github"></i>
+              </span>
+            </a>
+          </li>
+          <li>
+            <a href="https://twitter.com/biccio" title="Twitter" target="_blank">
+              <span class="mx-2">
+                <i class="bi bi-twitter-x"></i>
+              </span>
+            </a>
+          </li>
+          <li>
+            <a href="https://linkedin.com/in/fabrizioulisse" title="LinkedIn" target="_blank">
+              <span class="mx-2">
+                <i class="bi bi-linkedin"></i>
+              </span>
+            </a>
+          </li>
+          <li>
+            <a href="https://https://hachyderm.io/@biccio" title="Mastodon" target="_blank">
+              <span class="mx-2">
+                <i class="bi bi-mastodon"></i>
+              </span>
+            </a>
+          </li>
+          
+          <li>
+            <a href="" title="RSS">
+              <span class="mx-2">
+                <i class="bi bi-rss"></i>
+              </span>
+            </a>
+          </li>
+          
+        </ul>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-12">
+        <p class="credits copyright text-muted">
+          
+          
+          <a href="https://fabrizioulisse.it">Fabrizio Ulisse</a>
+          
+          
+
+          &nbsp;&bull;&nbsp;&copy;
+          
+          2024
+          
+
+          
+          &nbsp;&bull;&nbsp;
+          <a href="http://localhost:1313/">PrecisionDocs</a>
+          
+        </p>
+        
+        <p class="credits theme-by text-muted">
+          Powered by <a href="https://gohugo.io">Hugo</a> & <a href="https://github.com/binokochumolvarghese/lightbi-hugo">Lightbi.</a>&nbsp; Made with ❤ by <a href="https://binovarghese.com">Bino</a>
+          
+        </p>
+      </div>
+    </div>
+  </div>
+</footer><script src="http://localhost:1313/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="http://localhost:1313/js/highlight.min.js"></script>
+<script> hljs.initHighlightingOnLoad(); </script>
+<script> $(document).ready(function () { $("pre.chroma").css("padding", "0"); }); </script>
+
+    
+  </body>
+</html>
+

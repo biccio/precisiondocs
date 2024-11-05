@@ -1,102 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Notion on → PrecisionDocs</title>
-    <link>/tags/notion/</link>
-    <description>→ PrecisionDocs (Notion)</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <title>Notion on PrecisionDocs</title>
+    <link>http://localhost:1313/tags/notion/</link>
+    <description>Recent content in Notion on PrecisionDocs</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    
-
-    
     <lastBuildDate>Mon, 30 Sep 2024 00:00:00 +0000</lastBuildDate>
-    
-    <atom:link href="/tags/notion/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <atom:link href="http://localhost:1313/tags/notion/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The Pros and Cons of Embedding Documentation in Code</title>
-      <link>/p/the-pros-and-cons-of-embedding-technical-documentation-inside-the-codebase/</link>
+      <link>http://localhost:1313/post/the-pros-and-cons-of-embedding-technical-documentation-inside-the-codebase/</link>
       <pubDate>Mon, 30 Sep 2024 00:00:00 +0000</pubDate>
-      
-      <guid>/p/the-pros-and-cons-of-embedding-technical-documentation-inside-the-codebase/</guid>
-      <description>&lt;h2 id=&#34;introduction-choosing-the-best-place-for-documentation&#34; &gt;
-&lt;div&gt;
-    &lt;a href=&#34;#introduction-choosing-the-best-place-for-documentation&#34;&gt;
-        #
-    &lt;/a&gt;
-    Introduction: Choosing the Best Place for Documentation
-&lt;/div&gt;
-&lt;/h2&gt;
-&lt;p&gt;f you’ve ever worked with code and tech documentation, you may have asked yourself, “Where should all that essential information go?” Embedding documentation directly in the codebase versus keeping it separate (like in a standalone knowledge base) each comes with pros and cons, along with specific use cases where one approach may work better than the other. Here, we’ll examine the arguments for both options to help you decide which method best fits your project.&lt;/p&gt;
-&lt;h2 id=&#34;why-choose-to-embed-documentation&#34; &gt;
-&lt;div&gt;
-    &lt;a href=&#34;#why-choose-to-embed-documentation&#34;&gt;
-        #
-    &lt;/a&gt;
-    Why choose to embed documentation
-&lt;/div&gt;
-&lt;/h2&gt;
-&lt;p&gt;For developers who spend most of their time in an &lt;a href=&#34;https://en.wikipedia.org/wiki/Integrated_development_environment&#34;&gt;IDE&lt;/a&gt;, having documentation alongside the code itself makes a huge difference. With embedded documentation, developers avoid hunting through separate tools, finding essential information—function descriptions, parameters, tricky logic explanations—all integrated into the code. This ease of access saves time and reduces context-switching, especially valuable in fast-paced or Agile environments.&lt;/p&gt;
-&lt;p&gt;Furthermore, &lt;strong&gt;Embedded documentation is often more accurate&lt;/strong&gt;. When a method or function changes, it&amp;rsquo;s easy for developers to quickly update the related docstring and comment, to prevent outdated documentation. Keeping the code and documentation close together is a huge help, especially for small teams that may not have time or resources to maintain a separate workflow for tech writing.&lt;/p&gt;
-&lt;h3 id=&#34;some-drawbacks-of-embedded-documentation&#34; &gt;
-&lt;div&gt;
-    &lt;a href=&#34;#some-drawbacks-of-embedded-documentation&#34;&gt;
-        ##
-    &lt;/a&gt;
-    Some Drawbacks of Embedded Documentation
-&lt;/div&gt;
-&lt;/h3&gt;
-&lt;p&gt;While embedded comments and &lt;a href=&#34;https://it.wikipedia.org/wiki/Docstring&#34;&gt;docstrings&lt;/a&gt; work for specific, isolated explanations, &lt;strong&gt;they can clutter the code if overused.&lt;/strong&gt; Readability may suffer, especially when sections are filled with verbose documentation that obscures the actual code logic. There’s also limited formatting flexibility—comments in code are generally plain text, which doesn’t allow for rich formatting like tables, images, or structured examples&lt;/p&gt;
-&lt;h3 id=&#34;use-case-for-embedded-documentation&#34; &gt;
-&lt;div&gt;
-    &lt;a href=&#34;#use-case-for-embedded-documentation&#34;&gt;
-        ##
-    &lt;/a&gt;
-    Use case for embedded documentation
-&lt;/div&gt;
-&lt;/h3&gt;
-&lt;p&gt;Embedded documentation is most effective when projects focus on technical use cases that benefit directly from inline clarification. For example, if you’re building an API, inline docstrings make each function’s purpose, parameters, and output clear. Combined with tools like &lt;a href=&#34;https://www.sphinx-doc.org/&#34;&gt;Sphinx&lt;/a&gt; or &lt;a href=&#34;https://jsdoc.app/&#34;&gt;JSDoc&lt;/a&gt;, these inline comments can even auto-generate documentation pages, making them accessible without the need for manual upkeep.&lt;/p&gt;
-&lt;h2 id=&#34;why-use-separate-documentation&#34; &gt;
-&lt;div&gt;
-    &lt;a href=&#34;#why-use-separate-documentation&#34;&gt;
-        #
-    &lt;/a&gt;
-    Why Use Separate Documentation?
-&lt;/div&gt;
-&lt;/h2&gt;
-&lt;p&gt;In contrast, keeping documentation separate from code can be a great choice, &lt;strong&gt;especially for larger, cross-functional teams or complex projects&lt;/strong&gt;. With dedicated documentation tools like &lt;a href=&#34;https://www.atlassian.com/software/confluence&#34;&gt;Confluence&lt;/a&gt;, &lt;a href=&#34;https://www.notion.so/&#34;&gt;Notion&lt;/a&gt;, or &lt;a href=&#34;https://www.gitbook.com/&#34;&gt;GitBook&lt;/a&gt;, you can create comprehensive guides, tutorials, and high-level overviews that surpass the limitations of inline comments. Separate documentation allows you to include multimedia elements like tables, diagrams, and step-by-step user flows, making it ideal for non-developers or anyone who might be intimidated by the codebase.&lt;/p&gt;
-&lt;p&gt;Keeping documentation separate from the codebase also makes it more accessible to &lt;strong&gt;non-developer stakeholders&lt;/strong&gt; like product managers or customer support. Many documentation platforms include advanced search and organizational features, making it easier to find specific information than if it were buried in code comments.&lt;/p&gt;
-&lt;h3 id=&#34;potential-downsides-of-separate-documentation&#34; &gt;
-&lt;div&gt;
-    &lt;a href=&#34;#potential-downsides-of-separate-documentation&#34;&gt;
-        ##
-    &lt;/a&gt;
-    Potential Downsides of Separate Documentation
-&lt;/div&gt;
-&lt;/h3&gt;
-&lt;p&gt;One common challenge with separate documentation is that it’s prone to getting out of sync with the actual code. Without a rigorous update process, changes to the code may not always reflect in the documentation, leading to potential confusion. Separate documentation also requires more upkeep, often involving additional workflow steps like reviews or approvals, which can slow down development and add maintenance overhead.&lt;/p&gt;
-&lt;h3 id=&#34;use-cases-for-separate-documentation&#34; &gt;
-&lt;div&gt;
-    &lt;a href=&#34;#use-cases-for-separate-documentation&#34;&gt;
-        ##
-    &lt;/a&gt;
-    Use Cases for Separate Documentation
-&lt;/div&gt;
-&lt;/h3&gt;
-&lt;p&gt;Separate documentation is essential for larger, more complex projects where high-level overviews, architectural diagrams, or tutorials are common. For onboarding, a structured knowledge base that provides an overview of architecture, workflows, and team processes is more accessible than embedded comments alone. High-level architectural diagrams, setup instructions, or step-by-step tutorials for feature implementations are often better suited to a dedicated documentation platform.&lt;/p&gt;
-&lt;h2 id=&#34;a-common-middle-ground-combining-embedded-and-separate-documentation&#34; &gt;
-&lt;div&gt;
-    &lt;a href=&#34;#a-common-middle-ground-combining-embedded-and-separate-documentation&#34;&gt;
-        #
-    &lt;/a&gt;
-    A Common Middle Ground: Combining Embedded and Separate Documentation
-&lt;/div&gt;
-&lt;/h2&gt;
-&lt;p&gt;For many teams, a balanced approach is often the best solution. Smaller projects or those primarily managed by developers might benefit from embedded documentation for its simplicity. In contrast, larger, cross-functional projects typically require a dedicated documentation platform to support collaboration, onboarding, and in-depth guides.&lt;/p&gt;
-&lt;p&gt;A middle-ground approach could be to use &lt;strong&gt;embedded documentation for lower-level details&lt;/strong&gt;—method descriptions, parameters, and inline clarifications of complex logic—while using a separate documentation tool for &lt;strong&gt;higher-level overviews, architecture diagrams, and tutorials&lt;/strong&gt;. This method allows the code to stay readable and uncluttered, while higher-level information remains accessible, flexible, and easy to maintain.&lt;/p&gt;
-</description>
+      <guid>http://localhost:1313/post/the-pros-and-cons-of-embedding-technical-documentation-inside-the-codebase/</guid>
+      <description>&lt;h2 id=&#34;introduction-choosing-the-best-place-for-documentation&#34;&gt;Introduction: Choosing the Best Place for Documentation&lt;/h2&gt;&#xA;&lt;p&gt;If you’ve ever worked with code and tech documentation, you may have asked yourself, “Where should all that essential information go?” Embedding documentation directly in the codebase versus keeping it separate (like in a standalone knowledge base) each comes with pros and cons, along with specific use cases where one approach may work better than the other. Here, we’ll examine the arguments for both options to help you decide which method best fits your project.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>
