@@ -28,7 +28,7 @@ wordCount = false
 useHLJS = true
 socialShare = false
 delayDisqus = true
-showRelatedPosts = true
+showRelatedPosts = false
 summaryLength  = "9"
 lunrSearch = true
 gcse = false
@@ -97,4 +97,6 @@ previewCardImagePlacement = "top"
   priority = 0.5
   filename = "sitemap.xml"
 
+[markup.goldmark.renderer] 
+  unsafe= true
 

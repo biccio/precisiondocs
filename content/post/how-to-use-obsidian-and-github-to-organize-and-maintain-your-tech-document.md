@@ -54,3 +54,5 @@ You'll now ready to use Obsidian to edit your documentation content in a visual 
 
 If you have your files on Github and you need to publish them in an easy way, you may want to choose [Github Pages](https://pages.github.com/). [Here's a tutorial](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site#creating-your-site) that will easily guide you through all the steps needed.
 
+What about you? What tools do you use for your tech writing? Feel free to comment to share your experience!
+

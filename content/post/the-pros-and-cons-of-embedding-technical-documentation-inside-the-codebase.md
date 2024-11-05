@@ -36,3 +36,7 @@ Separate documentation is essential for larger, more complex projects where high
 For many teams, a balanced approach is often the best solution. Smaller projects or those primarily managed by developers might benefit from embedded documentation for its simplicity. In contrast, larger, cross-functional projects typically require a dedicated documentation platform to support collaboration, onboarding, and in-depth guides.
 
 A middle-ground approach could be to use **embedded documentation for lower-level details**—method descriptions, parameters, and inline clarifications of complex logic—while using a separate documentation tool for **higher-level overviews, architecture diagrams, and tutorials**. This method allows the code to stay readable and uncluttered, while higher-level information remains accessible, flexible, and easy to maintain.
+
+
+
+<div class="giscus"></div>
