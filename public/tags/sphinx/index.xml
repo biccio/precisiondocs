@@ -13,7 +13,7 @@
       <link>http://localhost:1313/post/the-pros-and-cons-of-embedding-technical-documentation-inside-the-codebase/</link>
       <pubDate>Mon, 30 Sep 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/post/the-pros-and-cons-of-embedding-technical-documentation-inside-the-codebase/</guid>
-      <description>&lt;h2 id=&#34;introduction-choosing-the-best-place-for-documentation&#34;&gt;Introduction: Choosing the Best Place for Documentation&lt;/h2&gt;&#xA;&lt;p&gt;If you’ve ever worked with code and tech documentation, you may have asked yourself, “Where should all that essential information go?” Embedding documentation directly in the codebase versus keeping it separate (like in a standalone knowledge base) each comes with pros and cons, along with specific use cases where one approach may work better than the other. Here, we’ll examine the arguments for both options to help you decide which method best fits your project.&lt;/p&gt;</description>
+      <description>&lt;h2 id=&#34;choosing-the-best-place-for-documentation&#34;&gt;Choosing the Best Place for Documentation&lt;/h2&gt;&#xA;&lt;p&gt;If you’ve ever worked with code and tech documentation, you may have asked yourself, “Where should all that essential information go?” Embedding documentation directly in the codebase versus keeping it separate (like in a standalone knowledge base) each comes with pros and cons, along with specific use cases where one approach may work better than the other. Here, we’ll examine the arguments for both options to help you decide which method best fits your project.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

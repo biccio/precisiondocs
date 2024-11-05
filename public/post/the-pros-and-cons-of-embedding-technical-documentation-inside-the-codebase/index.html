@@ -60,7 +60,7 @@
   "headline": "The Pros and Cons of Embedding Documentation in Code",
   "description" : "Embedding documentation in code offers easy access and encourages updates but can cause clutter and limited structure. Some use cases and a common middle ground.",
   "inLanguage" : "en",
-  "wordCount":  692 ,
+  "wordCount":  691 ,
   "datePublished" : "2024-09-30T00:00:00",
   "dateModified" : "2024-09-30T00:00:00",
   "image" : "http:\/\/localhost:1313\/",
@@ -98,6 +98,20 @@
 
 
 
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-8TN2DVWLG0"></script>
+      <script>
+        var doNotTrack = false;
+        if ( false ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-8TN2DVWLG0');
+        }
+      </script>
 
 
   </head>
@@ -311,7 +325,7 @@
 
     <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 pt-4">
       <article role="main" class="blog-post">
-        <h2 id="introduction-choosing-the-best-place-for-documentation">Introduction: Choosing the Best Place for Documentation</h2>
+        <h2 id="choosing-the-best-place-for-documentation">Choosing the Best Place for Documentation</h2>
 <p>If you’ve ever worked with code and tech documentation, you may have asked yourself, “Where should all that essential information go?” Embedding documentation directly in the codebase versus keeping it separate (like in a standalone knowledge base) each comes with pros and cons, along with specific use cases where one approach may work better than the other. Here, we’ll examine the arguments for both options to help you decide which method best fits your project.</p>
 <h2 id="why-choose-to-embed-documentation">Why choose to embed documentation</h2>
 <p>For developers who spend most of their time in an <a href="https://en.wikipedia.org/wiki/Integrated_development_environment">IDE</a>, having documentation alongside the code itself makes a huge difference. With embedded documentation, developers avoid hunting through separate tools, finding essential information—function descriptions, parameters, tricky logic explanations—all integrated into the code. This ease of access saves time and reduces context-switching, especially valuable in fast-paced or Agile environments.</p>
