@@ -1,0 +1,5 @@
+# Redirects from what the browser requests to what we serve
+/p/how-to-build-and-deploy-a-blog-with-hugo-github-and-netlify/   /post/how-to-build-and-deploy-a-blog-with-hugo-github-and-netlify/  301
+/p/the-pros-and-cons-of-embedding-technical-documentation-inside-the-codebase/    /post/the-pros-and-cons-of-embedding-technical-documentation-inside-the-codebase/  301
+/p/how-to-use-obsidian-and-github-to-organize-and-maintain-your-tech-document/     /post/how-to-use-obsidian-and-github-to-organize-and-maintain-your-tech-document/   301
+/p/why-diataxis-framework-is-a-game-changer-for-organizing-technical-documentation/    /post/why-diataxis-framework-is-a-game-changer-for-organizing-technical-documentation/    301
