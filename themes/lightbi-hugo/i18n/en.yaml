@@ -37,7 +37,7 @@
 
   # Footer
 - id: poweredBy # Accepts HTML
-  translation: 'Powered by <a href="https://gohugo.io">Hugo</a> & <a href="https://github.com/binokochumolvarghese/lightbi-hugo">Lightbi.</a>&nbsp; Made with ❤ by <a href="https://binovarghese.com">Bino</a>'
+  translation: 'Created by <a href="https://fabrizioulisse.it">Fabrizio Ulisse</a>. Built with <a href="https://gohugo.io">Hugo</a>, <a href="https://github.com/biccio/precisiondocs">Github</a> & <a href="https://netlify.com">Netlify<a>. <br>Hugo Theme: <a href="https://github.com/binokochumolvarghese/lightbi-hugo">Lightbi</a>&nbsp; made with ❤ by <a href="https://binovarghese.com">Bino</a>'
 
 # Navigation
 - id: toggleNavigation
