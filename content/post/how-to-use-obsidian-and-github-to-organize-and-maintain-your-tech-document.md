@@ -8,9 +8,7 @@ image : "/img/posts/img-2.png"
 ---
 ## Managing Information Effectively
 
-In today’s fast-paced technical environments, clear and well-organized documentation is key to ensuring smooth workflows and successful collaboration. Whether you’re working on API documentation, software architecture overviews, or development processes, managing this information effectively is essential. Two tools that offer a powerful solution for handling technical documentation are [Obsidian](https://obsidian.md/) and [GitHub](https://github.com/). Together, they provide an efficient system for writing, organizing, and sharing technical documents.
-
-In this article, we’ll explore how to use Obsidian’s note-taking capabilities in combination with GitHub’s version control and collaborative features to streamline your technical documentation workflow.
+In today’s fast-paced technical environments, it's very important to have a clear and well-organized documentation. One of the most important keys to ensuring smooth workflows and successful collaboration is to start with the tools we use to _write_ and _share_ the documents we produce. Two tools that work seamlessly together and cover all aspects—from writing and organizing to storing and continuously integrating content in a collaborative, open space—are [Obsidian](https://obsidian.md/) and [GitHub](https://github.com/).
 
 ## Obsidian and GitHub
 

@@ -9,11 +9,11 @@
     <lastBuildDate>Wed, 30 Oct 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>A List of Informative Resources About Technical Writing</title>
-      <link>http://localhost:1313/post/a-list-of-interesting-resources-about-technical-writing/</link>
+      <title>A List of Technical Writing Resources</title>
+      <link>http://localhost:1313/post/a-list-of-technical-writing-resources/</link>
       <pubDate>Wed, 30 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/a-list-of-interesting-resources-about-technical-writing/</guid>
-      <description>Hugo is a powerful static site generator functioning as a complete framework. Along with Github as storage repository and Netlify as deployment tool, it makes a perfect platform to run and mantain a fast and lightweight documentation website.</description>
+      <guid>http://localhost:1313/post/a-list-of-technical-writing-resources/</guid>
+      <description>A (hopefully) comprehensive list of blogs, websites and other resources covering technical writing and communication.</description>
     </item>
     <item>
       <title>The Pros and Cons of Embedding Documentation in Code</title>

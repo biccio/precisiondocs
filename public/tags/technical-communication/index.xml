@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blog on PrecisionDocs</title>
-    <link>http://localhost:1313/tags/blog/</link>
-    <description>Recent content in Blog on PrecisionDocs</description>
+    <title>Technical Communication on PrecisionDocs</title>
+    <link>http://localhost:1313/tags/technical-communication/</link>
+    <description>Recent content in Technical Communication on PrecisionDocs</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 30 Oct 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/blog/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/technical-communication/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>A List of Technical Writing Resources</title>
       <link>http://localhost:1313/post/a-list-of-technical-writing-resources/</link>
