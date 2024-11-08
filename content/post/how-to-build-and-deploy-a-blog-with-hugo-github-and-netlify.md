@@ -108,6 +108,3 @@ Assuming that you followed the previous steps, now you should have your content 
    
 ### Step 2 - Deploy the website
 Now you're ready to deploy, push the button and the magic will happen! Note that Netlify will choose for you a temporary subdomain: you'll be able to change it, or even set up a custom domain. If everything is ok, you'll be able to browse your new website in a couple of minutes!
-
-
-<div class="giscus"></div>

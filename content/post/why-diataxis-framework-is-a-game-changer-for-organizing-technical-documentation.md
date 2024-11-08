@@ -62,6 +62,3 @@ Integrating the Diátaxis Framework into your company’s tech documentation wor
 4. **Integrate Diátaxis-specific labels or sections in your documentation tool,** like Confluence or [GitBook](https://www.gitbook.com/). This way, each type of content is visually distinguishable, and users can quickly navigate to the section they need. Additionally, implement regular documentation audits to keep content updated. For instance, assign quarterly reviews for each category to ensure tutorials, how-tos, and explanations stay relevant, and reference materials remain accurate.
 
 By creating a structured workflow around Diátaxis, you empower your teams to collaborate effectively on documentation, providing end-users with a seamless experience. This approach not only reduces onboarding time for new employees and customers but also allows for documentation that evolves as your product and user needs change, without compromising on clarity or usability.
-
-
-<div class="giscus"></div>
