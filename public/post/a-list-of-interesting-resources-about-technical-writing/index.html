@@ -7,8 +7,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-<title>The Pros and Cons of Embedding Documentation in Code - PrecisionDocs</title>
-<meta name="description" content="Embedding documentation in code offers easy access and encourages updates but can cause clutter and limited structure. Some use cases and a common middle ground.">
+<title>A List of Informative Resources About Technical Writing - PrecisionDocs</title>
+<meta name="description" content="Hugo is a powerful static site generator functioning as a complete framework. Along with Github as storage repository and Netlify as deployment tool, it makes a perfect platform to run and mantain a fast and lightweight documentation website.">
 
 <meta name="author" content="Fabrizio Ulisse"><script type="application/ld+json">
 {
@@ -45,8 +45,8 @@
         "@type": "ListItem",
         "position": 3,
         "item": {
-          "@id": "http:\/\/localhost:1313\/post\/the-pros-and-cons-of-embedding-technical-documentation-inside-the-codebase\/",
-          "name": "The pros and cons of embedding documentation in code"
+          "@id": "http:\/\/localhost:1313\/post\/a-list-of-interesting-resources-about-technical-writing\/",
+          "name": "A list of informative resources about technical writing"
         }
     }]
 }
@@ -57,15 +57,15 @@
   "author": {
     "name" : "Fabrizio Ulisse"
   },
-  "headline": "The Pros and Cons of Embedding Documentation in Code",
-  "description" : "Embedding documentation in code offers easy access and encourages updates but can cause clutter and limited structure. Some use cases and a common middle ground.",
+  "headline": "A List of Informative Resources About Technical Writing",
+  "description" : "Hugo is a powerful static site generator functioning as a complete framework. Along with Github as storage repository and Netlify as deployment tool, it makes a perfect platform to run and mantain a fast and lightweight documentation website.",
   "inLanguage" : "en",
-  "wordCount":  691 ,
-  "datePublished" : "2024-09-30T00:00:00",
-  "dateModified" : "2024-09-30T00:00:00",
+  "wordCount":  811 ,
+  "datePublished" : "2024-10-30T00:00:00",
+  "dateModified" : "2024-10-30T00:00:00",
   "image" : "http:\/\/localhost:1313\/",
-  "keywords" : [ "emoji, documentation, docstrings, sphinx, jsdoc, confluence, notion, gitbook" ],
-  "mainEntityOfPage" : "http:\/\/localhost:1313\/post\/the-pros-and-cons-of-embedding-technical-documentation-inside-the-codebase\/",
+  "keywords" : [ "" ],
+  "mainEntityOfPage" : "http:\/\/localhost:1313\/post\/a-list-of-interesting-resources-about-technical-writing\/",
   "publisher" : {
     "@type": "Organization",
     "name" : "http:\/\/localhost:1313\/",
@@ -79,10 +79,10 @@
 }
 </script>
 
-<meta property="og:title" content="The Pros and Cons of Embedding Documentation in Code" />
-<meta property="og:description" content="Embedding documentation in code offers easy access and encourages updates but can cause clutter and limited structure. Some use cases and a common middle ground.">
-<meta property="og:image" content="http://localhost:1313/img/posts/img-3.png" />
-<meta property="og:url" content="http://localhost:1313/post/the-pros-and-cons-of-embedding-technical-documentation-inside-the-codebase/" />
+<meta property="og:title" content="A List of Informative Resources About Technical Writing" />
+<meta property="og:description" content="Hugo is a powerful static site generator functioning as a complete framework. Along with Github as storage repository and Netlify as deployment tool, it makes a perfect platform to run and mantain a fast and lightweight documentation website.">
+<meta property="og:image" content="http://localhost:1313/img/posts/img-5.png" />
+<meta property="og:url" content="http://localhost:1313/post/a-list-of-interesting-resources-about-technical-writing/" />
 <meta property="og:type" content="website" />
 <meta property="og:site_name" content="PrecisionDocs" />
 <link rel="apple-touch-icon" sizes="180x180" href=" http://localhost:1313/favicon/apple-touch-icon.png">
@@ -280,7 +280,7 @@
 
               
               <h1 class="fw-semibold display-5 lh-1 mb-3"> 
-                The Pros and Cons of Embedding Documentation in Code
+                A List of Informative Resources About Technical Writing
                 
               </h1>
               
@@ -293,7 +293,7 @@
               <span class="post-meta">
   
   
-  &nbsp;30 September 2024
+  &nbsp;30 October 2024
 
   
 
@@ -328,7 +328,7 @@
         
         
           
-            <img src="/img/posts/img-3.png" alt="/img/posts/img-3.png" class="card-img-bottom rounded img-fluid lazyload">
+            <img src="/img/posts/img-5.png" alt="/img/posts/img-5.png" class="card-img-bottom rounded img-fluid lazyload">
           
         
 
@@ -339,26 +339,25 @@
 
     <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 pt-4">
       <article role="main" class="blog-post">
-        <h2 id="choosing-the-best-place-for-documentation">Choosing the Best Place for Documentation</h2>
-<p>If you’ve ever worked with code and tech documentation, you may have asked yourself, “Where should all that essential information go?” Embedding documentation directly in the codebase versus keeping it separate (like in a standalone knowledge base) each comes with pros and cons, along with specific use cases where one approach may work better than the other. Here, we’ll examine the arguments for both options to help you decide which method best fits your project.</p>
-<h2 id="why-choose-to-embed-documentation">Why choose to embed documentation</h2>
-<p>For developers who spend most of their time in an <a href="https://en.wikipedia.org/wiki/Integrated_development_environment">IDE</a>, having documentation alongside the code itself makes a huge difference. With embedded documentation, developers avoid hunting through separate tools, finding essential information—function descriptions, parameters, tricky logic explanations—all integrated into the code. This ease of access saves time and reduces context-switching, especially valuable in fast-paced or Agile environments.</p>
-<p>Furthermore, <strong>embedded documentation is often more accurate</strong>. When a method or function changes, it&rsquo;s easy for developers to quickly update the related docstring and comment, to prevent outdated documentation. Keeping the code and documentation close together is a huge help, especially for small teams that may not have time or resources to maintain a separate workflow for tech writing.</p>
-<h3 id="some-drawbacks-of-embedded-documentation">Some Drawbacks of Embedded Documentation</h3>
-<p>While embedded comments and <a href="https://it.wikipedia.org/wiki/Docstring">docstrings</a> work for specific, isolated explanations, <strong>they can clutter the code if overused.</strong> Readability may suffer, especially when sections are filled with verbose documentation that obscures the actual code logic. There’s also limited formatting flexibility—comments in code are generally plain text, which doesn’t allow for rich formatting like tables, images, or structured examples</p>
-<h3 id="use-case-for-embedded-documentation">Use case for embedded documentation</h3>
-<p>Embedded documentation is most effective when projects focus on technical use cases that benefit directly from inline clarification. For example, if you’re building an API, inline docstrings make each function’s purpose, parameters, and output clear. Combined with tools like <a href="https://www.sphinx-doc.org/">Sphinx</a> or <a href="https://jsdoc.app/">JSDoc</a>, these inline comments can even auto-generate documentation pages, making them accessible without the need for manual upkeep.</p>
-<h2 id="why-use-separate-documentation">Why Use Separate Documentation?</h2>
-<p>In contrast, keeping documentation separate from code can be a great choice, <strong>especially for larger, cross-functional teams or complex projects</strong>. With dedicated documentation tools like <a href="https://www.atlassian.com/software/confluence">Confluence</a>, <a href="https://www.notion.so/">Notion</a>, or <a href="https://www.gitbook.com/">GitBook</a>, you can create comprehensive guides, tutorials, and high-level overviews that surpass the limitations of inline comments. Separate documentation allows you to include multimedia elements like tables, diagrams, and step-by-step user flows, making it ideal for non-developers or anyone who might be intimidated by the codebase.</p>
-<p>Keeping documentation separate from the codebase also makes it more accessible to <strong>non-developer stakeholders</strong> like product managers or customer support. Many documentation platforms include advanced search and organizational features, making it easier to find specific information than if it were buried in code comments.</p>
-<h3 id="potential-downsides-of-separate-documentation">Potential Downsides of Separate Documentation</h3>
-<p>One common challenge with separate documentation is that it’s prone to getting out of sync with the actual code. Without a rigorous update process, changes to the code may not always reflect in the documentation, leading to potential confusion. Separate documentation also requires more upkeep, often involving additional workflow steps like reviews or approvals, which can slow down development and add maintenance overhead.</p>
-<h3 id="use-cases-for-separate-documentation">Use Cases for Separate Documentation</h3>
-<p>Separate documentation is essential for larger, more complex projects where high-level overviews, architectural diagrams, or tutorials are common. For onboarding, a structured knowledge base that provides an overview of architecture, workflows, and team processes is more accessible than embedded comments alone. High-level architectural diagrams, setup instructions, or step-by-step tutorials for feature implementations are often better suited to a dedicated documentation platform.</p>
-<h2 id="a-common-middle-ground-combining-embedded-and-separate-documentation">A Common Middle Ground: Combining Embedded and Separate Documentation</h2>
-<p>For many teams, a balanced approach is often the best solution. Smaller projects or those primarily managed by developers might benefit from embedded documentation for its simplicity. In contrast, larger, cross-functional projects typically require a dedicated documentation platform to support collaboration, onboarding, and in-depth guides.</p>
-<p>A middle-ground approach could be to use <strong>embedded documentation for lower-level details</strong>—method descriptions, parameters, and inline clarifications of complex logic—while using a separate documentation tool for <strong>higher-level overviews, architecture diagrams, and tutorials</strong>. This method allows the code to stay readable and uncluttered, while higher-level information remains accessible, flexible, and easy to maintain.</p>
-<div class="giscus"></div>
+        <p>There aren&rsquo;t many online resources covering Technical Writing and Technical Communication world, but the ones available are passionately held by real world professionals with plenty of experience and - obviously - good writing skills. This is a - hopefully - exaustive list of useful resources. Feel free to contribute using the comment form below the post<br><br></p>
+<ul>
+<li><a href="https://idratherbewriting.com"><strong>I&rsquo;d Rather Be Writing, by Tom Johnson</strong></a>  <br> A well-regarded blog focused on technical writing, providing insights, tips, and resources for writers in the field. Tom Johnson, from Google, shares his personal experiences and expertise, covering topics such as documentation strategies, tools, and the evolving nature of technical communication. The blog is known for its practical advice and engaging writing style, making it a valuable resource for both novice and experienced technical writers.<br><br></li>
+<li><a href="https://bufferbuffer.com"><strong>BufferBuffer: (mis)adventures of a technical writer</strong></a> <br> A blog that chronicles the experiences and challenges faced by a technical writer, José Luis Zapata, tech writer at Google Germany. In his blog José discuss various aspects of technical writing, including project management, collaboration with teams, and navigating workplace dynamics. This blog serves as both an entertaining read and a relatable resource for those in the field.<br><br></li>
+<li><a href="https://technicallywriteit.com"><strong>Technically Write It</strong></a> <br> This is the website of the agency TWi, specialized in technical writing and content design. It&rsquo;s not a blog but a valuable resource filled with case studies, project stories, and insights from the tech content world.<br><br></li>
+<li><a href="https://heroictechwriting.com"><strong>Heroic Technical Writing</strong></a> <br> Bart D. Leahy is a technical communication and writing expert working in the aerospace field. His blog is packed with advices and tips from a real world experience, including career advices and problem solving.<br><br></li>
+<li><a href="https://technicalcommunicationcenter.com"><strong>Technical Communication Center</strong></a> <br> Serves as an educational hub for technical communication professionals. It provides resources such as articles, webinars, and workshops aimed at enhancing skills in technical writing, editing, and communication strategies. The center focuses on fostering professional development within the field.<br><br></li>
+<li><a href="https://www.docslikecode.com/"><strong>Docs Like Code</strong></a> <br>Companion website to the book Docs Like Code by Anne Gentle. The website has quick starts to get started managing your tech content as code in no time. You&rsquo;ll also find articles, links and other resources in the field of version control and automation in technical documentation, emphasizing the need for technical writers to adopt coding principles in their work.<br><br><a href="https://justwriteclick.com"><strong>Just Write Click</strong></a><br>Personal blog by Anne Gentle, the author of <a href="https://docslikecode">Docs Like Code</a> and <a href="https://store.xmlpress.com/product/conversation-and-community/">Conversation and Community</a>. Offers practical tips and  breakdown of tools for improving writing efficiency and effectiveness in technical communication. The blog provides resources on editing techniques, document organization, and time management strategies tailored specifically for technical writers.<br><br></li>
+<li><a href="https://everythingtechnicalwriting.com"><strong>Everything Technical Writing</strong></a> <br>An online resource that compiles various articles, tools, and tips related to technical writing. It covers a wide range of topics including document design, user experience, and effective communication strategies. The blog is hosted by Linda Ikechukwu, cloud engineer, frontend developer and now developer educator.<br><br></li>
+<li><a href="https://techwhirl.com"><strong>TechWhirl</strong></a> <br>A rich website featuring articles on trends in content management, technical communication and technical writing, rich in interviews with industry experts, and insights into best practices. The magazine aims to keep readers informed about developments in the field while providing practical advice for improving their writing skills and finding career paths.<br><br></li>
+<li><a href="https://jamesg.blog"><strong>jamesg.blog</strong></a> <br>A personal blog by James G (aka capjamesg), author of <a href="https://jamesg.blog/2024/01/03/software-technical-writing/">Software Technical Writing: A Guidebook</a>, a collection of one month of daily articles originally called <em>Advent of Technical Writing</em>, available under <a href="http://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0</a> license. The blog reflects the personal world of James, not limited to technical writing resources.<br><br></li>
+<li><a href="https://readthedocs.org/blog/"><strong>Read the Docs Blog</strong></a> <br>Discusses topics related to documentation hosting and management using Read the Docs software. It covers updates on features, tutorials for users, and best practices for creating effective documentation within this platform.<br><br></li>
+<li><a href="https://clickhelp.com/clickhelp-technical-writing-blog/"><strong>ClickHelp Technical Writing Blog</strong></a> <br>Company blog focusing on providing resources for creating online documentation, also using ClickHelp software. It offers tutorials, case studies, and best practices aimed at enhancing users&rsquo; experience with their documentation projects.<br><br></li>
+<li><a href="https://passo.uno"><strong>Passo.uno</strong></a><br>The personal blog by Fabrizio Ferri Benedetti, technical, ux and programmer writer  Features insights into various aspects of technical writing based on direct and personal experience and vision, also including conversations with other contributors. <br><br></li>
+<li><a href="https://www.djw.fyi/"><strong>Daryl&rsquo;s Thoughts on Technical Writing, life and creative musings</strong></a> <br>Daryl J . White is a Technical Writer and Communicator, and his personal website features personal posts, and tips about good technical writing, information architecture and life of a technical communicator. <br><br></li>
+<li><a href="https://www.reddit.com/r/technicalwriting"><strong>r/technicalwriting</strong></a> <br>A subreddit dedicated to discussions about technical writing. It serves as a community platform where writers can share experiences, ask questions, and seek advice on various aspects of technical communication. The subreddit is a very useful and valuable resource for networking with peers, staying updated on industry trends, and find useful advices.<br><br></li>
+<li><a href="https://www.writethedocs.org/">Write The Docs</a> <br>The key community for technical writers, with a long time running newsletter, in person and online events and meetups, and  a lot of learning content to understand all the nuances of the job as technical writer.</li>
+</ul>
+
       </article>
     </div>
   </div>
@@ -369,26 +368,6 @@
       <hr class="m-0"/>
     </div>
     <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 pt-2">
-      
-      <div class="blog-tags">
-        
-        <a href="http://localhost:1313/tags/emoji/">emoji</a>
-        
-        <a href="http://localhost:1313/tags/documentation/">documentation</a>
-        
-        <a href="http://localhost:1313/tags/docstrings/">docstrings</a>
-        
-        <a href="http://localhost:1313/tags/sphinx/">sphinx</a>
-        
-        <a href="http://localhost:1313/tags/jsdoc/">jsdoc</a>
-        
-        <a href="http://localhost:1313/tags/confluence/">confluence</a>
-        
-        <a href="http://localhost:1313/tags/notion/">notion</a>
-        
-        <a href="http://localhost:1313/tags/gitbook/">gitbook</a>
-        
-      </div>
       
     </div>
 
@@ -404,19 +383,13 @@
         
         <li class="list-group-item b-0 p-0">
 
-          <a type="button" class="btn btn-dark" role="button" href="http://localhost:1313/post/how-to-build-and-deploy-a-blog-with-hugo-github-and-netlify/"
-            data-toggle="tooltip" data-placement="top" title="How to Build and Deploy a Tech Documentation Static Site with Hugo">&larr;
+          <a type="button" class="btn btn-dark" role="button" href="http://localhost:1313/post/the-pros-and-cons-of-embedding-technical-documentation-inside-the-codebase/"
+            data-toggle="tooltip" data-placement="top" title="The Pros and Cons of Embedding Documentation in Code">&larr;
             Previous Post</a>
         </li>
         
 
 
-        
-        <li class="list-group-item ms-auto b-0 p-0">
-          <a type="button" class="btn btn-dark" role="button" href="http://localhost:1313/post/a-list-of-interesting-resources-about-technical-writing/"
-            data-toggle="tooltip" data-placement="top" title="A List of Informative Resources About Technical Writing">Next Post
-            &rarr;</a>
-        </li>
         
       </ul>
       

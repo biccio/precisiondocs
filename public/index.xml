@@ -6,8 +6,15 @@
     <description>Recent content on PrecisionDocs</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 30 Sep 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 30 Oct 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A List of Informative Resources About Technical Writing</title>
+      <link>http://localhost:1313/post/a-list-of-interesting-resources-about-technical-writing/</link>
+      <pubDate>Wed, 30 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/a-list-of-interesting-resources-about-technical-writing/</guid>
+      <description>Hugo is a powerful static site generator functioning as a complete framework. Along with Github as storage repository and Netlify as deployment tool, it makes a perfect platform to run and mantain a fast and lightweight documentation website.</description>
+    </item>
     <item>
       <title>The Pros and Cons of Embedding Documentation in Code</title>
       <link>http://localhost:1313/post/the-pros-and-cons-of-embedding-technical-documentation-inside-the-codebase/</link>
