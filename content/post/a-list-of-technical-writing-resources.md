@@ -1,8 +1,8 @@
 ---
-title: A List of Informative Resources About Technical Writing
+title: A List of Technical Writing Resources
 date: 2024-10-30
 tags: ["technical writing", "technical communication", "blog", "resources", "documentation"]
-summary: Hugo is a powerful static site generator functioning as a complete framework. Along with Github as storage repository and Netlify as deployment tool, it makes a perfect platform to run and mantain a fast and lightweight documentation website.
+summary: A (hopefully) comprehensive list of blogs, websites and other resources covering technical writing and communication.
 featured: true
 image: "/img/posts/img-5.png"
 ---
