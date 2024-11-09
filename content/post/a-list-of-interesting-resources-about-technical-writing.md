@@ -1,5 +1,5 @@
 ---
-title: A List of Technical Writing Resources
+title: A List of Interesting Resources About Technical Writing
 date: 2024-10-30
 tags: ["technical writing", "technical communication", "blog", "resources", "documentation"]
 summary: A (hopefully) comprehensive list of blogs, websites and other resources covering technical writing and communication.
