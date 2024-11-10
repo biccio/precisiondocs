@@ -2,7 +2,7 @@
 title: Why Diataxis Framework is A Game Changer for Organizing Technical Documentation
 date: 2024-06-20
 tags: ["diataxis","tech writing"]
-description: A structured, modern approach to organizing technical documentation that not only streamlines your content but also enhances its usability.
+summary: A structured, modern approach to organizing technical documentation that not only streamlines your content but also enhances its usability.
 featured: true
 image : "/img/posts/img-4.png"
 ---

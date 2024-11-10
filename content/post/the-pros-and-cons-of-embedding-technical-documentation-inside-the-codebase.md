@@ -2,7 +2,7 @@
 title: The Pros and Cons of Embedding Documentation in Code
 date: 2024-09-30
 tags: ["emoji", "documentation", "docstrings", "sphinx", "jsdoc", "confluence", "notion", "gitbook"]
-description: Embedding documentation in code offers easy access and encourages updates but can cause clutter and limited structure. Some use cases and a common middle ground.
+summary: Embedding documentation in code offers easy access and encourages updates but can cause clutter and limited structure. Some use cases and a common middle ground.
 featured: true 
 image : "/img/posts/img-3.png"
 

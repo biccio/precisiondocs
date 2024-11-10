@@ -6,11 +6,13 @@
 {{ else }}
 {{ $.Scratch.Set "title" .Title }}
 {{ if .Params.subtitle }}{{ $.Scratch.Set "subtitle" .Params.subtitle }}{{ end }}
+{{ if .Params.summary }}{{ $.Scratch.Set "summary" .Params.summary }}{{ end }}
 {{ if .Params.bigimg }}{{ $.Scratch.Set "bigimg" .Params.bigimg }}{{ end }}
 {{ end }}
 {{ $bigimg := $.Scratch.Get "bigimg" }}
 {{ $title := $.Scratch.Get "title" }}
 {{ $subtitle := $.Scratch.Get "subtitle" }}
+{{ $summary := $.Scratch.Get "summary" }}
 
 {{ if .IsHome }}
 
@@ -47,7 +49,7 @@
                 <br />
                 {{ end }}
               </h1>
-              
+              <p><em>{{ $summary }}</em></p>
               {{ else }}
 
               {{ end }}
