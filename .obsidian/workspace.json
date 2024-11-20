@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "how-to-use-obsidian-and-github-to-organize-and-maintain-your-tech-document"
             }
+          },
+          {
+            "id": "57f7836f4199ec15",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.7.6"
+              },
+              "icon": "lucide-file",
+              "title": "Release Notes 1.7.6"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -163,7 +176,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a2e98fc29eac7e16",
+  "active": "57f7836f4199ec15",
   "lastOpenFiles": [
     "content/post/a-list-of-technical-writing-resources.md",
     "public/tags/technical-writing/page/1/index.html",

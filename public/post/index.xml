@@ -20,7 +20,7 @@
       <link>http://localhost:1313/post/the-pros-and-cons-of-embedding-technical-documentation-inside-the-codebase/</link>
       <pubDate>Mon, 30 Sep 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/post/the-pros-and-cons-of-embedding-technical-documentation-inside-the-codebase/</guid>
-      <description>&lt;h2 id=&#34;choosing-the-best-place-for-documentation&#34;&gt;Choosing the Best Place for Documentation&lt;/h2&gt;&#xA;&lt;p&gt;If you’ve ever worked with code and tech documentation, you may have asked yourself, “Where should all that essential information go?” Embedding documentation directly in the codebase versus keeping it separate (like in a standalone knowledge base) each comes with pros and cons, along with specific use cases where one approach may work better than the other. Here, we’ll examine the arguments for both options to help you decide which method best fits your project.&lt;/p&gt;</description>
+      <description>Embedding documentation in code offers easy access and encourages updates but can cause clutter and limited structure. Some use cases and a common middle ground.</description>
     </item>
     <item>
       <title>How to Build and Deploy a Tech Documentation Static Site with Hugo</title>
@@ -34,14 +34,14 @@
       <link>http://localhost:1313/post/how-to-use-obsidian-and-github-to-organize-and-maintain-your-tech-document/</link>
       <pubDate>Wed, 24 Jul 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/post/how-to-use-obsidian-and-github-to-organize-and-maintain-your-tech-document/</guid>
-      <description>&lt;h2 id=&#34;managing-information-effectively&#34;&gt;Managing Information Effectively&lt;/h2&gt;&#xA;&lt;p&gt;In today’s fast-paced technical environments, it&amp;rsquo;s very important to have a clear and well-organized documentation. One of the most important keys to ensuring smooth workflows and successful collaboration is to start with the tools we use to &lt;em&gt;write&lt;/em&gt; and &lt;em&gt;share&lt;/em&gt; the documents we produce. Two tools that work seamlessly together and cover all aspects—from writing and organizing to storing and continuously integrating content in a collaborative, open space—are &lt;a href=&#34;https://obsidian.md/&#34;&gt;Obsidian&lt;/a&gt; and &lt;a href=&#34;https://github.com/&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;</description>
+      <description>Obsidian is a powerful WYSIWYG markdown editor that makes it easy to write and organize your content. Paring it with Github is the perfect solution to develop and maintain technical documentation.</description>
     </item>
     <item>
       <title>Why Diataxis Framework is A Game Changer for Organizing Technical Documentation</title>
       <link>http://localhost:1313/post/why-diataxis-framework-is-a-game-changer-for-organizing-technical-documentation/</link>
       <pubDate>Thu, 20 Jun 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/post/why-diataxis-framework-is-a-game-changer-for-organizing-technical-documentation/</guid>
-      <description>&lt;h2 id=&#34;why-we-need-a-framework-for-technical-documentation&#34;&gt;Why we need a framework for Technical Documentation&lt;/h2&gt;&#xA;&lt;p&gt;Effective technical documentation is critical to the success of any company, particularly in tech-driven environments where internal teams, partners, and customers rely on precise and accessible information. However, creating and managing high-quality documentation is no easy task. It’s common to end up with scattered, inconsistent, or overly complex content that makes it difficult for users to find what they need, when they need it.&lt;/p&gt;</description>
+      <description>A structured, modern approach to organizing technical documentation that not only streamlines your content but also enhances its usability.</description>
     </item>
   </channel>
 </rss>
