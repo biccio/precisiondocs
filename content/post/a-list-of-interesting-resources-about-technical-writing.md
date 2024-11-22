@@ -10,9 +10,6 @@ image: "/img/posts/img-5.png"
 There aren't many online resources covering Technical Writing and Technical Communication world, but the ones available are passionately held by real world professionals with plenty of experience and - obviously - good writing skills. This is a - hopefully - exaustive list of useful resources. Feel free to contribute using the comment form below the post<br><br>
 
 
-> [!NOTE]
-> Useful information that users should know, even when skimming content.
-
 
 - [**I'd Rather Be Writing, by Tom Johnson**](https://idratherbewriting.com)  <br> A well-regarded blog focused on technical writing, providing insights, tips, and resources for writers in the field. Tom Johnson, from Google, shares his personal experiences and expertise, covering topics such as documentation strategies, tools, and the evolving nature of technical communication. The blog is known for its practical advice and engaging writing style, making it a valuable resource for both novice and experienced technical writers.<br><br>
 - [**BufferBuffer: (mis)adventures of a technical writer**](https://bufferbuffer.com) <br> A blog that chronicles the experiences and challenges faced by a technical writer, José Luis Zapata, tech writer at Google Germany. In his blog José discuss various aspects of technical writing, including project management, collaboration with teams, and navigating workplace dynamics. This blog serves as both an entertaining read and a relatable resource for those in the field.<br><br>
