@@ -1,0 +1,8 @@
+[build]
+  publish = "public"
+  command = "hugo"
+
+[dev]
+  command = "hugo server -D"  # Runs Hugo in development mode
+  targetPort = 1313  # Hugo's default local port
+  framework = "hugo"
