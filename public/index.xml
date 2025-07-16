@@ -2,45 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>PrecisionDocs</title>
-    <link>http://localhost:1313/</link>
+    <link>https://precisiondocs.tech/</link>
     <description>Recent content on PrecisionDocs</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 30 Oct 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://precisiondocs.tech/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>A List of Interesting Resources About Technical Writing</title>
-      <link>http://localhost:1313/post/a-list-of-interesting-resources-about-technical-writing/</link>
+      <link>https://precisiondocs.tech/post/a-list-of-interesting-resources-about-technical-writing/</link>
       <pubDate>Wed, 30 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/a-list-of-interesting-resources-about-technical-writing/</guid>
+      <guid>https://precisiondocs.tech/post/a-list-of-interesting-resources-about-technical-writing/</guid>
       <description>A (hopefully) comprehensive list of blogs, websites and other resources covering technical writing and communication.</description>
     </item>
     <item>
       <title>The Pros and Cons of Embedding Documentation in Code</title>
-      <link>http://localhost:1313/post/the-pros-and-cons-of-embedding-technical-documentation-inside-the-codebase/</link>
+      <link>https://precisiondocs.tech/post/the-pros-and-cons-of-embedding-technical-documentation-inside-the-codebase/</link>
       <pubDate>Mon, 30 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/the-pros-and-cons-of-embedding-technical-documentation-inside-the-codebase/</guid>
+      <guid>https://precisiondocs.tech/post/the-pros-and-cons-of-embedding-technical-documentation-inside-the-codebase/</guid>
       <description>Embedding documentation in code offers easy access and encourages updates but can cause clutter and limited structure. Some use cases and a common middle ground.</description>
     </item>
     <item>
       <title>How to Build and Deploy a Tech Documentation Static Site with Hugo</title>
-      <link>http://localhost:1313/post/how-to-build-and-deploy-a-blog-with-hugo-github-and-netlify/</link>
+      <link>https://precisiondocs.tech/post/how-to-build-and-deploy-a-blog-with-hugo-github-and-netlify/</link>
       <pubDate>Fri, 23 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/how-to-build-and-deploy-a-blog-with-hugo-github-and-netlify/</guid>
+      <guid>https://precisiondocs.tech/post/how-to-build-and-deploy-a-blog-with-hugo-github-and-netlify/</guid>
       <description>Hugo is a powerful static site generator functioning as a complete framework. Along with Github as storage repository and Netlify as deployment tool, it makes a perfect platform to run and mantain a fast and lightweight documentation website.</description>
     </item>
     <item>
       <title>How to use Obsidian and Github to Organize and Maintain your Tech Documentation</title>
-      <link>http://localhost:1313/post/how-to-use-obsidian-and-github-to-organize-and-maintain-your-tech-document/</link>
+      <link>https://precisiondocs.tech/post/how-to-use-obsidian-and-github-to-organize-and-maintain-your-tech-document/</link>
       <pubDate>Wed, 24 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/how-to-use-obsidian-and-github-to-organize-and-maintain-your-tech-document/</guid>
+      <guid>https://precisiondocs.tech/post/how-to-use-obsidian-and-github-to-organize-and-maintain-your-tech-document/</guid>
       <description>Obsidian is a powerful WYSIWYG markdown editor that makes it easy to write and organize your content. Paring it with Github is the perfect solution to develop and maintain technical documentation.</description>
     </item>
     <item>
       <title>Why Diataxis Framework is A Game Changer for Organizing Technical Documentation</title>
-      <link>http://localhost:1313/post/why-diataxis-framework-is-a-game-changer-for-organizing-technical-documentation/</link>
+      <link>https://precisiondocs.tech/post/why-diataxis-framework-is-a-game-changer-for-organizing-technical-documentation/</link>
       <pubDate>Thu, 20 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/why-diataxis-framework-is-a-game-changer-for-organizing-technical-documentation/</guid>
+      <guid>https://precisiondocs.tech/post/why-diataxis-framework-is-a-game-changer-for-organizing-technical-documentation/</guid>
       <description>A structured, modern approach to organizing technical documentation that not only streamlines your content but also enhances its usability.</description>
     </item>
   </channel>

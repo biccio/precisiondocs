@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Docusaurus on PrecisionDocs</title>
-    <link>http://localhost:1313/tags/docusaurus/</link>
+    <link>https://precisiondocs.tech/tags/docusaurus/</link>
     <description>Recent content in Docusaurus on PrecisionDocs</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 24 Jul 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/docusaurus/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://precisiondocs.tech/tags/docusaurus/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How to use Obsidian and Github to Organize and Maintain your Tech Documentation</title>
-      <link>http://localhost:1313/post/how-to-use-obsidian-and-github-to-organize-and-maintain-your-tech-document/</link>
+      <link>https://precisiondocs.tech/post/how-to-use-obsidian-and-github-to-organize-and-maintain-your-tech-document/</link>
       <pubDate>Wed, 24 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/how-to-use-obsidian-and-github-to-organize-and-maintain-your-tech-document/</guid>
+      <guid>https://precisiondocs.tech/post/how-to-use-obsidian-and-github-to-organize-and-maintain-your-tech-document/</guid>
       <description>Obsidian is a powerful WYSIWYG markdown editor that makes it easy to write and organize your content. Paring it with Github is the perfect solution to develop and maintain technical documentation.</description>
     </item>
   </channel>

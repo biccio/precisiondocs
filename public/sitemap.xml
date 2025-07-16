@@ -2,181 +2,181 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://precisiondocs.tech/</loc>
     <lastmod>2024-10-30T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/post/a-list-of-interesting-resources-about-technical-writing/</loc>
+    <loc>https://precisiondocs.tech/post/a-list-of-interesting-resources-about-technical-writing/</loc>
     <lastmod>2024-10-30T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/tags/blog/</loc>
+    <loc>https://precisiondocs.tech/tags/blog/</loc>
     <lastmod>2024-10-30T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/tags/documentation/</loc>
+    <loc>https://precisiondocs.tech/tags/documentation/</loc>
     <lastmod>2024-10-30T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/post/</loc>
+    <loc>https://precisiondocs.tech/post/</loc>
     <lastmod>2024-10-30T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/tags/resources/</loc>
+    <loc>https://precisiondocs.tech/tags/resources/</loc>
     <lastmod>2024-10-30T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://precisiondocs.tech/tags/</loc>
     <lastmod>2024-10-30T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/tags/technical-communication/</loc>
+    <loc>https://precisiondocs.tech/tags/technical-communication/</loc>
     <lastmod>2024-10-30T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/tags/technical-writing/</loc>
+    <loc>https://precisiondocs.tech/tags/technical-writing/</loc>
     <lastmod>2024-10-30T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/tags/confluence/</loc>
+    <loc>https://precisiondocs.tech/tags/confluence/</loc>
     <lastmod>2024-09-30T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/tags/docstrings/</loc>
+    <loc>https://precisiondocs.tech/tags/docstrings/</loc>
     <lastmod>2024-09-30T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/tags/emoji/</loc>
+    <loc>https://precisiondocs.tech/tags/emoji/</loc>
     <lastmod>2024-09-30T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/tags/gitbook/</loc>
+    <loc>https://precisiondocs.tech/tags/gitbook/</loc>
     <lastmod>2024-09-30T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/tags/jsdoc/</loc>
+    <loc>https://precisiondocs.tech/tags/jsdoc/</loc>
     <lastmod>2024-09-30T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/tags/notion/</loc>
+    <loc>https://precisiondocs.tech/tags/notion/</loc>
     <lastmod>2024-09-30T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/tags/sphinx/</loc>
+    <loc>https://precisiondocs.tech/tags/sphinx/</loc>
     <lastmod>2024-09-30T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/post/the-pros-and-cons-of-embedding-technical-documentation-inside-the-codebase/</loc>
+    <loc>https://precisiondocs.tech/post/the-pros-and-cons-of-embedding-technical-documentation-inside-the-codebase/</loc>
     <lastmod>2024-09-30T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/tags/deployment/</loc>
+    <loc>https://precisiondocs.tech/tags/deployment/</loc>
     <lastmod>2024-08-23T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/tags/docsy/</loc>
+    <loc>https://precisiondocs.tech/tags/docsy/</loc>
     <lastmod>2024-08-23T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/tags/frameworks/</loc>
+    <loc>https://precisiondocs.tech/tags/frameworks/</loc>
     <lastmod>2024-08-23T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/tags/github/</loc>
+    <loc>https://precisiondocs.tech/tags/github/</loc>
     <lastmod>2024-08-23T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/post/how-to-build-and-deploy-a-blog-with-hugo-github-and-netlify/</loc>
+    <loc>https://precisiondocs.tech/post/how-to-build-and-deploy-a-blog-with-hugo-github-and-netlify/</loc>
     <lastmod>2024-08-23T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/tags/hugo/</loc>
+    <loc>https://precisiondocs.tech/tags/hugo/</loc>
     <lastmod>2024-08-23T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/tags/netlify/</loc>
+    <loc>https://precisiondocs.tech/tags/netlify/</loc>
     <lastmod>2024-08-23T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/tags/staticsitegenerator/</loc>
+    <loc>https://precisiondocs.tech/tags/staticsitegenerator/</loc>
     <lastmod>2024-08-23T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/tags/techdoc/</loc>
+    <loc>https://precisiondocs.tech/tags/techdoc/</loc>
     <lastmod>2024-08-23T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/tags/docusaurus/</loc>
+    <loc>https://precisiondocs.tech/tags/docusaurus/</loc>
     <lastmod>2024-07-24T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/tags/git/</loc>
+    <loc>https://precisiondocs.tech/tags/git/</loc>
     <lastmod>2024-07-24T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/post/how-to-use-obsidian-and-github-to-organize-and-maintain-your-tech-document/</loc>
+    <loc>https://precisiondocs.tech/post/how-to-use-obsidian-and-github-to-organize-and-maintain-your-tech-document/</loc>
     <lastmod>2024-07-24T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/tags/jekyll/</loc>
+    <loc>https://precisiondocs.tech/tags/jekyll/</loc>
     <lastmod>2024-07-24T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/tags/obsidian/</loc>
+    <loc>https://precisiondocs.tech/tags/obsidian/</loc>
     <lastmod>2024-07-24T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/tags/diataxis/</loc>
+    <loc>https://precisiondocs.tech/tags/diataxis/</loc>
     <lastmod>2024-06-20T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/tags/tech-writing/</loc>
+    <loc>https://precisiondocs.tech/tags/tech-writing/</loc>
     <lastmod>2024-06-20T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/post/why-diataxis-framework-is-a-game-changer-for-organizing-technical-documentation/</loc>
+    <loc>https://precisiondocs.tech/post/why-diataxis-framework-is-a-game-changer-for-organizing-technical-documentation/</loc>
     <lastmod>2024-06-20T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/about/</loc>
+    <loc>https://precisiondocs.tech/about/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://precisiondocs.tech/categories/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>

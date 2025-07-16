@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tech Writing on PrecisionDocs</title>
-    <link>http://localhost:1313/tags/tech-writing/</link>
+    <link>https://precisiondocs.tech/tags/tech-writing/</link>
     <description>Recent content in Tech Writing on PrecisionDocs</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 20 Jun 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/tech-writing/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://precisiondocs.tech/tags/tech-writing/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Why Diataxis Framework is A Game Changer for Organizing Technical Documentation</title>
-      <link>http://localhost:1313/post/why-diataxis-framework-is-a-game-changer-for-organizing-technical-documentation/</link>
+      <link>https://precisiondocs.tech/post/why-diataxis-framework-is-a-game-changer-for-organizing-technical-documentation/</link>
       <pubDate>Thu, 20 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/why-diataxis-framework-is-a-game-changer-for-organizing-technical-documentation/</guid>
+      <guid>https://precisiondocs.tech/post/why-diataxis-framework-is-a-game-changer-for-organizing-technical-documentation/</guid>
       <description>A structured, modern approach to organizing technical documentation that not only streamlines your content but also enhances its usability.</description>
     </item>
   </channel>

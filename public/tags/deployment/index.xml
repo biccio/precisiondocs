@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Deployment on PrecisionDocs</title>
-    <link>http://localhost:1313/tags/deployment/</link>
+    <link>https://precisiondocs.tech/tags/deployment/</link>
     <description>Recent content in Deployment on PrecisionDocs</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 23 Aug 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/deployment/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://precisiondocs.tech/tags/deployment/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How to Build and Deploy a Tech Documentation Static Site with Hugo</title>
-      <link>http://localhost:1313/post/how-to-build-and-deploy-a-blog-with-hugo-github-and-netlify/</link>
+      <link>https://precisiondocs.tech/post/how-to-build-and-deploy-a-blog-with-hugo-github-and-netlify/</link>
       <pubDate>Fri, 23 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/how-to-build-and-deploy-a-blog-with-hugo-github-and-netlify/</guid>
+      <guid>https://precisiondocs.tech/post/how-to-build-and-deploy-a-blog-with-hugo-github-and-netlify/</guid>
       <description>Hugo is a powerful static site generator functioning as a complete framework. Along with Github as storage repository and Netlify as deployment tool, it makes a perfect platform to run and mantain a fast and lightweight documentation website.</description>
     </item>
   </channel>

@@ -2,192 +2,192 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on PrecisionDocs</title>
-    <link>http://localhost:1313/tags/</link>
+    <link>https://precisiondocs.tech/tags/</link>
     <description>Recent content in Tags on PrecisionDocs</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 30 Oct 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://precisiondocs.tech/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Blog</title>
-      <link>http://localhost:1313/tags/blog/</link>
+      <link>https://precisiondocs.tech/tags/blog/</link>
       <pubDate>Wed, 30 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/blog/</guid>
+      <guid>https://precisiondocs.tech/tags/blog/</guid>
       <description></description>
     </item>
     <item>
       <title>Documentation</title>
-      <link>http://localhost:1313/tags/documentation/</link>
+      <link>https://precisiondocs.tech/tags/documentation/</link>
       <pubDate>Wed, 30 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/documentation/</guid>
+      <guid>https://precisiondocs.tech/tags/documentation/</guid>
       <description></description>
     </item>
     <item>
       <title>Resources</title>
-      <link>http://localhost:1313/tags/resources/</link>
+      <link>https://precisiondocs.tech/tags/resources/</link>
       <pubDate>Wed, 30 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/resources/</guid>
+      <guid>https://precisiondocs.tech/tags/resources/</guid>
       <description></description>
     </item>
     <item>
       <title>Technical Communication</title>
-      <link>http://localhost:1313/tags/technical-communication/</link>
+      <link>https://precisiondocs.tech/tags/technical-communication/</link>
       <pubDate>Wed, 30 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/technical-communication/</guid>
+      <guid>https://precisiondocs.tech/tags/technical-communication/</guid>
       <description></description>
     </item>
     <item>
       <title>Technical Writing</title>
-      <link>http://localhost:1313/tags/technical-writing/</link>
+      <link>https://precisiondocs.tech/tags/technical-writing/</link>
       <pubDate>Wed, 30 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/technical-writing/</guid>
+      <guid>https://precisiondocs.tech/tags/technical-writing/</guid>
       <description></description>
     </item>
     <item>
       <title>Confluence</title>
-      <link>http://localhost:1313/tags/confluence/</link>
+      <link>https://precisiondocs.tech/tags/confluence/</link>
       <pubDate>Mon, 30 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/confluence/</guid>
+      <guid>https://precisiondocs.tech/tags/confluence/</guid>
       <description></description>
     </item>
     <item>
       <title>Docstrings</title>
-      <link>http://localhost:1313/tags/docstrings/</link>
+      <link>https://precisiondocs.tech/tags/docstrings/</link>
       <pubDate>Mon, 30 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/docstrings/</guid>
+      <guid>https://precisiondocs.tech/tags/docstrings/</guid>
       <description></description>
     </item>
     <item>
       <title>Emoji</title>
-      <link>http://localhost:1313/tags/emoji/</link>
+      <link>https://precisiondocs.tech/tags/emoji/</link>
       <pubDate>Mon, 30 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/emoji/</guid>
+      <guid>https://precisiondocs.tech/tags/emoji/</guid>
       <description></description>
     </item>
     <item>
       <title>Gitbook</title>
-      <link>http://localhost:1313/tags/gitbook/</link>
+      <link>https://precisiondocs.tech/tags/gitbook/</link>
       <pubDate>Mon, 30 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/gitbook/</guid>
+      <guid>https://precisiondocs.tech/tags/gitbook/</guid>
       <description></description>
     </item>
     <item>
       <title>Jsdoc</title>
-      <link>http://localhost:1313/tags/jsdoc/</link>
+      <link>https://precisiondocs.tech/tags/jsdoc/</link>
       <pubDate>Mon, 30 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/jsdoc/</guid>
+      <guid>https://precisiondocs.tech/tags/jsdoc/</guid>
       <description></description>
     </item>
     <item>
       <title>Notion</title>
-      <link>http://localhost:1313/tags/notion/</link>
+      <link>https://precisiondocs.tech/tags/notion/</link>
       <pubDate>Mon, 30 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/notion/</guid>
+      <guid>https://precisiondocs.tech/tags/notion/</guid>
       <description></description>
     </item>
     <item>
       <title>Sphinx</title>
-      <link>http://localhost:1313/tags/sphinx/</link>
+      <link>https://precisiondocs.tech/tags/sphinx/</link>
       <pubDate>Mon, 30 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/sphinx/</guid>
+      <guid>https://precisiondocs.tech/tags/sphinx/</guid>
       <description></description>
     </item>
     <item>
       <title>Deployment</title>
-      <link>http://localhost:1313/tags/deployment/</link>
+      <link>https://precisiondocs.tech/tags/deployment/</link>
       <pubDate>Fri, 23 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/deployment/</guid>
+      <guid>https://precisiondocs.tech/tags/deployment/</guid>
       <description></description>
     </item>
     <item>
       <title>Docsy</title>
-      <link>http://localhost:1313/tags/docsy/</link>
+      <link>https://precisiondocs.tech/tags/docsy/</link>
       <pubDate>Fri, 23 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/docsy/</guid>
+      <guid>https://precisiondocs.tech/tags/docsy/</guid>
       <description></description>
     </item>
     <item>
       <title>Frameworks</title>
-      <link>http://localhost:1313/tags/frameworks/</link>
+      <link>https://precisiondocs.tech/tags/frameworks/</link>
       <pubDate>Fri, 23 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/frameworks/</guid>
+      <guid>https://precisiondocs.tech/tags/frameworks/</guid>
       <description></description>
     </item>
     <item>
       <title>Github</title>
-      <link>http://localhost:1313/tags/github/</link>
+      <link>https://precisiondocs.tech/tags/github/</link>
       <pubDate>Fri, 23 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/github/</guid>
+      <guid>https://precisiondocs.tech/tags/github/</guid>
       <description></description>
     </item>
     <item>
       <title>Hugo</title>
-      <link>http://localhost:1313/tags/hugo/</link>
+      <link>https://precisiondocs.tech/tags/hugo/</link>
       <pubDate>Fri, 23 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/hugo/</guid>
+      <guid>https://precisiondocs.tech/tags/hugo/</guid>
       <description></description>
     </item>
     <item>
       <title>Netlify</title>
-      <link>http://localhost:1313/tags/netlify/</link>
+      <link>https://precisiondocs.tech/tags/netlify/</link>
       <pubDate>Fri, 23 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/netlify/</guid>
+      <guid>https://precisiondocs.tech/tags/netlify/</guid>
       <description></description>
     </item>
     <item>
       <title>Staticsitegenerator</title>
-      <link>http://localhost:1313/tags/staticsitegenerator/</link>
+      <link>https://precisiondocs.tech/tags/staticsitegenerator/</link>
       <pubDate>Fri, 23 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/staticsitegenerator/</guid>
+      <guid>https://precisiondocs.tech/tags/staticsitegenerator/</guid>
       <description></description>
     </item>
     <item>
       <title>Techdoc</title>
-      <link>http://localhost:1313/tags/techdoc/</link>
+      <link>https://precisiondocs.tech/tags/techdoc/</link>
       <pubDate>Fri, 23 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/techdoc/</guid>
+      <guid>https://precisiondocs.tech/tags/techdoc/</guid>
       <description></description>
     </item>
     <item>
       <title>Docusaurus</title>
-      <link>http://localhost:1313/tags/docusaurus/</link>
+      <link>https://precisiondocs.tech/tags/docusaurus/</link>
       <pubDate>Wed, 24 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/docusaurus/</guid>
+      <guid>https://precisiondocs.tech/tags/docusaurus/</guid>
       <description></description>
     </item>
     <item>
       <title>Git</title>
-      <link>http://localhost:1313/tags/git/</link>
+      <link>https://precisiondocs.tech/tags/git/</link>
       <pubDate>Wed, 24 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/git/</guid>
+      <guid>https://precisiondocs.tech/tags/git/</guid>
       <description></description>
     </item>
     <item>
       <title>Jekyll</title>
-      <link>http://localhost:1313/tags/jekyll/</link>
+      <link>https://precisiondocs.tech/tags/jekyll/</link>
       <pubDate>Wed, 24 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/jekyll/</guid>
+      <guid>https://precisiondocs.tech/tags/jekyll/</guid>
       <description></description>
     </item>
     <item>
       <title>Obsidian</title>
-      <link>http://localhost:1313/tags/obsidian/</link>
+      <link>https://precisiondocs.tech/tags/obsidian/</link>
       <pubDate>Wed, 24 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/obsidian/</guid>
+      <guid>https://precisiondocs.tech/tags/obsidian/</guid>
       <description></description>
     </item>
     <item>
       <title>Diataxis</title>
-      <link>http://localhost:1313/tags/diataxis/</link>
+      <link>https://precisiondocs.tech/tags/diataxis/</link>
       <pubDate>Thu, 20 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/diataxis/</guid>
+      <guid>https://precisiondocs.tech/tags/diataxis/</guid>
       <description></description>
     </item>
     <item>
       <title>Tech Writing</title>
-      <link>http://localhost:1313/tags/tech-writing/</link>
+      <link>https://precisiondocs.tech/tags/tech-writing/</link>
       <pubDate>Thu, 20 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/tech-writing/</guid>
+      <guid>https://precisiondocs.tech/tags/tech-writing/</guid>
       <description></description>
     </item>
   </channel>

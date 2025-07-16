@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Technical Writing on PrecisionDocs</title>
-    <link>http://localhost:1313/tags/technical-writing/</link>
+    <link>https://precisiondocs.tech/tags/technical-writing/</link>
     <description>Recent content in Technical Writing on PrecisionDocs</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 30 Oct 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/technical-writing/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://precisiondocs.tech/tags/technical-writing/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>A List of Interesting Resources About Technical Writing</title>
-      <link>http://localhost:1313/post/a-list-of-interesting-resources-about-technical-writing/</link>
+      <link>https://precisiondocs.tech/post/a-list-of-interesting-resources-about-technical-writing/</link>
       <pubDate>Wed, 30 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/a-list-of-interesting-resources-about-technical-writing/</guid>
+      <guid>https://precisiondocs.tech/post/a-list-of-interesting-resources-about-technical-writing/</guid>
       <description>A (hopefully) comprehensive list of blogs, websites and other resources covering technical writing and communication.</description>
     </item>
   </channel>
