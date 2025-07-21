@@ -53,7 +53,7 @@ Perfect for when you'are co-writing with devs, PMs, or other writers—**everyon
 
 ### For: API reference generation and OpenAPI augmentation
 
-I work a lot with OpenAPI files, and ReadMe is built around that. Their AI auto-generates:
+ReadMe is built around OpenAPI, a cornerstone of modern API documentation and an essential tool for today’s technical writers, and its AI auto-generates:
 
 - Descriptions of endpoints based on schema names
 - Sample requests and responses
