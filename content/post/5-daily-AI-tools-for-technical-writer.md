@@ -1,6 +1,6 @@
 ---
 title: 5 daily AI tools for technical writer
-date: 2025-07-12
+date: 2025-07-11
 tags:
   - technical
   - writing
