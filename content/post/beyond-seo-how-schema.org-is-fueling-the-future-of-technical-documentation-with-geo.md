@@ -1,5 +1,6 @@
 ---
 title: "Beyond SEO: How Schema.org is Fueling the Future of Technical Documentation with GEO"
+date: 2025-08-12
 tags:
   - Schema.org
   - Technical
