@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5-daily-AI-tools-for-technical-writer.md",
+                "file": "beyond-seo-how-schema.org-is-fueling-the-future-of-technical-documentation-with-geo.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "5-daily-AI-tools-for-technical-writer"
+              "title": "beyond-seo-how-schema.org-is-fueling-the-future-of-technical-documentation-with-geo"
             }
           }
         ]
@@ -74,8 +74,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -171,8 +170,15 @@
   },
   "active": "d3a894a5e75682a7",
   "lastOpenFiles": [
-    "a-list-of-interesting-resources-about-technical-writing.md",
     "5-daily-AI-tools-for-technical-writer.md",
+    "a-list-of-interesting-resources-about-technical-writing.md",
+    "beyond-seo-how-schema.org-is-fueling-the-future-of-technical-documentation-with-geo.md",
+    "how-to-build-and-deploy-a-blog-with-hugo-github-and-netlify.md",
+    "how-to-use-obsidian-and-github-to-organize-and-maintain-your-tech-document.md",
+    "the-pros-and-cons-of-embedding-technical-documentation-inside-the-codebase.md",
+    "why-diataxis-framework-is-a-game-changer-for-organizing-technical-documentation.md",
+    "2025-08-12.md",
+    "Untitled 1.canvas",
     "Untitled.canvas"
   ]
 }
