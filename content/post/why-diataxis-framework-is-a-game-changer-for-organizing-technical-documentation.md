@@ -5,6 +5,28 @@ tags: ["diataxis","tech writing"]
 summary: A structured, modern approach to organizing technical documentation that not only streamlines your content but also enhances its usability.
 featured: true
 image : "/img/posts/img-4.png"
+schema:
+  "@context": https://schema.org
+  "@type": TechArticle
+  headline: "Why Diataxis Framework is A Game Changer for Organizing Technical Documentation"
+  datePublished: "2024-06-20"
+  image: /img/posts/img-4.png
+  keywords: "diataxis, technical writing, documentation, framework"
+  description: "An explanation of the Diátaxis Framework, a structured approach to organizing technical documentation into four distinct types to enhance usability."
+  technicalAudience": "Technical Writers, Documentation Managers"
+  about:
+    - "@type": Thing
+      name: "Diátaxis Framework"
+      url: "https://www.diataxis.fr/"
+  mentions:
+    - "@type": Thing
+      name: "Tutorials"
+    - "@type": Thing
+      name: "How-To Guides"
+    - "@type": Thing
+      name: "Explanations"
+    - "@type": Thing
+      name: "Reference"
 ---
 
 ## Why we need a framework for Technical Documentation

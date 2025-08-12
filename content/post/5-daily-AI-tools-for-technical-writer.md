@@ -13,6 +13,25 @@ tags:
 summary: The right tools don’t replace your skills—they amplify your process. Here’s how a tech writer could use AI to stay fast, consistent, and client-ready.
 featured: true
 image: /img/posts/img-6.png
+schema:
+  "@context": https://schema.org
+  "@type": BlogPosting
+  headline: "5 daily AI tools for technical writer"
+  datePublished: "2025-07-11"
+  image: /img/posts/img-6.png
+  keywords: "technical, writing, communication, blog, resources, documentation, AI, tools"
+  description: "The right tools don’t replace your skills—they amplify your process. Here’s how a tech writer could use AI to stay fast, consistent, and client-ready."
+  about:
+    - "@type": Thing
+      name: "Document360"
+    - "@type": Thing
+      name: "Writer.com"
+    - "@type": Thing
+      name: "ReadMe"
+    - "@type": Thing
+      name: "ChatGPT"
+    - "@type": Thing
+      name: "Typo"
 ---
 
 If you work as a technical writer, you know that your days are filled with API references, knowledge bases, release notes, UX copy, and the occasional Git-based headache. But what today can make a huge difference in keeping the work consistent and scalable it’s **a curated stack of AI tools**, each chosen for one thing they do really well.

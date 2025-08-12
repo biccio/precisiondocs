@@ -5,6 +5,57 @@ tags: ["technical writing", "technical communication", "blog", "resources", "doc
 summary: A (hopefully) comprehensive list of blogs, websites and other resources covering technical writing and communication.
 featured: true
 image: "/img/posts/img-5.png"
+schema:
+  "@context": https://schema.org
+  "@type": BlogPosting
+  headline: "A List of Interesting Resources About Technical Writing"
+  datePublished: "2024-10-30"
+  image: /img/posts/img-5.png
+  keywords: "technical writing, technical communication, blog, resources, documentation"
+  description: "A comprehensive list of blogs, websites, and other resources covering technical writing and communication."
+  mainEntity:
+    "@type": ItemList
+    itemListElement:
+      - "@type": ListItem
+        position: 1
+        name: "I'd Rather Be Writing, by Tom Johnson"
+        url: https://idratherbewriting.com
+      - "@type": ListItem
+        position: 2
+        name: "BufferBuffer: (mis)adventures of a technical writer"
+        url: https://bufferbuffer.com
+      - "@type": ListItem
+        position: 3
+        name: "Technically Write It"
+        url: https://technicallywriteit.com
+      - "@type": ListItem
+        position: 4
+        name: "Heroic Technical Writing"
+        url: https://heroictechwriting.com
+      - "@type": ListItem
+        position: 5
+        name: "Technical Communication Center"
+        url: https://technicalcommunicationcenter.com
+      - "@type": ListItem
+        position: 6
+        name: "Docs Like Code"
+        url: https://www.docslikecode.com/
+      - "@type": ListItem
+        position: 7
+        name: "Just Write Click"
+        url: https://justwriteclick.com
+      - "@type": ListItem
+        position: 8
+        name: "Everything Technical Writing"
+        url: https://everythingtechnicalwriting.com
+      - "@type": ListItem
+        position: 9
+        name: "r/technicalwriting"
+        url: https://www.reddit.com/r/technicalwriting
+      - "@type": ListItem
+        position: 10
+        name: "Write The Docs"
+        url: https://www.writethedocs.org/
 ---
 
 There aren't many online resources covering Technical Writing and Technical Communication world, but the ones available are passionately held by real world professionals with plenty of experience and - obviously - good writing skills. This is a - hopefully - exaustive list of useful resources. Feel free to contribute using the comment form below the post<br><br>

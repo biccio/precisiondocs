@@ -16,6 +16,19 @@ tags:
 summary: Why implementing Schema.org structured data is no longer a 'nice-to-have' for technical documentation, but a critical investment to make content an authoritative, machine-readable source for AI models
 featured: true
 image: /img/posts/img-7.png
+schema:
+  "@context": https://schema.org
+  "@type": TechArticle
+  headline: "Beyond SEO: How Schema.org is Fueling the Future of Technical Documentation with GEO"
+  datePublished: "2025-08-12"
+  image: /img/posts/img-7.png
+  keywords: "Schema.org, Technical, SEO, Generative Engine Optimization, GEO, Technical Writing, Documentation, LLM"
+  description: "Why implementing Schema.org structured data is no longer a 'nice-to-have' for technical documentation, but a critical investment to make content an authoritative, machine-readable source for AI models."
+  technicalAudience: 
+    - "Developers"
+    - "Technical Writers"
+    - "SEO Specialists"
+  proficiencyLevel: "Intermediate"
 ---
 
 Traditional Search Engine Optimization (SEO) is about being found by people using search engines. For years, we've optimized keywords, built backlinks, and polished user experiences to climb the rankings on Google. But the ground is shifting beneath our feet. The next frontier, **Generative Engine Optimization (GEO)**, is about being _understood_ by machines to power the next generation of artificial intelligence.

@@ -5,8 +5,38 @@ tags: ["hugo", "netlify", "staticsitegenerator", "frameworks", "github", "deploy
 summary: Hugo is a powerful static site generator functioning as a complete framework. Along with Github as storage repository and Netlify as deployment tool, it makes a perfect platform to run and mantain a fast and lightweight documentation website.
 featured: true
 image : "/img/posts/img-1.png"
-
+schema:
+  "@context": https://schema.org
+  "@type": HowTo
+  name: "How to Build and Deploy a Tech Documentation Static Site with Hugo"
+  datePublished: "2024-08-23"
+  image: /img/posts/img-1.png
+  description: "A guide on how to create, store, and deploy a documentation website using Hugo, GitHub, and Netlify."
+  tool:
+    - "@type": SoftwareApplication
+      name: "Hugo"
+    - "@type": SoftwareApplication
+      name: "GitHub"
+    - "@type": SoftwareApplication
+      name: "Netlify"
+  step:
+    - "@type": HowToStep
+      name: "Install Hugo"
+      text: "Install the Hugo framework on your machine using a package manager like Homebrew, apt-get, or by downloading the binary."
+    - "@type": HowToStep
+      name: "Create a New Website"
+      text: "Use the 'hugo new site' command to create a new folder with the necessary Hugo structure."
+    - "@type": HowToStep
+      name: "Install the Theme"
+      text: "Add a theme like Techdoc to your site using Git submodules and configure the hugo.toml file."
+    - "@type": HowToStep
+      name: "Set up GitHub Repository"
+      text: "Create a new repository on GitHub and push your local website files to it."
+    - "@type": HowToStep
+      name: "Deploy with Netlify"
+      text: "Import the GitHub project into Netlify, configure the build settings (build command 'hugo', publish directory 'public'), and deploy the site."
 ---
+
 ## A Static Site for Tech Documentation
 Static site generation is a very popular solution in today's publishing environments, especially for technical documentation. The available frameworks are solid and easy to use, and the resulting website is blazing fast with no hiccups and zero render time. If you add Github to the workflow as a storage solution, and Netlify as deployment framework, you have a perfect solution to a fast and clean publishing process.
 In this article, I'll describe all the steps you'll need to create a Tech Documentation website with Hugo using Github and Netlify for deployment.

@@ -1,11 +1,40 @@
 ---
-title: The Pros and Cons of Embedding Documentation in Code
-date: 2024-09-30
-tags: ["emoji", "documentation", "docstrings", "sphinx", "jsdoc", "confluence", "notion", "gitbook"]
-summary: Embedding documentation in code offers easy access and encourages updates but can cause clutter and limited structure. Some use cases and a common middle ground.
-featured: true 
-image : "/img/posts/img-3.png"
-
+title: How to Build and Deploy a Tech Documentation Static Site with Hugo
+date: 2024-08-23
+tags: ["hugo", "netlify", "staticsitegenerator", "frameworks", "github", "deployment", "techdoc", "docsy"]
+summary: Hugo is a powerful static site generator functioning as a complete framework. Along with Github as storage repository and Netlify as deployment tool, it makes a perfect platform to run and mantain a fast and lightweight documentation website.
+featured: true
+image : "/img/posts/img-1.png"
+schema:
+  "@context": https://schema.org
+  "@type": HowTo
+  name: "How to Build and Deploy a Tech Documentation Static Site with Hugo"
+  datePublished: "2024-08-23"
+  image: /img/posts/img-1.png
+  description: "A guide on how to create, store, and deploy a documentation website using Hugo, GitHub, and Netlify."
+  tool:
+    - "@type": SoftwareApplication
+      name: "Hugo"
+    - "@type": SoftwareApplication
+      name: "GitHub"
+    - "@type": SoftwareApplication
+      name: "Netlify"
+  step:
+    - "@type": HowToStep
+      name: "Install Hugo"
+      text: "Install the Hugo framework on your machine using a package manager like Homebrew, apt-get, or by downloading the binary."
+    - "@type": HowToStep
+      name: "Create a New Website"
+      text: "Use the 'hugo new site' command to create a new folder with the necessary Hugo structure."
+    - "@type": HowToStep
+      name: "Install the Theme"
+      text: "Add a theme like Techdoc to your site using Git submodules and configure the hugo.toml file."
+    - "@type": HowToStep
+      name: "Set up GitHub Repository"
+      text: "Create a new repository on GitHub and push your local website files to it."
+    - "@type": HowToStep
+      name: "Deploy with Netlify"
+      text: "Import the GitHub project into Netlify, configure the build settings (build command 'hugo', publish directory 'public'), and deploy the site."
 ---
 
 ## Choosing the Best Place for Documentation

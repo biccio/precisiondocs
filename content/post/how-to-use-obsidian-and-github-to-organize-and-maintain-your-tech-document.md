@@ -5,7 +5,38 @@ tags: ["github", "obsidian", "hugo", "jekyll", "docusaurus", "git"]
 summary: Obsidian is a powerful WYSIWYG markdown editor that makes it easy to write and organize your content. Paring it with Github is the perfect solution to develop and maintain technical documentation.
 featured: true
 image : "/img/posts/img-2.png"
+schema:
+  "@context": https://schema.org
+  "@type": HowTo
+  name: "How to Use Obsidian and Github to Organize and Maintain Your Tech Documentation"
+  datePublished: "2024-07-24"
+  image: /img/posts/img-2.png
+  description: "A step-by-step guide on setting up a collaborative technical documentation workflow using Obsidian for writing and GitHub for version control and publishing."
+  tool:
+    - "@type": SoftwareApplication
+      name: "Obsidian"
+      url: "https://obsidian.md/"
+    - "@type": SoftwareApplication
+      name: "GitHub"
+      url: "https://github.com/"
+  supply:
+    - "@type": HowToSupply
+      name: "Obsidian Git Plugin"
+  step:
+    - "@type": HowToStep
+      name: "Set Up Obsidian for Documentation"
+      text: "Create a dedicated vault in Obsidian, organize content using markdown, metadata, and tags."
+    - "@type": HowToStep
+      name: "Integrate with a GitHub Repository"
+      text: "Create a new repository on GitHub. Use git commands in your terminal to initialize a local repository in your Obsidian vault folder and push the files to GitHub."
+    - "@type": HowToStep
+      name: "Enable Continuous Integration within Obsidian"
+      text: "Install and enable the Obsidian Git community plugin to add, commit, and push changes directly from the Obsidian interface."
+    - "@type": HowToStep
+      name: "Publish Your Content"
+      text: "Use a service like GitHub Pages to publish the documentation stored in your GitHub repository."
 ---
+
 ## Managing Information Effectively
 
 In today’s fast-paced technical environments, it's very important to have a clear and well-organized documentation. One of the most important keys to ensuring smooth workflows and successful collaboration is to start with the tools we use to _write_ and _share_ the documents we produce. Two tools that work seamlessly together and cover all aspects—from writing and organizing to storing and continuously integrating content in a collaborative, open space—are [Obsidian](https://obsidian.md/) and [GitHub](https://github.com/).
