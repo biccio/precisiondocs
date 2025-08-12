@@ -13,7 +13,7 @@ tags:
   - Writing
   - Documentation
   - LLM
-summary: This post explains the shift from traditional SEO to Generative Engine Optimization (GEO). It details why implementing Schema.org structured data (like TechArticle and HowTo) is no longer a 'nice-to-have' for technical documentation, but a critical investment to make content an authoritative, machine-readable source for AI models, combat hallucinations, and future-proof knowledge bases.
+summary: Why implementing Schema.org structured data is no longer a 'nice-to-have' for technical documentation, but a critical investment to make content an authoritative, machine-readable source for AI models
 featured: true
 image: /img/posts/img-7.png
 ---
