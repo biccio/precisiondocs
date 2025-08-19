@@ -92,7 +92,7 @@ Yes, the classic ChatGPT we all know can become a real powerhouse when used with
 - Project glossaries
 - OpenAPI specs and markdown repos
 
-Then you can use it for:
+Then, you can use it for:
 
 - Rewriting dense dev notes into clear prose
 - Switching tone from "dev to PM" or "dev to end-user"
